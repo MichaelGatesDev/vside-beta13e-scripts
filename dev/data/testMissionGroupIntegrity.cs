@@ -614,7 +614,7 @@ function RecursivelyFixOldStyleSeatingAreaProblems(%obj)
         {
             if (%obj.autosit $= "")
             {
-                $OLDSEATAREA_KILLER[$OLDSEATAREA_KILLER_COUNT] = %obj.getId() @ ;
+                $OLDSEATAREA_KILLER[$OLDSEATAREA_KILLER_COUNT] = %obj.getId() ;
                 $OLDSEATAREA_KILLER_COUNT = $OLDSEATAREA_KILLER_COUNT + 1;
             }
         }

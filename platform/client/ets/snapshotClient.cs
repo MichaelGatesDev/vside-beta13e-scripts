@@ -161,7 +161,7 @@ function getScreenShotMetaDataOrtho(%guiTSCtrl)
         %hit = intersectPlaneLine("0 0 0", "0 0 1", %worldCoord1, %worldCoord2);
         %ret = %ret NL "//" SPC %n SPC "XY plane: \"" @ %hit @ "\"";
         %summary = %summary NL formatString("%-15s:", %sampleName[%n]) SPC %hit;
-        %resultPts[%n] = %hit @ ;
+        %resultPts[%n] = %hit ;
         if (isObject(moWorldCornerMarkers))
         {
             if (%n < moWorldCornerMarkers.getCount())

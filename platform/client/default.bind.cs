@@ -322,7 +322,7 @@ function doubleTapCheckOnAction(%actionTag, %keyDown, %canDoubleTapInCamera, %re
         }
         else
         {
-            $DoubleTapStopTimer[%actionTag] = schedule(%resetDelayMS, 0, "doubleTapActionStop", %actionTag) @ ;
+            $DoubleTapStopTimer[%actionTag] = schedule(%resetDelayMS, 0, "doubleTapActionStop", %actionTag) ;
         }
     }
     return ;

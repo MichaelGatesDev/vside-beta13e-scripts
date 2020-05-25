@@ -626,7 +626,7 @@ function getUGCItems(%type)
 }
 function onGotUGCItems(%type, %list)
 {
-    $gUGCSkus[%type] = %list @ ;
+    $gUGCSkus[%type] = %list ;
     if (%type $= "REJECTED")
     {
         ClosetThumbnailsMyShop.setUnfilteredSkus("");
@@ -730,7 +730,7 @@ function ClosetGui_MyShop_SetCurrentSku(%sku)
     else
     {
         %itemStatus = ClosetGui_MyShop_GetSkuUGCStatus(%sku);
-        $gUGCPrevSku[%itemStatus] = %sku @ ;
+        $gUGCPrevSku[%itemStatus] = %sku ;
     }
     if (%itemStatus $= "ACCEPTED")
     {
@@ -1119,7 +1119,7 @@ function ClosetGUI_RefreshTextures()
 
 function ClosetGui_MyShop_CopySkusToOutfit()
 {
-    $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.overlaySkus($ClosetSkusOutfit[$ClosetOutfitName], $gSkusMyShopLayer) @ ;
+    $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.overlaySkus($ClosetSkusOutfit[$ClosetOutfitName], $gSkusMyShopLayer) ;
     return ;
 }
 function MyShopItemDeets_DescShort::onKeystroke(%this)

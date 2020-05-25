@@ -1,7 +1,7 @@
 function DeclareFloorplan(%floorplanName, %sku)
 {
-    $gFloorPlanFromSKU[%sku] = %floorplanName @ ;
-    $gSKUFromFloorPlan[%floorplanName] = %sku @ ;
+    $gFloorPlanFromSKU[%sku] = %floorplanName ;
+    $gSKUFromFloorPlan[%floorplanName] = %sku ;
     return ;
 }
 function Buildings::GetFloorPlanNameFromSku(%sku)
@@ -19,12 +19,12 @@ function DeclareBuilding(%buildingName, %buildingDescription, %longDescription, 
     {
         error(getScopeName() SPC "- areaName does not correspond to a city. -" SPC %areaNames SPC getTrace());
     }
-    $gBuildingDesc[%buildingName] = %buildingDescription @ ;
-    $gBuildingLongDesc[%buildingName] = %longDescription @ ;
-    $gBuildingMinLevelToOwn[%buildingName] = %minlevelToOwn @ ;
+    $gBuildingDesc[%buildingName] = %buildingDescription ;
+    $gBuildingLongDesc[%buildingName] = %longDescription ;
+    $gBuildingMinLevelToOwn[%buildingName] = %minlevelToOwn ;
     $gBuildingVURL[%buildingName] = "vside:/location/" @ %areaNameCity @ "/" @ %buildingName @ "_ReturnSpawn";
-    $gBuildingAreaNames[%buildingName] = %areaNames @ ;
-    $gBuildingFloorplans[%buildingName] = %floorplans @ ;
+    $gBuildingAreaNames[%buildingName] = %areaNames ;
+    $gBuildingFloorplans[%buildingName] = %floorplans ;
     %i = getWordCount(%floorplans) - 1;
     while (%i >= 0)
     {
@@ -34,7 +34,7 @@ function DeclareBuilding(%buildingName, %buildingDescription, %longDescription, 
         {
             error(getScopeName() SPC "This Floorplan has not properly been declared yet, see DeclareFloorplan");
         }
-        $gBuildingNamesFromFloorplans[%floorplanName] = %buildingName @ ;
+        $gBuildingNamesFromFloorplans[%floorplanName] = %buildingName ;
         %i = %i - 1;
     }
 }

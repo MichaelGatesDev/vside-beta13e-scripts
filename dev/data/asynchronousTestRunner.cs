@@ -12,9 +12,9 @@ function asyncTestsMasterClear()
 }
 function asyncTestsMasterAdd(%testname, %waitTimeMS)
 {
-    $asyncTests::testNames[$asyncTests::testsNum] = %testname @ ;
-    $asyncTests::testTimes[$asyncTests::testsNum] = %waitTimeMS @ ;
-    $asyncTests::testRslts[$asyncTests::testsNum] = $asyncTests::untestedResult @ ;
+    $asyncTests::testNames[$asyncTests::testsNum] = %testname ;
+    $asyncTests::testTimes[$asyncTests::testsNum] = %waitTimeMS ;
+    $asyncTests::testRslts[$asyncTests::testsNum] = $asyncTests::untestedResult ;
     $asyncTests::testsNum = $asyncTests::testsNum + 1;
     return ;
 }
@@ -64,7 +64,7 @@ function asyncTestsMasterOnTimeout(%testNum)
     $asyncTests::timer = 0;
     %testname = $asyncTests::testNames[%testNum];
     log("general", "debug", "asyncTests: evaluating test" SPC %testname @ "..");
-    %result = $asyncTests::testRslts[%testNum] = call(asyncTestMasterGetFuncNameEval(%testname)) @ ;
+    %result = $asyncTests::testRslts[%testNum] = call(asyncTestMasterGetFuncNameEval(%testname)) ;
     if (%result $= "pass")
     {
         log("general", "debug", "asyncTests: test passed:" SPC %testname);

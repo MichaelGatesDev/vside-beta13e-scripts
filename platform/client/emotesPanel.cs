@@ -488,7 +488,7 @@ function EmoteHudList::getEmoteForBinding(%this, %binding)
 function EmoteHudList::setEmoteForBinding(%this, %binding, %emote)
 {
     %binding = normalizeKey(%binding);
-    $UserPref::emotes[$UserPref::Player::gender,%binding] = %emote @ ;
+    $UserPref::emotes[$UserPref::Player::gender,%binding] = %emote ;
     return ;
 }
 function EmoteHudList::rebind(%this, %binding, %emote)
@@ -501,7 +501,7 @@ function EmoteHudList::rebind(%this, %binding, %emote)
     }
     %this.setEmoteForBinding(EmoteBindingMap.get(%emote), "");
     EmoteBindingMap.remove($UserPref::emotes[$UserPref::Player::gender,%binding2]);
-    $UserPref::emotes[$UserPref::Player::gender,%binding2] = %emote @ ;
+    $UserPref::emotes[$UserPref::Player::gender,%binding2] = %emote ;
     if (!(%emote $= ""))
     {
         EmoteBindingMap.put(%emote, %binding2);

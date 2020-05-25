@@ -192,9 +192,9 @@ function convertPtToTextureSpace(%obj, %pt)
     %yComp = %obj.getDataBlock().advertYComp;
     %xFlip = %obj.getDataBlock().advertXFlip;
     %yFlip = %obj.getDataBlock().advertYFlip;
-    %pt[0] = getWord(%pt, 0) @ ;
-    %pt[1] = getWord(%pt, 1) @ ;
-    %pt[2] = getWord(%pt, 2) @ ;
+    %pt[0] = getWord(%pt, 0) ;
+    %pt[1] = getWord(%pt, 1) ;
+    %pt[2] = getWord(%pt, 2) ;
     %retX = %pt[%xComp];
     %retY = %pt[%yComp];
     if ((%xFlip >= 0) && (%pt[%xFlip] < 0.5))

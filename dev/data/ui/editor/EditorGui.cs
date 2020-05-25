@@ -2528,7 +2528,7 @@ function WorldEditor::CloneTo(%this, %snapType)
     %i = 0;
     while (%i < %selSize)
     {
-        %origObjects[%i] = %this.getSelectedObject(%i) @ ;
+        %origObjects[%i] = %this.getSelectedObject(%i) ;
         %i = %i + 1;
     }
     %i = 0;
@@ -2540,7 +2540,7 @@ function WorldEditor::CloneTo(%this, %snapType)
         %this.copySelection();
         %this.pasteSelection();
         %objToSnap = %this.getSelectedObject(0);
-        %newObjects[%i] = %objToSnap @ ;
+        %newObjects[%i] = %objToSnap ;
         %this.snapTo(%snapType, %objTarget, %objToSnap);
         %i = %i + 1;
     }
@@ -2691,7 +2691,7 @@ function Creator::init(%this)
             %parent = getWords(%split, 0, %i);
             if (!%interiorId[%parent])
             {
-                %interiorId[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) @ ;
+                %interiorId[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) ;
             }
             %parentId = %interiorId[%parent];
             %i = %i + 1;
@@ -2738,7 +2738,7 @@ function Creator::init(%this)
             %parent = getWords(%split, 0, %i);
             if (!%staticId[%parent])
             {
-                %staticId[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) @ ;
+                %staticId[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) ;
             }
             %parentId = %staticId[%parent];
             %i = %i + 1;
@@ -2761,7 +2761,7 @@ function Creator::init(%this)
             %parent = getWords(%split, 0, %i);
             if (!%dynamicID[%parent])
             {
-                %dynamicID[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) @ ;
+                %dynamicID[%parent] = %this.insertItem(%parentId, getWord(%split, %i)) ;
             }
             %parentId = %dynamicID[%parent];
             %i = %i + 1;
@@ -3461,7 +3461,7 @@ function texture::saveOperation()
     }
     %dirty = !(%data $= %newData);
     %reg = getField(%data, 2);
-    $dirtyTexture[%reg] = %dirty @ ;
+    $dirtyTexture[%reg] = %dirty ;
     Texture_operation.setRowById(%id, %newData);
     if (%dirty == 1)
     {

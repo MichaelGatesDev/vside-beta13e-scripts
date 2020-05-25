@@ -613,7 +613,7 @@ function armor::doDismount(%this, %obj, %forced)
     %vec[3] = " 1  0  0";
     %vec[4] = "-1  0  0";
     %impulseVec = "0 0 0";
-    %vec[0] = MatrixMulVector(%obj.getTransform(), %vec[0]) @ ;
+    %vec[0] = MatrixMulVector(%obj.getTransform(), %vec[0]) ;
     %pos = "0 0 0";
     %numAttempts = 5;
     %success = -1;

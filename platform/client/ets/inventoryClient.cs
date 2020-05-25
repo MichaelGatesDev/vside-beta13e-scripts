@@ -128,7 +128,7 @@ function OnGotDoneOrError_GetVHDUserStoreInventory(%request)
     if (%request.checkSuccess())
     {
         Inventory::clearStore(%storename);
-        $gStoreStockRevision[%storename] = %request.getValue("storeRevisionDate") @ ;
+        $gStoreStockRevision[%storename] = %request.getValue("storeRevisionDate") ;
     }
     else
     {
@@ -799,7 +799,7 @@ function Inventory::equipOrWearSkus(%skus)
     log("inventory", "info", "Inventory::equipOrWearSkus(): %skusWet=" @ %skusWet);
     if (ClosetGui.isVisible())
     {
-        $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.filterSkusForClothing(%skusWet) @ ;
+        $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.filterSkusForClothing(%skusWet) ;
         $ClosetSkusBody = SkuManager.filterSkusForBody(%skusWet);
         ClosetTabs.selectCurrentTab();
         ClosetGui.updateVisibleAvatar();
@@ -826,7 +826,7 @@ function OnGotDoneOrError_GetStoreInventory(%request)
     if (%request.checkSuccess())
     {
         Inventory::clearStore(%storename);
-        $gStoreStockRevision[%storename] = %request.getValue("storeRevisionDate") @ ;
+        $gStoreStockRevision[%storename] = %request.getValue("storeRevisionDate") ;
     }
     else
     {
@@ -861,7 +861,7 @@ function Inventory::sortStoreInventory(%storename)
 {
     warn(getScopeName() SPC "- should be done server-side. ETS-3468");
     %allSkus = SkuManager.filterSkusGender(SkuManager.getSkus(), $UserPref::Player::gender);
-    $gStoreStockCacheSkus[%storename] = Inventory::sortSkus($gStoreStockCacheSkus[%storename], %allSkus) @ ;
+    $gStoreStockCacheSkus[%storename] = Inventory::sortSkus($gStoreStockCacheSkus[%storename], %allSkus) ;
     return ;
 }
 function Inventory::sortSkus(%skusToSort, %orderToAppearIn)
@@ -916,9 +916,9 @@ function fakeStoreInventoryGotFetchResults(%storename)
 function Inventory::addItemToStore(%storename, %sku, %qty, %vpoints, %vbux)
 {
     $gStoreStockCacheSkus[%storename] = $gStoreStockCacheSkus[%storename] @ %sku @ " ";
-    $gStoreItemsQty[%sku] = %qty @ ;
-    $gStoreItemsVPoints[%sku] = %vpoints < 0 ? "-" : mFloor(%vpoints) @ ;
-    $gStoreItemsVBux[%sku] = %vbux < 0 ? "-" : mFloor(%vbux) @ ;
+    $gStoreItemsQty[%sku] = %qty ;
+    $gStoreItemsVPoints[%sku] = %vpoints < 0 ? "-" : mFloor(%vpoints) ;
+    $gStoreItemsVBux[%sku] = %vbux < 0 ? "-" : mFloor(%vbux) ;
     return ;
 }
 function Inventory::getVPointsPriceForSku(%sku)

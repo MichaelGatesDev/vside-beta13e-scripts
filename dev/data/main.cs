@@ -257,7 +257,7 @@ package dev
                 %sucCount = %sucCount + %suc;
                 if (!%suc)
                 {
-                    %fails[%tryCount - %sucCount] = %file @ ;
+                    %fails[%tryCount - %sucCount] = %file ;
                 }
                 %file = findNextFile(%ext);
             }

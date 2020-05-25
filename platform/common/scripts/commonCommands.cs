@@ -40,7 +40,7 @@ function reloadScripts()
 }
 function gSetField(%object, %name, %value)
 {
-    $gGlobalFields[%object.getId(),%name] = %value @ ;
+    $gGlobalFields[%object.getId(),%name] = %value ;
     return ;
 }
 function gGetField(%object, %name)

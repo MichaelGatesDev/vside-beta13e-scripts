@@ -228,11 +228,11 @@ function geTGF_tabs::setup(%this, %container)
     %tabNames = %tabNames @ "friends" @ " ";
     %tabNames = %tabNames @ "map" @ " ";
     %tabNames = %tabNames @ "myplace" @ " ";
-    %tooltips["main"] = $MsgCat::TGF["tooltips_main"] @ ;
-    %tooltips["hotspots"] = $MsgCat::TGF["tooltips_hotspots"] @ ;
-    %tooltips["friends"] = $MsgCat::TGF["tooltips_friends"] @ ;
-    %tooltips["map"] = $MsgCat::TGF["tooltips_map"] @ ;
-    %tooltips["myplace"] = $MsgCat::TGF["tooltips_myplace"] @ ;
+    %tooltips["main"] = $MsgCat::TGF["tooltips_main"] ;
+    %tooltips["hotspots"] = $MsgCat::TGF["tooltips_hotspots"] ;
+    %tooltips["friends"] = $MsgCat::TGF["tooltips_friends"] ;
+    %tooltips["map"] = $MsgCat::TGF["tooltips_map"] ;
+    %tooltips["myplace"] = $MsgCat::TGF["tooltips_myplace"] ;
     %num = getWordCount(%tabNames);
     %n = 0;
     while (%n < %num)

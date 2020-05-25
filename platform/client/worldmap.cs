@@ -295,7 +295,7 @@ function WorldMap::selectVenue(%this, %cityName, %venueName, %spawnName)
         %serverInfo = WorldMapServerInfoGroup.getObject(%idx);
         if (!(%cityName $= ""))
         {
-            $UserPref::WorldMap::ServerChoice[%cityName] = %serverInfo.serverName @ ;
+            $UserPref::WorldMap::ServerChoice[%cityName] = %serverInfo.serverName ;
         }
         %targetVurl = %targetVurl @ "?server0=" @ %serverInfo.serverName;
     }
@@ -414,10 +414,10 @@ function WorldMap::fillDevModServerList(%this)
     {
         %server = WorldMapServers.getObject(%n);
         %name = %server.get("name");
-        %array[%name,server] = %server @ ;
-        %array[%name,load] = %server.get("load") @ ;
-        %array[%name,capacity] = %server.get("capacity") @ ;
-        %array[%name,city] = %server.get("city") @ ;
+        %array[%name,server] = %server ;
+        %array[%name,load] = %server.get("load") ;
+        %array[%name,capacity] = %server.get("capacity") ;
+        %array[%name,city] = %server.get("city") ;
         %names = %names @ %name @ "\t";
         %n = %n - 1;
     }

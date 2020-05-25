@@ -542,7 +542,7 @@ function getRandomAwayMessage()
         $randomAwayMessagesNum = $randomAwayMessagesNum + 1;
         $randomAwayMessage[$randomAwayMessagesNum] = "lost.";
         $randomAwayMessagesNum = $randomAwayMessagesNum + 1;
-        $randomAwayMessage[$randomAwayMessagesNum] = $Pref::Player::defaultAwayMessage @ ;
+        $randomAwayMessage[$randomAwayMessagesNum] = $Pref::Player::defaultAwayMessage ;
         $randomAwayMessagesNum = $randomAwayMessagesNum + 1;
     }
     return $randomAwayMessage[getRandom(0, $randomAwayMessagesNum - 1)];

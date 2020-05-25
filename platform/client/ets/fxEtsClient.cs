@@ -122,8 +122,8 @@ function ClientCmdTODColorMods(%s)
         %col = getWord(%s, (%n * 4) + 2);
         %col = %col SPC getWord(%s, (%n * 4) + 3);
         %col = %col SPC getWord(%s, (%n * 4) + 4);
-        $fxEts::TOD::ColorModSample[%n,hour] = %hour @ ;
-        $fxEts::TOD::ColorModSample[%n,color] = %col @ ;
+        $fxEts::TOD::ColorModSample[%n,hour] = %hour ;
+        $fxEts::TOD::ColorModSample[%n,color] = %col ;
         %n = %n + 1;
     }
     fxEts::TODTimer();

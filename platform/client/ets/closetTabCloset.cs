@@ -331,7 +331,7 @@ function ClosetTabs::doCopyOutfitReally(%this, %src, %dest)
 {
     %srcName = ClosetMyOutfitsFrame.getOutfitNameForHanger(%src);
     %destName = ClosetMyOutfitsFrame.getOutfitNameForHanger(%dest);
-    $ClosetSkusOutfit[%destName] = $ClosetSkusOutfit[%srcName] @ ;
+    $ClosetSkusOutfit[%destName] = $ClosetSkusOutfit[%srcName] ;
     ClosetTabs.updateOutfitObjectView(%dest);
     ClosetTabs.getOutfitButton(%dest).performClick();
     return ;
@@ -355,8 +355,8 @@ function ClosetTabs::doSwapOutfitsReally(%this, %src, %dest)
     %srcName = ClosetMyOutfitsFrame.getOutfitNameForHanger(%src);
     %destName = ClosetMyOutfitsFrame.getOutfitNameForHanger(%dest);
     %tmp = $ClosetSkusOutfit[%srcName];
-    $ClosetSkusOutfit[%srcName] = $ClosetSkusOutfit[%destName] @ ;
-    $ClosetSkusOutfit[%destName] = %tmp @ ;
+    $ClosetSkusOutfit[%srcName] = $ClosetSkusOutfit[%destName] ;
+    $ClosetSkusOutfit[%destName] = %tmp ;
     ClosetTabs.updateOutfitObjectView(%src);
     ClosetTabs.updateOutfitObjectView(%dest);
     ClosetTabs.getOutfitButton(%dest).performClick();
@@ -963,12 +963,12 @@ function ClosetGUI_ToggleSku_Closet(%sku)
             {
                 if (%removable)
                 {
-                    $ClosetSkusOutfit[$ClosetOutfitName] = removeWord($ClosetSkusOutfit[$ClosetOutfitName], %wordLoc) @ ;
+                    $ClosetSkusOutfit[$ClosetOutfitName] = removeWord($ClosetSkusOutfit[$ClosetOutfitName], %wordLoc) ;
                 }
             }
             else
             {
-                $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.overlaySkus($ClosetSkusOutfit[$ClosetOutfitName], %sku) @ ;
+                $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.overlaySkus($ClosetSkusOutfit[$ClosetOutfitName], %sku) ;
             }
             %outfitNum = findWord($Player::HangerNames[$player.getGender()], $ClosetOutfitName);
             %objectView = ClosetTabs.getOutfitObjectView(%outfitNum);

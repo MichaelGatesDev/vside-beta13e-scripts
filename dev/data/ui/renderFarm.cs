@@ -164,7 +164,7 @@ function rf_generateTestSkus(%num, %forJavascript)
                 {
                     %skus = SkuManager.getSkusDrwr(%drawerName);
                     %skus = SkuManager.filterSkusGender(%skus, %gender);
-                    $gRFGenerate_DrawersCache[%drawerName,%gender] = %skus @ ;
+                    $gRFGenerate_DrawersCache[%drawerName,%gender] = %skus ;
                 }
                 %sku = getRandomWord($gRFGenerate_DrawersCache[%drawerName,%gender]);
                 if (!(%sku $= ""))

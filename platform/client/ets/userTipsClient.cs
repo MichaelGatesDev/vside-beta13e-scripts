@@ -7,7 +7,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 300;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "DancePadUsage";
     $userTips::tipTitle[%tipName] = "Tip - Switch Dances with the Dance Pad";
@@ -15,7 +15,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 300;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "DanceToolUsage";
     $userTips::tipTitle[%tipName] = "Tip - Dancetastìque";
@@ -23,7 +23,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 420;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "HideChat";
     $userTips::tipTitle[%tipName] = "Chat Is Hidden";
@@ -31,7 +31,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 300;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "SOSUsage";
     $userTips::tipTitle[%tipName] = "Help";
@@ -39,7 +39,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "cancelUserSOS();";
     $userTips::tipCallbackCnc[%tipName] = "cancelUserSOS();";
     $userTips::tipWidth[%tipName] = 360;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "GotMic";
     $userTips::tipTitle[%tipName] = "You\'ve got the Microphone!";
@@ -47,7 +47,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "no_op();";
     $userTips::tipCallbackCnc[%tipName] = "doDropMic();";
     $userTips::tipWidth[%tipName] = 400;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "PasteSkus";
     $userTips::tipTitle[%tipName] = "Pasting SKUs";
@@ -55,7 +55,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "doUserPasteSkusReally(\"[TARGETPLAYERNAME]\");";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = "";
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "BroadcastImages";
     $userTips::tipTitle[%tipName] = "Camera Tool";
@@ -63,7 +63,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 300;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "SpaceOwner";
     $userTips::tipTitle[%tipName] = "Hosting Tips!";
@@ -80,7 +80,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "echo(\"\");";
     $userTips::tipCallbackCnc[%tipName] = "echo(\"\");";
     $userTips::tipWidth[%tipName] = 500;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "PaperDollPermute";
     $userTips::tipTitle[%tipName] = "Paper Doll Permutations";
@@ -88,7 +88,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "paperDoll_Permute();";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = 300;
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "tgf_main_samples";
     $userTips::tipTitle[%tipName] = "Sample Images";
@@ -96,7 +96,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = "";
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     %tipName = "closet_myshop_copyToOutfit";
     $userTips::tipTitle[%tipName] = "Copy Items to Outfit";
@@ -104,7 +104,7 @@ function userTips::initUserTips()
     $userTips::tipCallbackOK[%tipName] = "ClosetGui_MyShop_CopySkusToOutfit();";
     $userTips::tipCallbackCnc[%tipName] = "";
     $userTips::tipWidth[%tipName] = "";
-    $userTips::allTips[$userTips::numTips] = %tipName @ ;
+    $userTips::allTips[$userTips::numTips] = %tipName ;
     $userTips::numTips = $userTips::numTips + 1;
     userTips::resetSeenThisSession();
     return ;

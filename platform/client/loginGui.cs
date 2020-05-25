@@ -634,14 +634,14 @@ function LoginRequest::onGotUserProperties(%this)
     $UserPref::debug::alertOnLogWarning = gUserPropMgrClient.getProperty($Player::Name, "alertOnLogWarning", $Defaults::UserPref::debug::alertOnLogWarning);
     $UserPref::debug::alertOnLogError = gUserPropMgrClient.getProperty($Player::Name, "alertOnLogError", $Defaults::UserPref::debug::alertOnLogError);
     $UserPref::ETS::ButtonBar::AutoHide = gUserPropMgrClient.getProperty($Player::Name, "hideButtonBar", $Defaults::UserPref::ETS::ButtonBar::AutoHide);
-    $UserPref::HudTabs::AutoOpen["music"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabMusic", $Defaults::UserPref::HudTabs::AutoOpen["music"]) @ ;
-    $UserPref::HudTabs::AutoClose["music"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabMusic", $Defaults::UserPref::HudTabs::AutoClose["music"]) @ ;
-    $UserPref::HudTabs::AutoOpen["affinity"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabAffinity", $Defaults::UserPref::HudTabs::AutoOpen["affinity"]) @ ;
-    $UserPref::HudTabs::AutoClose["affinity"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabAffinity", $Defaults::UserPref::HudTabs::AutoClose["affinity"]) @ ;
-    $UserPref::HudTabs::AutoOpen["scores"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabScores", $Defaults::UserPref::HudTabs::AutoOpen["scores"]) @ ;
-    $UserPref::HudTabs::AutoClose["scores"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabScores", $Defaults::UserPref::HudTabs::AutoClose["scores"]) @ ;
-    $UserPref::HudTabs::AutoOpen["word"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabWord", $Defaults::UserPref::HudTabs::AutoOpen["word"]) @ ;
-    $UserPref::HudTabs::AutoClose["word"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabWord", $Defaults::UserPref::HudTabs::AutoClose["word"]) @ ;
+    $UserPref::HudTabs::AutoOpen["music"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabMusic", $Defaults::UserPref::HudTabs::AutoOpen["music"]) ;
+    $UserPref::HudTabs::AutoClose["music"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabMusic", $Defaults::UserPref::HudTabs::AutoClose["music"]) ;
+    $UserPref::HudTabs::AutoOpen["affinity"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabAffinity", $Defaults::UserPref::HudTabs::AutoOpen["affinity"]) ;
+    $UserPref::HudTabs::AutoClose["affinity"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabAffinity", $Defaults::UserPref::HudTabs::AutoClose["affinity"]) ;
+    $UserPref::HudTabs::AutoOpen["scores"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabScores", $Defaults::UserPref::HudTabs::AutoOpen["scores"]) ;
+    $UserPref::HudTabs::AutoClose["scores"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabScores", $Defaults::UserPref::HudTabs::AutoClose["scores"]) ;
+    $UserPref::HudTabs::AutoOpen["word"] = gUserPropMgrClient.getProperty($Player::Name, "autoOpenTabWord", $Defaults::UserPref::HudTabs::AutoOpen["word"]) ;
+    $UserPref::HudTabs::AutoClose["word"] = gUserPropMgrClient.getProperty($Player::Name, "autoCloseTabWord", $Defaults::UserPref::HudTabs::AutoClose["word"]) ;
     $UserPref::Player::TeleportBlock = gUserPropMgrClient.getProperty($Player::Name, "refuseTeleports", $Defaults::UserPref::Player::TeleportBlock);
     $UserPref::Player::WhisperBlock = gUserPropMgrClient.getProperty($Player::Name, "refuseWhispers", $Defaults::UserPref::Player::WhisperBlock);
     $UserPref::Player::YellBlock = gUserPropMgrClient.getProperty($Player::Name, "refuseYells", $Defaults::UserPref::Player::YellBlock);
@@ -698,7 +698,7 @@ function LoginRequest::onGotUserProperties(%this)
             if (!(%keyCombo $= ""))
             {
                 EmoteBindingMap.put(%action, %keyCombo);
-                $UserPref::emotes["f",%keyCombo] = %action @ ;
+                $UserPref::emotes["f",%keyCombo] = %action ;
             }
         }
         %action = gUserPropMgrClient.getProperty($Player::Name, "favoriteActionsKey_m_" @ %keyCombo, -1);
@@ -712,7 +712,7 @@ function LoginRequest::onGotUserProperties(%this)
             if (!(%keyCombo $= ""))
             {
                 EmoteBindingMap.put(%action, %keyCombo);
-                $UserPref::emotes["m",%keyCombo] = %action @ ;
+                $UserPref::emotes["m",%keyCombo] = %action ;
             }
         }
         %m = %m - 1;
@@ -728,7 +728,7 @@ function LoginRequest::onGotUserProperties(%this)
         while (%m >= 0)
         {
             %keyCombo = getField($Defaults::UserPref::emotes::defaultKeyCombinations, %m);
-            $UserPref::emotes["f",%keyCombo] = $Defaults::UserPref::emotes["f",%keyCombo] @ ;
+            $UserPref::emotes["f",%keyCombo] = $Defaults::UserPref::emotes["f",%keyCombo] ;
             %m = %m - 1;
         }
     }
@@ -738,7 +738,7 @@ function LoginRequest::onGotUserProperties(%this)
         while (%m >= 0)
         {
             %keyCombo = getField($Defaults::UserPref::emotes::defaultKeyCombinations, %m);
-            $UserPref::emotes["m",%keyCombo] = $Defaults::UserPref::emotes["m",%keyCombo] @ ;
+            $UserPref::emotes["m",%keyCombo] = $Defaults::UserPref::emotes["m",%keyCombo] ;
             %m = %m - 1;
         }
     }

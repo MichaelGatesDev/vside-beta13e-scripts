@@ -119,7 +119,7 @@ function outfits_onDoneOrErrorCallback_GetUserInventoryCollection(%request)
     %stringMap.dumpValues();
     if (!((%stringMap.get("initialOutfitAndBody") $= "")) && (%stringMap.get("currentOutfit") $= ""))
     {
-        $userpref::player::initialSkus[$Player::Name] = %stringMap.get("initialOutfitAndBody") @ ;
+        $userpref::player::initialSkus[$Player::Name] = %stringMap.get("initialOutfitAndBody") ;
         if (!(SkuManager.filterSkusGender($userpref::player::initialSkus[$Player::Name], "f") $= $userpref::player::initialSkus[$Player::Name]))
         {
             %skusGender = "m";
@@ -132,7 +132,7 @@ function outfits_onDoneOrErrorCallback_GetUserInventoryCollection(%request)
         {
             error(getScopeName() SPC "incoming SKUs do not match gender. outfit will likely be old-school default.");
         }
-        $userpref::player::initialSkusGender[$Player::Name] = $UserPref::Player::gender @ ;
+        $userpref::player::initialSkusGender[$Player::Name] = $UserPref::Player::gender ;
         %stringMap.clear();
     }
     if ((%stringMap.size() == 0) && !(($userpref::player::initialSkus[$Player::Name] $= "")))

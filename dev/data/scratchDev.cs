@@ -51,9 +51,9 @@ function dev_TestMLText(%onOrOff, %method)
     %numLines = 40;
     %numCols = 20;
     %lineLong = "als djalsk jdlaksj dlakjs dl;kaj sd;lahf;ha;fkqehrk;jhqrkljhals djalsk jdlaksj dlakjs dl;kaj sd;lahf;ha;fkqehrk;jhqrkljhals djalsk jdlaksj dlakjs dl;kaj sd;lahf;ha;fkqehrk;jhqrkljhq wekljrh qkwjrh qkjwh kqjwhr kqjrwh";
-    %lineText[0] = "<color:ffff33>" @ %lineLong @ ;
-    %lineText[1] = "<color:22ff33>" @ %lineLong @ ;
-    %lineText[2] = %lineLong @ ;
+    %lineText[0] = "<color:ffff33>" @ %lineLong ;
+    %lineText[1] = "<color:22ff33>" @ %lineLong ;
+    %lineText[2] = %lineLong ;
     %lineText[3] = "";
     %lineText[4] = "platform/client/ui/evilbunny";
     if (isObject(geMLTest))

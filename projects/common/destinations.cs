@@ -3,12 +3,12 @@ $gDestinationFiltersInUse = "";
 $gDestinationFiltersInDirectory = "event" SPC "shop" SPC "venue" SPC "plaza" SPC "residence";
 function DestinationList::AddDestinationInfo(%codeName, %filters, %contiguousSpaceNames, %userFacingName, %userFacingDescriptionBase, %inWorldTrailer, %vurl, %okayForTGF)
 {
-    $gDestinationFilters[%codeName] = %filters @ ;
-    $gDestinationNames[%codeName] = %userFacingName @ ;
-    $gDestinationDescsInCloset[%codeName] = %userFacingDescriptionBase @ ;
-    $gDestinationDescsInWorld[%codeName] = "Welcome to" SPC %userFacingName @ "!" SPC %inWorldTrailer @ ;
-    $gDestinationSpaces[%codeName] = %contiguousSpaceNames @ ;
-    $gDestinationVurls[%codeName] = %vurl @ ;
+    $gDestinationFilters[%codeName] = %filters ;
+    $gDestinationNames[%codeName] = %userFacingName ;
+    $gDestinationDescsInCloset[%codeName] = %userFacingDescriptionBase ;
+    $gDestinationDescsInWorld[%codeName] = "Welcome to" SPC %userFacingName @ "!" SPC %inWorldTrailer ;
+    $gDestinationSpaces[%codeName] = %contiguousSpaceNames ;
+    $gDestinationVurls[%codeName] = %vurl ;
     $gDestinationNamesInternal = $gDestinationNamesInternal @ %codeName @ " ";
     %i = getWordCount(%filters) - 1;
     while (%i >= 0)
@@ -69,11 +69,11 @@ $gDestinationAdsNum = 0;
 function DestinationList::AddDestinationAd(%codeName, %vurl, %okayForTGF)
 {
     %isNewEntry = $gDestinationAdsNumByName[%codeName] $= "";
-    $gDestinationAds[$gDestinationAdsNum,"codename"] = %codeName @ ;
-    $gDestinationAds[$gDestinationAdsNum,"okayForTGF"] = %okayForTGF @ ;
+    $gDestinationAds[$gDestinationAdsNum,"codename"] = %codeName ;
+    $gDestinationAds[$gDestinationAdsNum,"okayForTGF"] = %okayForTGF ;
     if (%isNewEntry)
     {
-        $gDestinationAdsNumByName[%codeName] = $gDestinationAdsNum @ ;
+        $gDestinationAdsNumByName[%codeName] = $gDestinationAdsNum ;
         $gDestinationAdsNum = $gDestinationAdsNum + 1;
     }
     return ;
@@ -172,10 +172,10 @@ function transferFromShopToDestinationsDirectoryPart2(%askForSave, %doSave)
 $gAreaNamesInternalList = "";
 function DestinationList::AddAreaNameInfo(%areaName, %shortName, %city, %userFacingName, %iconPath)
 {
-    $gAreaNamesShortName[%areaName] = %shortName @ ;
-    $gAreaNamesCity[%areaName] = %city @ ;
-    $gAreaNamesUserFacingName[%areaName] = %userFacingName @ ;
-    $gAreaNamesIconPath[%areaName] = %iconPath @ ;
+    $gAreaNamesShortName[%areaName] = %shortName ;
+    $gAreaNamesCity[%areaName] = %city ;
+    $gAreaNamesUserFacingName[%areaName] = %userFacingName ;
+    $gAreaNamesIconPath[%areaName] = %iconPath ;
     $gAreaNamesInternalList = $gAreaNamesInternalList @ %areaName SPC "";
     return ;
 }
