@@ -146,7 +146,7 @@ function putListIntoEnglish(%list)
         }
     }
 }
-return ;
+;
 function gameMgrClient::playerInvited(%this, %inviter, %aGameInstance, %gameType, %playerCount, %message)
 {
     echo(getScopeName());
@@ -925,7 +925,7 @@ function gameMgrClient::sortAndPurgePlayerRecords(%this, %aGameObj)
         %n = %n - 1;
     }
 }
-return ;
+;
 function gameMgrHostPopup::setup(%this)
 {
     gameMgrHostPopup.variText = new GuiMLTextCtrl()

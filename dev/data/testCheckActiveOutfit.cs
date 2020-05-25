@@ -172,7 +172,7 @@ function joinServer()
         %i = %i + 1;
     }
 }
-return ;
+;
 function checkActiveOutfit()
 {
     error("player.activeSkus = " @ $player.getActiveSKUs());

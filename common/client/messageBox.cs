@@ -46,7 +46,7 @@ function ShowAllMessageBoxes()
         %i = %i + 1;
     }
 }
-return ;
+;
 function MBSetText(%text, %frame, %msg)
 {
     %ext = %text.getExtent();

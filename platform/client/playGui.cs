@@ -425,7 +425,7 @@ function GuiControl::dumpTopWindows(%this)
         %n = %n + 1;
     }
 }
-return ;
+;
 function GuiControl::showRaiseOrHide(%this, %ctrl)
 {
     if (%ctrl.isVisible())

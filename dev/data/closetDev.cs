@@ -102,7 +102,7 @@ function ClosetStaffPanel::adjustLOD(%this, %direction)
         %n = %n - 1;
     }
 }
-return ;
+;
 function ClosetStaffPanel::viewAll(%this)
 {
     $Player::inventory = SkuManager.getSkus();

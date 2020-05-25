@@ -232,7 +232,7 @@ function CSMediaDisplay::setMediaList(%this, %mediaList, %startIdx, %maxIdx, %hi
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function CSMediaDisplay::setMediaStatistics(%this, %url, %views, %plays)
 {
     %count = %this.getChildCount();
@@ -248,7 +248,7 @@ function CSMediaDisplay::setMediaStatistics(%this, %url, %views, %plays)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function CSMediaDisplay::clearMediaStatistics(%this, %url)
 {
     %count = %this.getChildCount();
@@ -264,7 +264,7 @@ function CSMediaDisplay::clearMediaStatistics(%this, %url)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function CSMediaDisplay::setMediaInfo(%this, %child, %views, %plays)
 {
     if (!(%child.mediainfo $= ""))
@@ -798,7 +798,7 @@ function CSMediaDisplay::updateRadioStreams(%this)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function CSMediaDisplay::updateRadioDropDown(%this, %child)
 {
     %medialink = %this.getMediaLink(%child);
@@ -827,7 +827,7 @@ function CSMediaDisplay::cycleYoutubeThumbnails(%this)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function CSMediaDisplay::buildYoutubeTitle(%this, %child)
 {
     %AuthorName = "";
@@ -1184,7 +1184,7 @@ function CSMediaDisplay::parseFeedNode(%this, %child, %feedNode)
         %entry = %entry.getNext("entry");
     }
 }
-return ;
+;
 function CSMDGDataRequest::onError(%this)
 {
     %child = %this.control;

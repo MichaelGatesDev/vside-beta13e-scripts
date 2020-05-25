@@ -149,7 +149,7 @@ function eventControlWindow::populateDoorsList(%this)
         %n = %n + 1;
     }
 }
-return ;
+;
 function eventControlWindow::addDoorControl(%this, %title, %groupName, %zoneName, %doorToLockName, %enable)
 {
     %container = EventControlsDoorsArray.addChild();

@@ -54,7 +54,7 @@ function System::compileClassInstanceCounts3(%obj, %counts, %depth)
         %n = %n + 1;
     }
 }
-return ;
+;
 function System::getClassInstanceCounts(%obj)
 {
     %ret = "";
@@ -138,7 +138,7 @@ function System::dumpObjectsRecurse(%obj, %depth)
         %n = %n + 1;
     }
 }
-return ;
+;
 function System::dumpObjects(%obj)
 {
     warn("System::dumpObjects() begin");
@@ -509,5 +509,5 @@ function compileClassInstances(%obj, %container)
         }
     }
 }/* 4 | 3841 */
-return ;
+;
 

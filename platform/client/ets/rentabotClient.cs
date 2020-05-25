@@ -303,5 +303,5 @@ function rentabotClient_reignore()
         %n = %n - 1;
     }
 }
-return ;
+;
 

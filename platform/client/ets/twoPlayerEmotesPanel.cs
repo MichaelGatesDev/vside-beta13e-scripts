@@ -36,7 +36,7 @@ function TwoPlayerEmotesPanel::refresh(%this)
         %i = %i + 1;
     }
 }
-return ;
+;
 function TwoPlayerEmotesList::onSelect(%this, %id, %text)
 {
     if (%id >= 0)

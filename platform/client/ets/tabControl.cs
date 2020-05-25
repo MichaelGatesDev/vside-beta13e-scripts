@@ -211,7 +211,7 @@ function TabControl::selectTabWithName(%this, %name)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function TabControl::manuallySelectTab(%this, %tabId)
 {
     %this.overrideLockedOpen = 1;
@@ -231,7 +231,7 @@ function TabControl::selectTab(%this, %tabId)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function TabControl::getTabIndexWithName(%this, %name)
 {
     %idx = 0;

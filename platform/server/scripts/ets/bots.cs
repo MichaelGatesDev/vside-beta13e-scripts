@@ -162,7 +162,7 @@ function AIManager::zombiesAttack(%this, %position, %obj)
         %i = %i + 1;
     }
 }
-return ;
+;
 function AIPlayer::zombieAttack(%this, %position, %aimAt, %obj, %theta)
 {
     %this.playAnim("dnc" @ getRandom(1, 2));
@@ -191,7 +191,7 @@ function AIManager::zombiesDance(%this, %param)
         %i = %i + 1;
     }
 }
-return ;
+;
 function AIManager::zombiesEmote(%this)
 {
     if (%this.numBots < 1)
@@ -206,7 +206,7 @@ function AIManager::zombiesEmote(%this)
         %i = %i + 1;
     }
 }
-return ;
+;
 function AIPlayer::doAutoMoveEntry(%this)
 {
     %this.playAnim("pwve");
@@ -249,5 +249,5 @@ function AIManager::IdleBots(%this, %percent)
         %i = %i + 1;
     }
 }
-return ;
+;
 

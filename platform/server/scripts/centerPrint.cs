@@ -16,7 +16,7 @@ function centerPrintAll(%message, %time, %lines)
         %i = %i + 1;
     }
 }
-return ;
+;
 function bottomPrintAll(%message, %time, %lines)
 {
     if (((%lines $= "") || (%lines > 3)) || (%lines < 1))
@@ -35,7 +35,7 @@ function bottomPrintAll(%message, %time, %lines)
         %i = %i + 1;
     }
 }
-return ;
+;
 function centerPrint(%client, %message, %time, %lines)
 {
     if (((%lines $= "") || (%lines > 3)) || (%lines < 1))
@@ -78,7 +78,7 @@ function clearCenterPrintAll()
         %i = %i + 1;
     }
 }
-return ;
+;
 function clearBottomPrintAll()
 {
     %count = ClientGroup.getCount();
@@ -93,5 +93,5 @@ function clearBottomPrintAll()
         %i = %i + 1;
     }
 }
-return ;
+;
 

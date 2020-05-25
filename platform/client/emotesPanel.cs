@@ -231,7 +231,7 @@ function EmoteHudList::populateList(%this, %list, %emotes)
         %i = %i + 1;
     }
 }
-return ;
+;
 function EmoteHudList::populateListWithPairs(%this, %list, %emotePairs)
 {
     %count = getFieldCount(%emotePairs) / 2;
@@ -243,7 +243,7 @@ function EmoteHudList::populateListWithPairs(%this, %list, %emotePairs)
         %i = %i + 1;
     }
 }
-return ;
+;
 function EmoteHudList::reset(%this)
 {
     if (%this.timer != 0)

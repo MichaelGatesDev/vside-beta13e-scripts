@@ -743,7 +743,7 @@ function LoginRequest::onGotUserProperties(%this)
         }
     }
 }
-return ;
+;
 function LoginRequest::handleBoot(%this)
 {
     sendRequest_BootNew("onDoneOrErrorCallback_Boot");

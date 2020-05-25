@@ -33,7 +33,7 @@ function initClientCalls()
         %n = %n - 1;
     }
 }
-return ;
+;
 function gatewayExitTransition(%isEntry, %showCancel)
 {
     if (!%isEntry)

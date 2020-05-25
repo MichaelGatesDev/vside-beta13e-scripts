@@ -486,7 +486,7 @@ function geSwatchesPanel::selectFirstCell(%this)
         %i = %i + 1;
     }
 }
-return ;
+;
 function geSwatchesPanel::hiliteCell(%this, %cell)
 {
     if (!isObject(%cell))
@@ -514,5 +514,5 @@ function geSwatchesPanel::hiliteCell(%this, %cell)
         %i = %i + 1;
     }
 }
-return ;
+;
 

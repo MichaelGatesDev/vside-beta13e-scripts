@@ -975,7 +975,7 @@ function geTGF::removeItemsWithFieldValueFromList(%this, %listName, %type, %fiel
         %n = %n - 1;
     }
 }
-return ;
+;
 function geTGF::removeItemsFromList1WithMatchingItemInList2(%this, %list1Name, %list1Type, %list2Name, %list2Type, %fieldName)
 {
     %itemList2 = %this.getItemList(%list2Name, %list2Type);
@@ -988,7 +988,7 @@ function geTGF::removeItemsFromList1WithMatchingItemInList2(%this, %list1Name, %
         %n = %n - 1;
     }
 }
-return ;
+;
 function geTGF::findItem(%this, %listName, %type, %id)
 {
     %list = %this.getItemList(%listName, %type);
@@ -1016,5 +1016,5 @@ function geTGF::dumpItemList(%this, %listName, %type)
         %n = %n - 1;
     }
 }
-return ;
+;
 

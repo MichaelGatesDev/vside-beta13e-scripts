@@ -302,7 +302,7 @@ function vurl::clearResolution(%this)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function vurl::doResolveVURL(%this)
 {
     %request = new ManagerRequest();

@@ -43,7 +43,7 @@ function clientCmdServerMessage(%msgType, %msgString)
         }
     }
 }
-return ;
+;
 function addMessageCallback(%msgType, %func)
 {
     %m = MessageFuncDict.get(%msgType);

@@ -661,7 +661,7 @@ function GuiControl::_dumpTreeVerboseRecursive(%this, %indent)
         %n = %n + 1;
     }
 }
-return ;
+;
 function GuiControl::reparent(%this, %newParent, %newPosition, %newExtent, %newProfile)
 {
     %newParent.add(%this);
@@ -763,7 +763,7 @@ function hideABunchOfControls(%list)
         %n = %n - 1;
     }
 }
-return ;
+;
 function restoreABunchOfControls(%list)
 {
     %list = trim(%list);
@@ -783,5 +783,5 @@ function restoreABunchOfControls(%list)
         %n = %n - 1;
     }
 }
-return ;
+;
 

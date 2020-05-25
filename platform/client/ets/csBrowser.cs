@@ -106,7 +106,7 @@ function CSBrowser::addSku(%this, %sku)
         %i = %i + 1;
     }
 }
-return ;
+;
 function CSBrowser::removeSku(%this, %sku)
 {
     %paths = %this.getPathsForSku(%sku);

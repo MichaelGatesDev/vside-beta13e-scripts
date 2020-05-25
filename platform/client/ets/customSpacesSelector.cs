@@ -357,7 +357,7 @@ function CSSelectorCtrl::dumpSpaces(%this)
         %n = %n + 1;
     }
 }
-return ;
+;
 function CSSelectorCtrl::createAccessIcon(%this, %accessType, %isFriend, %position)
 {
     %icon = new GuiBitmapCtrl()
@@ -1144,7 +1144,7 @@ function CustomSpacesSelector::setTypeIndexes(%this, %typeList)
         %i = %i + 1;
     }
 }
-return ;
+;
 function CustomSpacesSelector::getTypeIndex(%this, %type)
 {
     %index = %this.vars[("aptCategoryIndexes",%type)];

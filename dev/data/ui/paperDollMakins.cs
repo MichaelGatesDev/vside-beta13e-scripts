@@ -190,7 +190,7 @@ function paperDoll_RecursePermutations(%gender, %currentSkus, %currentNames, %st
         %n = %n + 1;
     }
 }
-return ;
+;
 function paperDoll_PermuteWithDialog()
 {
     userTips::showOnceThisSession("PaperDollPermute");
@@ -497,5 +497,5 @@ function paperDoll_generateManifest_Recurse(%file, %gender, %initialDepth, %valu
         %valueNum = %valueNum + 1;
     }
 }
-return ;
+;
 

@@ -99,7 +99,7 @@ function SkuManager::addItem(%this, %skunum, %skuType, %rolesMask, %gender, %bra
         }
     }
 }
-return ;
+;
 function skusAddItem2(%skunum, %skuType, %roleStrings, %gender, %brand, %drwrName, %meshName, %txtrNames, %desc, %descLong, %stores, %bornWith, %price, %avail, %qtyMfr, %rspk, %expireTime, %tags, %author)
 {
     SkuManager.addItem(%skunum, %skuType, roles::getRolesMaskFromStrings(%roleStrings), %gender, %brand, %drwrName, %meshName, %txtrNames, %desc, %descLong, %stores, %bornWith, %price, %avail, %qtyMfr, %rspk, %expireTime TAB %tags, %author);
@@ -147,7 +147,7 @@ function SkuManager::sanityCheckStockOutfits(%this)
         %g = %g - 1;
     }
 }
-return ;
+;
 function SkuManager::sanityCheckSkus(%this, %skusDry)
 {
     %skus = SortNumbers(%skusDry);

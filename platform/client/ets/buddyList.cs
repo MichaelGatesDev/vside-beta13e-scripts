@@ -595,7 +595,7 @@ function BuddyHudFriendsListLine::updateText(%this, %newText)
         %i = %i + 1;
     }
 }
-return ;
+;
 function BuddyHudFriendsListLine::onMouseEnter(%this)
 {
     %this.updateText(%this.entryHilited);
@@ -1484,7 +1484,7 @@ function extractBuddyRecords(%request, %list, %type, %doIgnore)
         %n = %n + 1;
     }
 }
-return ;
+;
 function parseBuddyRecord(%record, %val)
 {
     %fieldNdx = 0;
@@ -1575,7 +1575,7 @@ function markIgnoredInList(%list)
         %n = %n - 1;
     }
 }
-return ;
+;
 $gRefreshEvenIfBuddyHudWinClosed = 1;
 function clientCmdRefreshBuddies(%status)
 {

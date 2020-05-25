@@ -8,7 +8,7 @@ function playerTexturesReload()
         %n = %n - 1;
     }
 }
-return ;
+;
 function changedShowReloadTextures()
 {
     MessageBoxOK("Restart required", $MsgCat::VHDClient["A-RESTART"], "");
@@ -20,5 +20,5 @@ function changedShowReloadTextures()
         %n = %n + 1;
     }
 }
-return ;
+;
 

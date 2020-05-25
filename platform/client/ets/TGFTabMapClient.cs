@@ -413,7 +413,7 @@ function geTGF_tabs::Maps_filterDestinations(%this, %type, %city)
         %idx = %idx + 1;
     }
 }
-return ;
+;
 function geTGF::map_GetAndOpenDetailsContainer(%this, %item)
 {
     %this.constructDeetsWindow(geDeetsWindow, %item);

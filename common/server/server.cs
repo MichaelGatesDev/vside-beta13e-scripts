@@ -116,7 +116,7 @@ function removeFromServerGuidList(%guid)
         %i = %i + 1;
     }
 }
-return ;
+;
 function isUserConnected(%userName)
 {
     %client = ClientDict.getNorm(%userName);

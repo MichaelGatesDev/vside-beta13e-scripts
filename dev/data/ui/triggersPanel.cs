@@ -256,7 +256,7 @@ function clientCmdGetMusicTriggerNamesCallback(%names)
         %i = %i + 1;
     }
 }
-return ;
+;
 function clientCmdGetStreamIDsCallback(%names)
 {
     %count = getFieldCount(%names);
@@ -271,7 +271,7 @@ function clientCmdGetStreamIDsCallback(%names)
         %i = %i + 1;
     }
 }
-return ;
+;
 function TriggersPanelStreamPopup::streamSelected(%this)
 {
     %stream = %this.getValue();

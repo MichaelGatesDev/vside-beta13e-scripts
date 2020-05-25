@@ -172,7 +172,7 @@ function execFilesWithName(%fileName)
         %file = findNextFile(%fileName);
     }
 }
-return ;
+;
 function safeNewScriptObject(%classname, %objectName, %deleteExisting)
 {
     if (%deleteExisting && isObject(%objectName))

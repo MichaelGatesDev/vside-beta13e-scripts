@@ -1116,7 +1116,7 @@ function ClosetGUI_RefreshTextures()
         %n = %n + 1;
     }
 }
-return ;
+;
 function ClosetGui_MyShop_CopySkusToOutfit()
 {
     $ClosetSkusOutfit[$ClosetOutfitName] = SkuManager.overlaySkus($ClosetSkusOutfit[$ClosetOutfitName], $gSkusMyShopLayer) @ ;

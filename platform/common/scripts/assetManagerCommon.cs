@@ -87,7 +87,7 @@ function AssetManager::MapToString(%map)
         %n = %n + 1;
     }
 }
-return ;
+;
 function AssetManager::StringToMap(%str)
 {
     %map = new StringMap();
@@ -139,7 +139,7 @@ function AssetManager::dumpMap(%map)
         %n = %n + 1;
     }
 }
-return ;
+;
 function AssetManager::rehashSet(%map)
 {
     if (!isObject(%map))

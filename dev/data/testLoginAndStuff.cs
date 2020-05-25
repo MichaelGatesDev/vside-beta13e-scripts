@@ -570,5 +570,5 @@ function approveFriendRequests()
         %n = %n - 1;
     }
 }
-return ;
+;
 

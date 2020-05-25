@@ -172,7 +172,7 @@ function joinServer()
         %i = %i + 1;
     }
 }
-return ;
+;
 function doSomething()
 {
     $loggedIn = 1;

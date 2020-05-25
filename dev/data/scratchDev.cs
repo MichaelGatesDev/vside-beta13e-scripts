@@ -32,7 +32,7 @@ function fakeBuddyInfo(%friends, %faves, %fans)
         %n = %n + 1;
     }
 }
-return ;
+;
 function getFakeBuddyRecord(%name)
 {
     %words = "a A b B c C";
@@ -165,7 +165,7 @@ function dev_TestMLText(%onOrOff, %method)
         }
     }
 }
-return ;
+;
 $gClientSideSceneObjectsTimer = "";
 $gClientSideSceneObjectsTickNum = 0;
 $gClientSideSceneObjectsGroup = "";

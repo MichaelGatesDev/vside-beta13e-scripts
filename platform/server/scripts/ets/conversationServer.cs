@@ -79,7 +79,7 @@ function updateConversationLocations()
         %i = %i + 1;
     }
 }
-return ;
+;
 $Conv::updateLocationsTimerID = 0;
 function updateConvLocationsTimer()
 {
