@@ -1,4 +1,4 @@
-﻿$G_DECLARED_TEST_COUNT = 0;
+$G_DECLARED_TEST_COUNT = 0;
 $G_DECLARED_TEST[0] = 0;
 function DeclareTestSuite(%name)
 {

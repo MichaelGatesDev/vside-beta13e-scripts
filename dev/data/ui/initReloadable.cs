@@ -1,4 +1,4 @@
-﻿exec("./loginDebugPanel.cs");
+exec("./loginDebugPanel.cs");
 exec("./worldControlPanel.cs");
 exec("./eventControlWindow.cs");
 exec("./micPanel.cs");

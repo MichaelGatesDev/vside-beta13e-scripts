@@ -1,4 +1,4 @@
-﻿$UserPref::Audio::keepMusicHudOpen = 0;
+$UserPref::Audio::keepMusicHudOpen = 0;
 $loggedIn = 0;
 $failureCount = 0;
 $bootAttempted = 0;

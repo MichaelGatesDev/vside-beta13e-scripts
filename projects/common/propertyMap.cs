@@ -1,4 +1,4 @@
-﻿$SKY_OUTSIDE_MAIN_SPHERE = "projects/vside/worlds/raijuku/skies/01-02b/01-02b_0007.jpg";
+$SKY_OUTSIDE_MAIN_SPHERE = "projects/vside/worlds/raijuku/skies/01-02b/01-02b_0007.jpg";
 $SKY_OUTSIDE_MAIN_CUBE = "projects/vside/worlds/raijuku/skies/01-02b/skycube";
 $REFLECT_AMOUNT_TRANSGLASS = 0.6;
 $REFLECT_AMOUNT_WOOD = 0.2;

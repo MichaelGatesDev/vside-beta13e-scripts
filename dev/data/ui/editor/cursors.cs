@@ -1,4 +1,4 @@
-﻿new GuiCursor(EditorHandCursor)
+new GuiCursor(EditorHandCursor)
 {
     hotSpot = "7 0";
     bitmapName = "./CUR_hand.png";

@@ -1,4 +1,4 @@
-﻿$gMyShopAboutLinks = "";
+$gMyShopAboutLinks = "";
 function ClosetTabs::fillMyShopTab(%this)
 {
     %theTab = %this.getTabWithName("MY DESIGNS");

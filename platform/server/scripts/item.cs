@@ -1,4 +1,4 @@
-﻿$Item::RespawnTime = 20 * 1000;
+$Item::RespawnTime = 20 * 1000;
 $Item::PopTime = 10 * 1000;
 function Item::respawn(%this)
 {

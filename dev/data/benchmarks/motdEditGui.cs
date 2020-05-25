@@ -1,4 +1,4 @@
-﻿function toggleMOTDEditDialog()
+function toggleMOTDEditDialog()
 {
     toggleVisibleState(MOTDEditGui);
     return ;

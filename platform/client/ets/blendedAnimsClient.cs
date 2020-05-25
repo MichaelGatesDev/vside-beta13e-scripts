@@ -1,4 +1,4 @@
-﻿function Player::onGotAnimation(%this, %key)
+function Player::onGotAnimation(%this, %key)
 {
     %this.configBoneBlends();
     return ;

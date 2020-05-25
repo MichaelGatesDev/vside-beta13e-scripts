@@ -1,4 +1,4 @@
-﻿function initEmoticonMap(%map)
+function initEmoticonMap(%map)
 {
     %map.put("X(", "angry");
     %map.put("X-(", "angry");

@@ -1,4 +1,4 @@
-﻿$benchmarks::callbackOnAllComplete = "";
+$benchmarks::callbackOnAllComplete = "";
 $benchmarks::testsSchedule = 0;
 $benchmarks::camera::repsRemaining = 0;
 $benchmarks::camera::resultString = "";

@@ -1,4 +1,4 @@
-﻿$MissionLoadPause = 5000;
+$MissionLoadPause = 5000;
 function loadMission(%missionName, %isFirstMission)
 {
     endMission();

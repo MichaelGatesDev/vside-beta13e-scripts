@@ -1,4 +1,4 @@
-﻿%registry = safeEnsureScriptObject("ScriptObject", "");
+%registry = safeEnsureScriptObject("ScriptObject", "");
 %registry.bindClassName("InstrumentRegistry");
 %registry.bindClassName("InstrumentRegistryClient");
 %registry.setName("InstrumentRegistryClient");

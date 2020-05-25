@@ -1,4 +1,4 @@
-﻿function TestRunner_SmokeTestQuick::setup(%this)
+function TestRunner_SmokeTestQuick::setup(%this)
 {
     %this.addTestSuite("TestSuite_CSSmokeTests");
     %this.addTestSuite("TestSuite_GameState");

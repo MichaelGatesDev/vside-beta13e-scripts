@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_GiftBox");
+DeclareTestSuite("TestSuite_GiftBox");
 function TestSuite_GiftBox::setup(%this)
 {
     %this.addTestCase("TEST_GiftBox_BASICS");

@@ -1,4 +1,4 @@
-﻿boneBlendGui.sliderOffset1 = "160 5";
+boneBlendGui.sliderOffset1 = "160 5";
 boneBlendGui.sliderOffset2 = "160 25";
 boneBlendGui.sliderOffset3 = "160 45";
 boneBlendGui.labelOffset1 = "190 5";

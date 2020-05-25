@@ -1,4 +1,4 @@
-﻿function geTGF_tabs::fillTabMain(%this)
+function geTGF_tabs::fillTabMain(%this)
 {
     %tabName = "main";
     %tab = %this.getTabWithName(%tabName);

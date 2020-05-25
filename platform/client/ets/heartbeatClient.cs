@@ -1,4 +1,4 @@
-﻿$gClientHeartbeatTimer = "";
+$gClientHeartbeatTimer = "";
 $gClientHeartbeatPeriodMS = (1000 * 60) * 2;
 $gClientHeartbeatPeriodMinimumMS = 1000 * 15;
 function clientHeartbeat()

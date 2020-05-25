@@ -1,4 +1,4 @@
-﻿$gLastIdleTimesReportTime = 0;
+$gLastIdleTimesReportTime = 0;
 $SystemMetric::userCountCumulative = 0;
 $SystemMetric::totalObjectCount = 0;
 if (isObject($SystemMetric::ObjectCounts))

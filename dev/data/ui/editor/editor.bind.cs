@@ -1,4 +1,4 @@
-﻿new ActionMap(EditorMap);
+new ActionMap(EditorMap);
 EditorMap.bindCmd(keyboard, "f2", "editor.setEditor(WorldEditor);", "");
 EditorMap.bindCmd(keyboard, "f3", "editor.setEditor(TerrainEditor);", "");
 EditorMap.bindCmd(keyboard, "f4", "editor.setEditor(Terraformer);", "");

@@ -1,4 +1,4 @@
-﻿function getEmporium(%name, %callback)
+function getEmporium(%name, %callback)
 {
     %storeInfo = new SimObject();
     %storeInfo.bindClassName("Emporium");

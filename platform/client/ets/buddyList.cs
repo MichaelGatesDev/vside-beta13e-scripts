@@ -1,4 +1,4 @@
-﻿if (!isObject(BuddyHudTabs))
+if (!isObject(BuddyHudTabs))
 {
     new ScriptObject(BuddyHudTabs);
     if (isObject(MissionCleanup))

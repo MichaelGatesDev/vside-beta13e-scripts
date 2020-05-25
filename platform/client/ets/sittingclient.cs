@@ -1,4 +1,4 @@
-﻿function InitClientSittingSystem()
+function InitClientSittingSystem()
 {
     return ;
 }

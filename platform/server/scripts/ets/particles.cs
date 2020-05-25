@@ -1,4 +1,4 @@
-﻿datablock ParticleData(JacuzziSteamParticle)
+datablock ParticleData(JacuzziSteamParticle)
 {
     dragCoefficient = 0;
     windCoefficient = 0;

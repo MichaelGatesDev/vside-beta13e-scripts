@@ -1,4 +1,4 @@
-﻿$gMlStyle["plainOnBlack"] = "<color:ffffff><linkcolor:e553ff><linkcolorhl:ff93f8>";
+$gMlStyle["plainOnBlack"] = "<color:ffffff><linkcolor:e553ff><linkcolorhl:ff93f8>";
 $gMlStyle["plainOnBlackOutline"] = "<shadowcolor:00000055><outline>" @ $gMlStyle["plainOnBlack"] @ ;
 $gMlStyle["plainOnWhite"] = "<color:000000ff><linkcolor:e553ffff><linkcolorhl:ff93f8ff>";
 $gMlStyle["faintOnWhite"] = "<color:00000080><linkcolor:e553ff80><linkcolorhl:ff93f880>";

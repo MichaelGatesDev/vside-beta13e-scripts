@@ -1,4 +1,4 @@
-﻿function geActivitiesPanel::open(%this)
+function geActivitiesPanel::open(%this)
 {
     %this.updateStates();
     %this.setVisible(1);

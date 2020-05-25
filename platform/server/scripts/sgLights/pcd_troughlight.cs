@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(pcd_troughlight)
+datablock sgUniversalStaticLightData(pcd_troughlight)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

@@ -1,4 +1,4 @@
-﻿function onActionKey(%val)
+function onActionKey(%val)
 {
     jump(%val);
     return ;

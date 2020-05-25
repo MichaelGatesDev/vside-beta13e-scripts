@@ -1,4 +1,4 @@
-﻿$asyncTests::timer = 0;
+$asyncTests::timer = 0;
 $asyncTests::testsNum = 0;
 $asyncTests::nextTest = 0;
 $asyncTests::untestedResult = "na";

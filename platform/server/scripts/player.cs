@@ -1,4 +1,4 @@
-﻿exec("projects/common/characters/initReloadable.cs");
+exec("projects/common/characters/initReloadable.cs");
 datablock AudioProfile(FootLightSoftSound)
 {
     fileName = "projects/common/sound/footstep_soft.wav";

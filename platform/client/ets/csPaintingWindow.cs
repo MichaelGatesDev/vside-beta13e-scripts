@@ -1,4 +1,4 @@
-﻿function CSPaintingWindow::toggle(%this)
+function CSPaintingWindow::toggle(%this)
 {
     if (%this.isVisible())
     {

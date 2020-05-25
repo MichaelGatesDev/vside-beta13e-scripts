@@ -1,4 +1,4 @@
-﻿function OpenALInit()
+function OpenALInit()
 {
     echo("OpenAL Driver Init:");
     $Audio::initFailed = 0;

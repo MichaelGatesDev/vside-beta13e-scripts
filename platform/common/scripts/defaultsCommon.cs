@@ -1,4 +1,4 @@
-﻿$Pref::Player::defaultAwayMessage = "away from keyboard";
+$Pref::Player::defaultAwayMessage = "away from keyboard";
 $Pref::Player::awayMessageMaxLen = 40;
 $Pref::System::dumpMetricsMaxRecurseDepth = 100;
 $Pref::System::dumpMetricsTimerPeriodMS = (5 * 60) * 1000;

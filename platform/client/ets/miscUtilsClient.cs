@@ -1,4 +1,4 @@
-﻿function gotoWebPage(%url, %useToken)
+function gotoWebPage(%url, %useToken)
 {
     %url = strreplace(%url, "[BASEDOMAIN]", $Net::BaseDomain);
     if (isDefined("%useToken"))

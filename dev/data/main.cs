@@ -1,4 +1,4 @@
-﻿$EvalString = "";
+$EvalString = "";
 $ExecScript = "";
 $ETS::devMode = 0;
 package dev

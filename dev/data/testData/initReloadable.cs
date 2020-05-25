@@ -1,3 +1,3 @@
-﻿exec("./sampleUserNames.cs");
+exec("./sampleUserNames.cs");
 exec("./sampleUGC.cs");
 

@@ -1,4 +1,4 @@
-﻿if (!isObject(geHighScoresPanelTabs))
+if (!isObject(geHighScoresPanelTabs))
 {
     new ScriptObject(geHighScoresPanelTabs);
     if (isObject(MissionCleanup))

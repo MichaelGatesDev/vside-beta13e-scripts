@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(sgFirePitPSDataBlock)
+datablock sgUniversalStaticLightData(sgFirePitPSDataBlock)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

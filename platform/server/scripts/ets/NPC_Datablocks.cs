@@ -1,4 +1,4 @@
-﻿datablock PlayerData(db_npcF : PlayerF);
+datablock PlayerData(db_npcF : PlayerF);
 datablock PlayerData(db_npcM : PlayerM);
 datablock PlayerData(npc_bouncer1DB : PlayerBody)
 {

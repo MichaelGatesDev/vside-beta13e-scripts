@@ -1,4 +1,4 @@
-﻿function EtsInviteDialog::open(%this)
+function EtsInviteDialog::open(%this)
 {
     %screenWidth = getWord($UserPref::Video::Resolution, 0);
     %screenHeight = getWord($UserPref::Video::Resolution, 1);

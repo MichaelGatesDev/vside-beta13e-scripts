@@ -1,4 +1,4 @@
-﻿function DeclareFloorplans()
+function DeclareFloorplans()
 {
     DeclareFloorplan("NV255_S", 45000);
     DeclareFloorplan("NV255_M", 45001);

@@ -1,4 +1,4 @@
-﻿function SystemMessageDialog::isShowing(%this)
+function SystemMessageDialog::isShowing(%this)
 {
     return HudTabs.getCurrentTab().name $= "word";
 }

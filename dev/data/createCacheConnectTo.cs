@@ -1,4 +1,4 @@
-﻿echo("CACHE: Using port " @ $Pref::Net::Port);
+echo("CACHE: Using port " @ $Pref::Net::Port);
 connectLocal("invalidtestuser");
 schedule(3000, 0, doLoginCheck);
 $iterationsWaited = 0;

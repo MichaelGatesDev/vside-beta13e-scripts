@@ -1,4 +1,4 @@
-﻿function SpawnSphere::choosePointOnCenterPlane(%this)
+function SpawnSphere::choosePointOnCenterPlane(%this)
 {
     %trans = %this.getTransform();
     %posX = getWord(%trans, 0);

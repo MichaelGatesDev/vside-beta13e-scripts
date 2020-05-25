@@ -1,4 +1,4 @@
-﻿$NUM_SALON_STYLES = 0;
+$NUM_SALON_STYLES = 0;
 function SalonDefineChair(%grouping, %salonMenuDesc, %propDesc, %whereToGet, %destinationCode, %canClose)
 {
     $SALON_CHAIR_DEF_SALONMENUDESC[%grouping] = %salonMenuDesc @ ;

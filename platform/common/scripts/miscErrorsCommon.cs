@@ -1,4 +1,4 @@
-﻿safeEnsureScriptObject("StringMap", "gStompedObjectNames");
+safeEnsureScriptObject("StringMap", "gStompedObjectNames");
 function onObjectNameStomped(%name, %stompeeID, %likeleyStomperID)
 {
     gStompedObjectNames.put(gStompedObjectNames.size() SPC %name, %stompeeID SPC %likeleyStomperID);

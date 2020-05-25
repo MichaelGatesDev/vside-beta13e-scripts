@@ -1,4 +1,4 @@
-﻿exec("./skeletonClient.cs");
+exec("./skeletonClient.cs");
 function generateCacheRemote()
 {
     %cacheGenerate = new ScriptObject(skeletonClient)

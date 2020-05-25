@@ -1,4 +1,4 @@
-﻿function dumpOverlap(%group)
+function dumpOverlap(%group)
 {
     %num = %group.getCount();
     %n = 0;

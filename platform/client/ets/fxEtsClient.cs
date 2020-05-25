@@ -1,4 +1,4 @@
-﻿$fxEts::todColorMod = "0 0 0 0";
+$fxEts::todColorMod = "0 0 0 0";
 $fxEts::BrightnessFlashColor = "0 0 0 0";
 $fxEts::BrightnessFlashTimerPeriod = 100;
 $fxEts::BrightnessFlashTimerID = 0;

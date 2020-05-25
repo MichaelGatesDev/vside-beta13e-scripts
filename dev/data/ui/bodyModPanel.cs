@@ -1,4 +1,4 @@
-﻿if (!isObject(GuiBMPRed_Scroll))
+if (!isObject(GuiBMPRed_Scroll))
 {
 }
 new GuiControlProfile(GuiBMPRed_Scroll)

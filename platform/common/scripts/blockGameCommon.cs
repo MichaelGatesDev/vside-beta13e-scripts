@@ -1,4 +1,4 @@
-﻿$blockGame::matchThreshhold = 3;
+$blockGame::matchThreshhold = 3;
 function BlockGameTheGrind::getGameName(%unused)
 {
     return "TheGrind";

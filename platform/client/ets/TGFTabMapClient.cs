@@ -1,4 +1,4 @@
-﻿$geTGF::DestinationNoFilterName = "All Destinations";
+$geTGF::DestinationNoFilterName = "All Destinations";
 $geTGF::DestinationFilterCodes = "shop venue residence plaza";
 $geTGF::DestinationFilterNames = "Shops Venues Residences Plazas";
 $geTGF::DestinationFilterExclude = "NID";

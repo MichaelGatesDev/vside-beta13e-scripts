@@ -1,2 +1,2 @@
-﻿datablock PlayerData(MyBot : MyPlayer);
+datablock PlayerData(MyBot : MyPlayer);
 

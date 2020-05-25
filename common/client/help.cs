@@ -1,4 +1,4 @@
-﻿function HelpDlg::onWake(%this)
+function HelpDlg::onWake(%this)
 {
     HelpFileList.entryCount = 0;
     HelpFileList.clear();

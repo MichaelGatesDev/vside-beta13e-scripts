@@ -1,4 +1,4 @@
-﻿function ClosetInitBrands()
+function ClosetInitBrands()
 {
     ClosetAddBrand("All", "*");
     ClosetAddBrand(121, 121);

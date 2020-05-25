@@ -1,4 +1,4 @@
-﻿$gAfxEffectsEnabledClient = 1;
+$gAfxEffectsEnabledClient = 1;
 $gAfxSelectedAvatar = -1;
 $gAfxSelectronStyle = 0;
 $gAfxSelectronStyleCount = 1;

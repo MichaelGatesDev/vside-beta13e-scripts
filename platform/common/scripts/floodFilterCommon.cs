@@ -1,4 +1,4 @@
-﻿$tmp::eventName = "autolookat";
+$tmp::eventName = "autolookat";
 $floodFilter::maxEvents[$tmp::eventName] = 2;
 $floodFilter::inPeriod[$tmp::eventName] = 1000 * 2;
 $floodFilter::penalty[$tmp::eventName] = 0;

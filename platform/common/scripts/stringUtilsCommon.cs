@@ -1,4 +1,4 @@
-﻿function numSubstringsInString(%haystack, %needles)
+function numSubstringsInString(%haystack, %needles)
 {
     %ret = 0;
     %n = getWordCount(%needles) - 1;

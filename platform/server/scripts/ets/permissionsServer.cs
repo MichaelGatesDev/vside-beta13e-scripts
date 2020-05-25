@@ -1,4 +1,4 @@
-﻿$Whitelist_Staff = "";
+$Whitelist_Staff = "";
 $Whitelist_Staff = $Whitelist_Staff SPC "adam";
 $Whitelist_Staff = $Whitelist_Staff SPC "andrew";
 $Whitelist_Staff = $Whitelist_Staff SPC "brian";

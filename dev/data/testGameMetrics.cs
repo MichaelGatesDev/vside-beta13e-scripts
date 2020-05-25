@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_GameMetrics");
+DeclareTestSuite("TestSuite_GameMetrics");
 function TestSuite_GameMetrics::setup(%this)
 {
     %this.addTestCase("TEST_GAMEMETRICS_BASICS");

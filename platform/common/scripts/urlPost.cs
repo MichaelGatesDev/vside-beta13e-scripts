@@ -1,4 +1,4 @@
-﻿function URLPostObject::onComplete(%this, %unused)
+function URLPostObject::onComplete(%this, %unused)
 {
     if (!%this.NoAutoDelete)
     {

@@ -1,4 +1,4 @@
-﻿function SceneObject::ve_onActivate(%this, %channel, %type)
+function SceneObject::ve_onActivate(%this, %channel, %type)
 {
     echoDebug(getScopeName() SPC "- effectType" SPC %type SPC "in channel" SPC %channel SPC "on object" SPC getDebugString(%this));
     return ;

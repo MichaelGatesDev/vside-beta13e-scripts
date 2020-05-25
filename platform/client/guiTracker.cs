@@ -1,4 +1,4 @@
-﻿function GuiTracker::updateLocation(%this, %guiJustOpened)
+function GuiTracker::updateLocation(%this, %guiJustOpened)
 {
     if (%this.inTransit)
     {

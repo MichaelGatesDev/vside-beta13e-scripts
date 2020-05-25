@@ -1,4 +1,4 @@
-﻿new SimGroup(CURLSimGroup);
+new SimGroup(CURLSimGroup);
 $HTTP::StatusOK = 200;
 $HTTP::StatusNotFound = 404;
 $HTTP::StatusServerError = 500;

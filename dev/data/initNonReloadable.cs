@@ -1,4 +1,4 @@
-﻿exec("./benchmarks/" @ "initNonReloadable.cs");
+exec("./benchmarks/" @ "initNonReloadable.cs");
 exec("./admin/" @ "initNonReloadable.cs");
 exec("./miscDevNonReloadable.cs");
 if ($AmClient)

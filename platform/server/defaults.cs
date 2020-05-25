@@ -1,4 +1,4 @@
-﻿$Pref::HostMultiPlayer = 0;
+$Pref::HostMultiPlayer = 0;
 $Pref::Server::RegionMask = 2;
 $Pref::Server::ManagerAddress = "209.182.218.99";
 $Pref::Server::ManagerHTTPPort = 8080;

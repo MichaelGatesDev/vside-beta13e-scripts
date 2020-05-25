@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_VURL");
+DeclareTestSuite("TestSuite_VURL");
 function TestSuite_VURL::setup(%this)
 {
     %this.addTestCase("TEST_VURL_PARSE_USER");

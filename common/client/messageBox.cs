@@ -1,4 +1,4 @@
-﻿new SimSet(ModalMessageBoxes);
+new SimSet(ModalMessageBoxes);
 if (isObject(MissionCleanup))
 {
     MissionCleanup.add(ModalMessageBoxes);

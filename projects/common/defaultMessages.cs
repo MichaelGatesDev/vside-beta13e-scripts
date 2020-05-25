@@ -1,4 +1,4 @@
-﻿function setupDefaultMessages()
+function setupDefaultMessages()
 {
     %buildVersion = urlEncode(getBuildVersion());
     $MsgCat::abuse["E-ABUSE-TYPE"] = "Please specify type, occurrence, and description.";

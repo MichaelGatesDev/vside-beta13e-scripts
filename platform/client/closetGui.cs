@@ -1,4 +1,4 @@
-﻿$ClosetGuiOpenMessage = "Changing Clothes";
+$ClosetGuiOpenMessage = "Changing Clothes";
 $gSkusToHideInCloset = getSpecialSKU(0, "helpmebadge");
 $gClosetStanceEmotesNum = 0;
 $gClosetStanceEmotes[$gClosetStanceEmotesNum] = "cool";

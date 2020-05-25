@@ -1,4 +1,4 @@
-﻿$gAwayDebug = 1;
+$gAwayDebug = 1;
 function AWAY_DEBUG(%text)
 {
     if ($gAwayDebug)

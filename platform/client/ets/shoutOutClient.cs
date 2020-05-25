@@ -1,4 +1,4 @@
-﻿function geShoutOutWindow::toggle(%this)
+function geShoutOutWindow::toggle(%this)
 {
     if (%this.isVisible())
     {

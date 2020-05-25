@@ -1,4 +1,4 @@
-﻿datablock MissionMarkerData(WayPointMarker)
+datablock MissionMarkerData(WayPointMarker)
 {
     category = "Misc";
     shapeFile = "projects/common/worlds/markers/octahedron.dts";

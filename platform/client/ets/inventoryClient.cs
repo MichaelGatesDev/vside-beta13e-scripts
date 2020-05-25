@@ -1,4 +1,4 @@
-﻿$gCurrentStoreName = "";
+$gCurrentStoreName = "";
 $gStoreNameStack = "";
 $gVHDUserNameFilter = "";
 $gVHDUserNoStock = 0;

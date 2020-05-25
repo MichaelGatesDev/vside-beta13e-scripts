@@ -1,4 +1,4 @@
-﻿exec("./shapeBaseCommon.cs");
+exec("./shapeBaseCommon.cs");
 exec("./arrayUtilsCommon.cs");
 exec("./instrumentDefinitionsCommon.cs");
 exec("./respektCommon.cs");

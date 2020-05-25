@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(sgETSUtilityLight)
+datablock sgUniversalStaticLightData(sgETSUtilityLight)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

@@ -1,4 +1,4 @@
-﻿$DC::dcFolder = $dynamicContentMod;
+$DC::dcFolder = $dynamicContentMod;
 $Net::DynamicContentURL = "http://winbuild/scripts/orion" @ "/" @ $DC::dcFolder;
 $DC::SkinsFolderName = "skins";
 $DC::RemoteSkinsFolder = $Net::DynamicContentURL @ "/" @ $DC::SkinsFolderName;

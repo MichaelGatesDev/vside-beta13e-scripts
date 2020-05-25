@@ -1,4 +1,4 @@
-﻿function geLocalMapContainer::open(%this)
+function geLocalMapContainer::open(%this)
 {
     %this.setVisible(1);
     PlayGui.focusAndRaise(%this);

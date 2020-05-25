@@ -1,4 +1,4 @@
-﻿exec("~/ui/FrameOverlayGui.gui");
+exec("~/ui/FrameOverlayGui.gui");
 function fpsMetricsCallback()
 {
     return " FPS: " @ $FPS::real @ "  mspf: " @ 1000 / $FPS::real;

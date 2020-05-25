@@ -1,4 +1,4 @@
-﻿function SAD(%password)
+function SAD(%password)
 {
     if (!(%password $= ""))
     {

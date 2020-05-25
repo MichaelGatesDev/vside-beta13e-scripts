@@ -1,4 +1,4 @@
-﻿function sPChat::init()
+function sPChat::init()
 {
     if (isObject(pChat))
     {

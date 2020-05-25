@@ -1,4 +1,4 @@
-﻿function AnimCtrl::newAnimCtrl(%pos, %ext)
+function AnimCtrl::newAnimCtrl(%pos, %ext)
 {
     %ctrl = new GuiBitmapCtrl()
     {

@@ -1,4 +1,4 @@
-﻿safeEnsureScriptObjectWithInit("StringMap", "PlayerInfoMap", "{ ignoreCase = true; }");
+safeEnsureScriptObjectWithInit("StringMap", "PlayerInfoMap", "{ ignoreCase = true; }");
 function PlayerInfoMap::addPlayerInfo(%this, %playerName, %age, %gender, %location, %hereToSee, %tags, %affinity, %respekt, %respektRank)
 {
     if (%playerName $= "")

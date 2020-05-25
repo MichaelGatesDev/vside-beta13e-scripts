@@ -1,4 +1,4 @@
-﻿$gGuiButtonBaseCtrl_MinimumIntervalBetweenEventRepetitions = 50;
+$gGuiButtonBaseCtrl_MinimumIntervalBetweenEventRepetitions = 50;
 function GuiButtonBaseCtrl::onMouseDown(%this, %modifier, %point, %clickCount)
 {
     if (%this.tickPeriodMS $= "")

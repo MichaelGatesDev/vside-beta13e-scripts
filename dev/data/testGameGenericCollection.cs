@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_Games_Collection");
+DeclareTestSuite("TestSuite_Games_Collection");
 function TestSuite_Games_Collection::setup(%this)
 {
     %this.addTestCase("TEST_SIMPLE_LOADGAME");

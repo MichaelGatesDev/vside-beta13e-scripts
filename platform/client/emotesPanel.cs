@@ -1,4 +1,4 @@
-﻿function EmoteHudWin::open(%this)
+function EmoteHudWin::open(%this)
 {
     %this.setVisible(1);
     PlayGui.focusAndRaise(%this);

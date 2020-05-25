@@ -1,4 +1,4 @@
-﻿function HudTabs::setup()
+function HudTabs::setup()
 {
     if (!isObject(HudTabs))
     {

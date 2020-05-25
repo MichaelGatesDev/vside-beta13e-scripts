@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_MissionGroup");
+DeclareTestSuite("TestSuite_MissionGroup");
 function TestSuite_MissionGroup::setup(%this)
 {
     %this.addTestCase("TEST_MISSIONGROUPINTEGRITY");

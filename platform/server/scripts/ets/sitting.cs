@@ -1,4 +1,4 @@
-﻿datablock MissionMarkerData(SeatMarker)
+datablock MissionMarkerData(SeatMarker)
 {
     category = "markers";
     shapeFile = "projects/common/worlds/markers/arrowmarker.dts";

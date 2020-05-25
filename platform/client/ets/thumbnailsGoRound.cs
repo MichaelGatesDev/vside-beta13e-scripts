@@ -1,4 +1,4 @@
-﻿function newThumbnailsGoRound_base(%name)
+function newThumbnailsGoRound_base(%name)
 {
     if (!isDefined("%name"))
     {

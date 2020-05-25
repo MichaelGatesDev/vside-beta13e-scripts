@@ -1,4 +1,4 @@
-﻿$gDestinationNamesInternal = "";
+$gDestinationNamesInternal = "";
 $gDestinationFiltersInUse = "";
 $gDestinationFiltersInDirectory = "event" SPC "shop" SPC "venue" SPC "plaza" SPC "residence";
 function DestinationList::AddDestinationInfo(%codeName, %filters, %contiguousSpaceNames, %userFacingName, %userFacingDescriptionBase, %inWorldTrailer, %vurl, %okayForTGF)

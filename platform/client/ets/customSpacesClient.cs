@@ -1,4 +1,4 @@
-﻿$CSCurrentSpaceName = "";
+$CSCurrentSpaceName = "";
 $CSSpaceName = "";
 $CSBuildingName = 0;
 $CSSpaceInfo = 0;

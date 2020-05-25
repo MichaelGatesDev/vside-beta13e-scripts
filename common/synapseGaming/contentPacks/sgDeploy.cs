@@ -1,4 +1,4 @@
-﻿function sgLibraryExec(%file)
+function sgLibraryExec(%file)
 {
     %name = fileName(%file);
     %path = filePath(%file);

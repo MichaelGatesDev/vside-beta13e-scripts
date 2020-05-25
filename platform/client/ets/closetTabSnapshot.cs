@@ -1,4 +1,4 @@
-﻿function ClosetTabs::fillProfileTab(%this)
+function ClosetTabs::fillProfileTab(%this)
 {
     %theTab = %this.getTabWithName("SNAPSHOT");
     if (!isObject(%theTab))

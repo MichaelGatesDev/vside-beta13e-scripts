@@ -1,4 +1,4 @@
-﻿exec("./propertyMap.cs");
+exec("./propertyMap.cs");
 exec("./defaultMessages.cs");
 $ETS::AppName = "vSide";
 $ETS::AppVersion = "X";

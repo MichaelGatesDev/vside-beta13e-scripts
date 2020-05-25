@@ -1,4 +1,4 @@
-﻿schedule(3000, 0, doLoginCheck);
+schedule(3000, 0, doLoginCheck);
 $iterationsWaited = 0;
 function doLoginCheck()
 {

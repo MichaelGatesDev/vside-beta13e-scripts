@@ -1,4 +1,4 @@
-﻿function Canvas::onSystemDragDropEvent(%this, %text, %isDrop, %pt)
+function Canvas::onSystemDragDropEvent(%this, %text, %isDrop, %pt)
 {
     if (!isURL(%text))
     {

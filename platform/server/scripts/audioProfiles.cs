@@ -1,4 +1,4 @@
-﻿datablock AudioDescription(AudioDefault3d)
+datablock AudioDescription(AudioDefault3d)
 {
     volume = 1;
     isLooping = 0;

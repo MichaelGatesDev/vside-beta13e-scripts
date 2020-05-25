@@ -1,4 +1,4 @@
-﻿$seenThrottleMessage = 0;
+$seenThrottleMessage = 0;
 $seenUnThrottleMessage = 0;
 $PackageDownload::ConcurrentTextureThreshold = 10;
 $PackageDownload::ConcurrentTextureMaxBytes = 10000;

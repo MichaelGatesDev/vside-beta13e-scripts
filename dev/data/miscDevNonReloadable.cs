@@ -1,4 +1,4 @@
-﻿$gGuiEditorGuiExeced = 0;
+$gGuiEditorGuiExeced = 0;
 function GuiEditLazy(%val)
 {
     if (!$gGuiEditorGuiExeced)

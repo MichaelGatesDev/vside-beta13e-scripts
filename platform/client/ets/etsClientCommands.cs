@@ -1,4 +1,4 @@
-﻿function setHighFidelityCull(%on)
+function setHighFidelityCull(%on)
 {
     if (%on)
     {

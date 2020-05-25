@@ -1,4 +1,4 @@
-﻿function staffPanel::toggle(%this)
+function staffPanel::toggle(%this)
 {
     playGui.showRaiseOrHide(%this);
     return ;

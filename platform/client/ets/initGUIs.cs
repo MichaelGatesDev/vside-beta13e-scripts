@@ -1,3 +1,3 @@
-﻿exec("./registrationGui.gui");
+exec("./registrationGui.gui");
 exec("./TGF.gui");
 

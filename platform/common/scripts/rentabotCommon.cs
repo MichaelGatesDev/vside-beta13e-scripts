@@ -1,4 +1,4 @@
-﻿function rentabot_getCoreName(%name)
+function rentabot_getCoreName(%name)
 {
     if (!rentabot_isRentabotName(%name))
     {

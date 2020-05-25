@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(ls_overhead)
+datablock sgUniversalStaticLightData(ls_overhead)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

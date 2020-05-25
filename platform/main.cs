@@ -1,4 +1,4 @@
-﻿exec("./common/scripts/defaultsCommon.cs");
+exec("./common/scripts/defaultsCommon.cs");
 exec("./client/defaults.cs");
 exec("./server/defaults.cs", 0);
 exec("./client/userprefs.cs", 0);

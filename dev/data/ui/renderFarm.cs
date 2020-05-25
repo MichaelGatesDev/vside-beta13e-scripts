@@ -1,4 +1,4 @@
-﻿function rf_TrySetup()
+function rf_TrySetup()
 {
     if (!(MissionInfo.name $= "renderFarm"))
     {

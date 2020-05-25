@@ -1,4 +1,4 @@
-﻿function Player::playCelAnimation(%this, %anim)
+function Player::playCelAnimation(%this, %anim)
 {
     if (!(%this.getState() $= "Dead"))
     {

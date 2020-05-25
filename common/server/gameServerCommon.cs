@@ -1,4 +1,4 @@
-﻿function onServerCreated()
+function onServerCreated()
 {
     echo("in onServerCreated()");
     $Server::GameType = "Test App";

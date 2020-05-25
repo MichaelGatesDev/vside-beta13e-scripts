@@ -1,4 +1,4 @@
-﻿function writeOutFunctions()
+function writeOutFunctions()
 {
     new ConsoleLogger(Logger, "scriptFunctions.txt", 0);
     dumpConsoleFunctions();

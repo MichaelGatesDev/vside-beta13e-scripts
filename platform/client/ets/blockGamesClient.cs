@@ -1,4 +1,4 @@
-﻿function clientCmdBlockGameEngage(%gameType)
+function clientCmdBlockGameEngage(%gameType)
 {
     setFOV(90);
     ApplauseMeterGui.open("blockgame", %gameType);

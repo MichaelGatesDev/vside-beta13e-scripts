@@ -1,4 +1,4 @@
-﻿datablock StaticShapeData(AcePetrolRoof)
+datablock StaticShapeData(AcePetrolRoof)
 {
     category = "Commercials";
     shapeFile = "~/data/shapes/commercials/acepetrol_roof.dts";

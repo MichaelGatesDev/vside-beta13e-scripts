@@ -1,4 +1,4 @@
-﻿$TGEOpenMsg = "Looking at the Go Directory";
+$TGEOpenMsg = "Looking at the Go Directory";
 exec("./TGFTabMainClient.cs");
 exec("./TGFTabHotSpotsClient.cs");
 exec("./TGFTabFriendsClient.cs");

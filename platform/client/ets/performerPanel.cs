@@ -1,4 +1,4 @@
-﻿function performerPanel::toggle(%this)
+function performerPanel::toggle(%this)
 {
     if (!%this.isVisible())
     {

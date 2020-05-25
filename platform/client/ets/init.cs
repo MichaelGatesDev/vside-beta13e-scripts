@@ -1,4 +1,4 @@
-﻿exec("./convBub.cs");
+exec("./convBub.cs");
 exec("./advertsClient.cs");
 exec("./cursors.cs");
 exec("./etsInitClient.cs");

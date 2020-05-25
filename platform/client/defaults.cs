@@ -1,4 +1,4 @@
-﻿$Net::BaseDomain = "vside.com";
+$Net::BaseDomain = "vside.com";
 $Net::BaseURL = "http://" @ $Net::BaseDomain @ "/envmanager/login";
 $Net::AIMInvite = "has invited you to join " @ $ETS::AppName @ ": ";
 $Net::AIMInviteURL = $Net::BaseDomain @ "/?";

@@ -1,4 +1,4 @@
-﻿function doCSSuiteTest()
+function doCSSuiteTest()
 {
     RunTestSuite("TestSuite_CSSmokeTests");
     return ;

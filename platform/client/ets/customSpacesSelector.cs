@@ -1,4 +1,4 @@
-﻿CustomSpacesSelector.filterByText = "";
+CustomSpacesSelector.filterByText = "";
 $gCustomSpacesDoubleClickSched = 0;
 $gCustomSpacesKeyStrokeRepeatSched = 0;
 $gCustomSpacesKeyStrokeRepFrequency = 120;

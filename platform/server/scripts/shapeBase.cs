@@ -1,4 +1,4 @@
-﻿function ShapeBase::Damage(%this, %sourceObject, %position, %damage, %damageType)
+function ShapeBase::Damage(%this, %sourceObject, %position, %damage, %damageType)
 {
     %this.getDataBlock().Damage(%this, %sourceObject, %position, %damage, %damageType);
     return ;

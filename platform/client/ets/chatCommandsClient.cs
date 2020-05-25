@@ -1,4 +1,4 @@
-﻿function commandMapAdd(%keyword, %functionName)
+function commandMapAdd(%keyword, %functionName)
 {
     CommandMap.put(%keyword, %functionName);
     return ;

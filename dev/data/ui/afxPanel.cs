@@ -1,4 +1,4 @@
-﻿function afxPanel::toggle(%this)
+function afxPanel::toggle(%this)
 {
     playGui.showRaiseOrHide(%this);
     return ;

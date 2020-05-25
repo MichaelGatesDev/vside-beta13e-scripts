@@ -1,4 +1,4 @@
-﻿$ETS::AppName = "vSide";
+$ETS::AppName = "vSide";
 $ETS::AppVersion = "Beta 13e";
 function setupProjectSpecificUrls()
 {

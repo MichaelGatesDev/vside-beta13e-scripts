@@ -1,4 +1,4 @@
-﻿function serverCmdAddBotArmy(%client)
+function serverCmdAddBotArmy(%client)
 {
     if (!isObject(%client.Player))
     {

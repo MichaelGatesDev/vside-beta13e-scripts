@@ -1,4 +1,4 @@
-﻿$Player::furnitureInventory = new Array();
+$Player::furnitureInventory = new Array();
 $Player::bFakeFurnitureInventory = 0;
 function getFurnitureSkus()
 {

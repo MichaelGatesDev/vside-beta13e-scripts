@@ -1,4 +1,4 @@
-﻿$gDanceToolTimer = 0;
+$gDanceToolTimer = 0;
 $gDanceToolTimerPeriod = 100;
 $gDanceToolSequence = 0;
 $gDanceToolTimeStart = 0;

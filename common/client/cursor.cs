@@ -1,4 +1,4 @@
-﻿$cursorControlled = 1;
+$cursorControlled = 1;
 function cursorOff()
 {
     return ;

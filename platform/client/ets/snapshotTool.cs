@@ -1,4 +1,4 @@
-﻿function toggleSnapshotTool()
+function toggleSnapshotTool()
 {
     PlayGui.showRaiseOrHide(snapshotTool);
     return ;

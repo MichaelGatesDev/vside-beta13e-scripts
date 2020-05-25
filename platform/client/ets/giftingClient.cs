@@ -1,4 +1,4 @@
-﻿$gGiftingEnabled_vPoints = 0;
+$gGiftingEnabled_vPoints = 0;
 $gGiftingEnabled_vBux = 0;
 if ($StandAlone)
 {

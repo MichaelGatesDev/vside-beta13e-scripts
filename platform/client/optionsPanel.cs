@@ -1,4 +1,4 @@
-﻿$OptionsPanel::scheduledPersistID = 0;
+$OptionsPanel::scheduledPersistID = 0;
 if (!isObject(OptionsPanelTabs))
 {
     new ScriptObject(OptionsPanelTabs);

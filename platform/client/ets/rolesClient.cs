@@ -1,4 +1,4 @@
-﻿function Player::onGotRoles(%this, %rolesMask)
+function Player::onGotRoles(%this, %rolesMask)
 {
     %this.updateMapIcon();
     if (%this != $player)

@@ -1,4 +1,4 @@
-﻿if (!isObject(AIMConvManager))
+if (!isObject(AIMConvManager))
 {
     new ScriptObject(AIMConvManager);
     if (isObject(MissionCleanup))

@@ -1,4 +1,4 @@
-﻿function ReportAbuseDlg::open(%this, %targetName)
+function ReportAbuseDlg::open(%this, %targetName)
 {
     Canvas.pushDialog(%this, 0);
     if (%targetName $= "")

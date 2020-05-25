@@ -1,4 +1,4 @@
-﻿function serverCmdUseMesh(%client, %mesh)
+function serverCmdUseMesh(%client, %mesh)
 {
     if (!isObject(%client.Player))
     {

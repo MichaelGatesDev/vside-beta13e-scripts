@@ -1,4 +1,4 @@
-﻿$gEvalAfterEtsInit = "";
+$gEvalAfterEtsInit = "";
 $Pref::Net::BindAddress = "";
 function onStart()
 {

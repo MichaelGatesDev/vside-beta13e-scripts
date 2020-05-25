@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_CSServerSideTests");
+DeclareTestSuite("TestSuite_CSServerSideTests");
 DeclareTestSuite("TestSuite_CSServerSideTests2");
 function TestSuite_CSServerSideTests::ShouldRunOnServer(%this)
 {

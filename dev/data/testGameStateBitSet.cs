@@ -1,4 +1,4 @@
-﻿DeclareTestSuite("TestSuite_GameState");
+DeclareTestSuite("TestSuite_GameState");
 function TestSuite_GameState::setup(%this)
 {
     %this.addTestCase("TEST_GAMESTATE_BASICS");

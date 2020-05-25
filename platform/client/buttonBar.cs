@@ -1,4 +1,4 @@
-﻿$ButtonBarVar::buttonWidth = 39;
+$ButtonBarVar::buttonWidth = 39;
 $ButtonBarVar::buttonHeight = 48;
 $ButtonBarVar::buttonPadding = 2;
 $ButtonBarVar::buttonMiniWidth = 7;

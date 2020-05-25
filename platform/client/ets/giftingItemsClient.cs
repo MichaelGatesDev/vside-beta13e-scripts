@@ -1,4 +1,4 @@
-﻿function drinks_confirmInitiateGift(%otherPlayerName)
+function drinks_confirmInitiateGift(%otherPlayerName)
 {
     %sku = $player.getActiveDrinkSku();
     if (%sku $= "")

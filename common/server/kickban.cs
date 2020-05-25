@@ -1,4 +1,4 @@
-﻿function kick(%client)
+function kick(%client)
 {
     %msg = "\c2The admin has kicked" SPC %client.name;
     messageAll('MsgAdminForce', %msg);

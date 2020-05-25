@@ -1,4 +1,4 @@
-﻿function initClient()
+function initClient()
 {
     echo("--------- Initializing Client ---------");
     initAVPlayer();

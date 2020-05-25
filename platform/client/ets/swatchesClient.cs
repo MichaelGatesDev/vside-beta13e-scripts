@@ -1,4 +1,4 @@
-﻿$gDifSkusCurrentDif = "";
+$gDifSkusCurrentDif = "";
 $gDifSkusCurrentBaseSwatch = "";
 $gDifSkusCurrentSwatch = "";
 $gSwatchPaintingModeOn = 0;

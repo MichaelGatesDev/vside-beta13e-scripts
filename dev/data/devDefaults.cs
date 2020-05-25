@@ -1,4 +1,4 @@
-﻿$DevPref::Mod::autoOpenSnoop = $Defaults::DevPref::Mod::autoOpenSnoop = 1;
+$DevPref::Mod::autoOpenSnoop = $Defaults::DevPref::Mod::autoOpenSnoop = 1;
 $DevPref::Mod::censorSnoop = $Defaults::DevPref::Mod::censorSnoop = 1;
 $DevPref::Mod::cusses = $Defaults::DevPref::Mod::cusses = 1;
 $DevPref::Mod::SnoopWindow::Dim = $Defaults::DevPref::Mod::SnoopWindow::Dim = "119 0 243 122";

@@ -1,4 +1,4 @@
-﻿$Camera::movementSpeed = 40;
+$Camera::movementSpeed = 40;
 datablock CameraData(Observer)
 {
     mode = "Observer";

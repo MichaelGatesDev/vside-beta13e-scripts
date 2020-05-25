@@ -1,4 +1,4 @@
-﻿$gHasOpenedRegistrationGui = 0;
+$gHasOpenedRegistrationGui = 0;
 function RegistrationGui::open(%this)
 {
     Canvas.setContent(%this);

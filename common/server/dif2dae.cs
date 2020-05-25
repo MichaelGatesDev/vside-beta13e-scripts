@@ -1,4 +1,4 @@
-﻿function convertDif2Dae()
+function convertDif2Dae()
 {
     %obj = new InteriorInstance()
     {

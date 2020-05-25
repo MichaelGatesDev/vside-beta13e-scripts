@@ -1,4 +1,4 @@
-﻿$UserPref::AIM::AutoSignin = 0;
+$UserPref::AIM::AutoSignin = 0;
 $UserPref::AIM::RememberMe = 0;
 $UserPref::AIM::SavePassword = 0;
 $UserPref::Analytic::CurrTime = 0;

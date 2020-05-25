@@ -1,4 +1,4 @@
-﻿function Player::onGotSKUs(%this)
+function Player::onGotSKUs(%this)
 {
     %this.currentBaseActiveSkus = %this.getActiveSKUs();
     if (%this.hasMicrophone())

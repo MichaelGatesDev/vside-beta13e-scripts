@@ -1,4 +1,4 @@
-﻿function clientCmdClientSideCallTriggerEnterOrLeave(%callName, %isEntry, %param0, %param1, %param2, %param3)
+function clientCmdClientSideCallTriggerEnterOrLeave(%callName, %isEntry, %param0, %param1, %param2, %param3)
 {
     initClientCalls();
     %fnName = $gClientCallsList.get(%callName);

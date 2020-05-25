@@ -1,4 +1,4 @@
-﻿function SkuManager::addItem(%this, %skunum, %skuType, %rolesMask, %gender, %brand, %drwrName, %meshName, %txtrNames, %descShrt, %descLong, %stores, %bornWith, %price, %avail, %qtyMfr, %rspk, %expireTime_TAB_tags, %author)
+function SkuManager::addItem(%this, %skunum, %skuType, %rolesMask, %gender, %brand, %drwrName, %meshName, %txtrNames, %descShrt, %descLong, %stores, %bornWith, %price, %avail, %qtyMfr, %rspk, %expireTime_TAB_tags, %author)
 {
     %expireTime = getField(%expireTime_TAB_tags, 0);
     %tags = getField(%expireTime_TAB_tags, 1);

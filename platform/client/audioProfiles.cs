@@ -1,4 +1,4 @@
-﻿new AudioDescription(AudioGui)
+new AudioDescription(AudioGui)
 {
     volume = 0.6;
     isLooping = 0;

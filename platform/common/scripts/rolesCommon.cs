@@ -1,4 +1,4 @@
-﻿function Player::hasRoleMask(%this, %mask)
+function Player::hasRoleMask(%this, %mask)
 {
     return roles::maskHasRole(%this.getRolesMask(), %mask);
 }

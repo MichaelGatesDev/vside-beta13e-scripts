@@ -1,4 +1,4 @@
-﻿echo("LOAD: Hello skeletonClient_linux.cs!");
+echo("LOAD: Hello skeletonClient_linux.cs!");
 $UserPref::Audio::mute = 1;
 $UserPref::Audio::keepMusicHudOpen = 0;
 $UserPref::ETS::Debugging = 0;

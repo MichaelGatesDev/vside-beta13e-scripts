@@ -1,4 +1,4 @@
-﻿function CSRulesAndDescWindow::toggle(%this)
+function CSRulesAndDescWindow::toggle(%this)
 {
     if (%this.isVisible())
     {

@@ -1,4 +1,4 @@
-﻿function ClosetTabs::refreshStoreTab(%this)
+function ClosetTabs::refreshStoreTab(%this)
 {
     StoreCategoryPopup.clear();
     if (!$gStoreStockLoaded[$gCurrentStoreName])

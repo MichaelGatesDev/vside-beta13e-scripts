@@ -1,4 +1,4 @@
-﻿function doMicrophoneGiveOrRevoke(%playerName, %give)
+function doMicrophoneGiveOrRevoke(%playerName, %give)
 {
     commandToServer('MicrophoneGiveOrRevoke', %playerName, %give);
     return ;

@@ -1,4 +1,4 @@
-﻿$specialSKUs["f","flower"] = 27001;
+$specialSKUs["f","flower"] = 27001;
 $specialSKUs["m","flower"] = 17001;
 $specialSKUs["f","helpmebadge"] = 30007;
 $specialSKUs["m","helpmebadge"] = 30007;

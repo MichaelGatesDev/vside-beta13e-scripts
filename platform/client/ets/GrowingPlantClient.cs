@@ -1,4 +1,4 @@
-﻿$gGrowingPlantSkuList = "41401 41506";
+$gGrowingPlantSkuList = "41401 41506";
 function GrowingPlantClient::onPlantCreated(%nuggetId)
 {
     if ((CustomSpaceClient::GetSpaceImIn() $= "") && !CustomSpaceClient::isOwner())

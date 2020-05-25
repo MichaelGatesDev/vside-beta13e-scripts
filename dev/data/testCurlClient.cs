@@ -1,4 +1,4 @@
-﻿function simpleGoogleTest()
+function simpleGoogleTest()
 {
     %name = "simpleGoogleTest" @ getRandom(0, 100000);
     %curl = new CURLObject(%name)

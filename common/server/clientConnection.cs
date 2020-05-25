@@ -1,4 +1,4 @@
-﻿function ValidateRequest::getInfoString(%this)
+function ValidateRequest::getInfoString(%this)
 {
     return "[" @ %this.connection SPC %this.name @ "]";
 }

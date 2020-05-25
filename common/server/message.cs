@@ -1,4 +1,4 @@
-﻿function messageClient(%client, %msgType, %msgString)
+function messageClient(%client, %msgType, %msgString)
 {
     commandToClient(%client, 'ServerMessage', %msgType, %msgString);
     return ;

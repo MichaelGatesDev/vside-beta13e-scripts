@@ -1,4 +1,4 @@
-﻿function serverStart()
+function serverStart()
 {
     %initRequest = new CURLObject(InitRequest)
     {

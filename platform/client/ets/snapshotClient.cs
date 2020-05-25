@@ -1,4 +1,4 @@
-﻿$screenShotNum = 100;
+$screenShotNum = 100;
 function snapshot::snapAndUpControlRegion(%control, %fileName, %removeBG)
 {
     return snapshot::snapAndUpRegion(%control.getScreenPosition() SPC %control.getExtent(), %fileName, %removeBG);

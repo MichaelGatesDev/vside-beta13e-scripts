@@ -1,4 +1,4 @@
-﻿function ApplauseMeterGui::open(%this, %applauseMeterUse, %arg)
+function ApplauseMeterGui::open(%this, %applauseMeterUse, %arg)
 {
     %applauseMeterUse = strlwr(%applauseMeterUse);
     if ((%this.applauseMeterUse $= "applause") && !((%applauseMeterUse $= "applause")))

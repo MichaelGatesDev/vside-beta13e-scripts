@@ -1,4 +1,4 @@
-﻿exec("./benchmarks/initReloadable.cs");
+exec("./benchmarks/initReloadable.cs");
 exec("./admin/initReloadable.cs");
 exec("./testSuite.cs");
 exec("./testSmokeTests.cs");

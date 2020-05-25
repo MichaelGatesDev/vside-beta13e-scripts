@@ -1,4 +1,4 @@
-﻿function addSpace3DMap(%spaceName, %mapFile)
+function addSpace3DMap(%spaceName, %mapFile)
 {
     if (!isObject(space3DMapsMap))
     {

@@ -1,4 +1,4 @@
-﻿function ActionMap::copyBind(%this, %otherMap, %command)
+function ActionMap::copyBind(%this, %otherMap, %command)
 {
     if (!isObject(%otherMap))
     {

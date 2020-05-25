@@ -1,4 +1,4 @@
-﻿function giftingItems_getRegistryClient()
+function giftingItems_getRegistryClient()
 {
     return safeEnsureScriptObject("StringMap", "gPendingItemTransactionsClient");
 }

@@ -1,4 +1,4 @@
-﻿function loginDebugPanel::toggle(%this)
+function loginDebugPanel::toggle(%this)
 {
     LoginGui.showRaiseOrHide(%this);
     return ;

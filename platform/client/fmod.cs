@@ -1,4 +1,4 @@
-﻿$FMod::MetadataTimer = 0;
+$FMod::MetadataTimer = 0;
 $FMod::FadeoutTimer = 0;
 $FMod::FadeinTimer = 0;
 $Fmod::randomStreamID = "";

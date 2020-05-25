@@ -1,4 +1,4 @@
-﻿function doInviteFriends()
+function doInviteFriends()
 {
     gotoWebPage($Net::inviteFriendsURL);
     return ;

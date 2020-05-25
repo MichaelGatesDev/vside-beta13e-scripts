@@ -1,4 +1,4 @@
-﻿function GuiControl::newContextMenu(%this, %menuName)
+function GuiControl::newContextMenu(%this, %menuName)
 {
     if (isObject(%menuName))
     {

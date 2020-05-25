@@ -1,4 +1,4 @@
-﻿$gClientAssetSetString = "";
+$gClientAssetSetString = "";
 function AssetManager::clientInit()
 {
     echo("Initializing AssetManager(client)");

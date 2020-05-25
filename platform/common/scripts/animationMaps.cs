@@ -1,4 +1,4 @@
-﻿function initializeAnimationMaps()
+function initializeAnimationMaps()
 {
     initializeAnimationMap(animationMapFH, "f", "h");
     initializeAnimationMap(animationMapFI, "f", "i");

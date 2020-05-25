@@ -1,4 +1,4 @@
-﻿$gameMgr::GAME_TYPES_COUNT = 1;
+$gameMgr::GAME_TYPES_COUNT = 1;
 new ScriptObject()
 {
     title = "the lounge race";

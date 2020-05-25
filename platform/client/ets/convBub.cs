@@ -1,4 +1,4 @@
-﻿function CONVBUB_DEBUG(%text)
+function CONVBUB_DEBUG(%text)
 {
     if ($ConversationDebug)
     {

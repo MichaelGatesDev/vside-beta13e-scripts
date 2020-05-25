@@ -1,4 +1,4 @@
-﻿function PlantDetailsGui::open(%this)
+function PlantDetailsGui::open(%this)
 {
     PlayGui.ensureAdded(%this);
     if (!%this.isVisible())

@@ -1,4 +1,4 @@
-﻿function testPermissions_Master()
+function testPermissions_Master()
 {
     asyncTestsMasterClear();
     asyncTestsMasterAdd("testPermissions_AddABot", 1000);

@@ -1,4 +1,4 @@
-﻿function NPCManager::init(%this)
+function NPCManager::init(%this)
 {
     if (isObject(%this.animSets))
     {

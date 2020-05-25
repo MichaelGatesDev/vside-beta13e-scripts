@@ -1,4 +1,4 @@
-﻿$testPlayer::sampleInitialInventory1 = 12345;
+$testPlayer::sampleInitialInventory1 = 12345;
 $testPlayer::sampleInitialInventory2 = "12345 45678";
 $testPlayer::sampleSKUsOne = 12345;
 $testPlayer::sampleSKUsTwo = 45678;

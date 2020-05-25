@@ -1,4 +1,4 @@
-﻿$gExpectedNumberOfMicHolders = -1;
+$gExpectedNumberOfMicHolders = -1;
 $gMicHoldersPendingAddition = 0;
 function micPanel::toggle(%this)
 {

@@ -1,4 +1,4 @@
-﻿function toggleSalonChairControlDialog()
+function toggleSalonChairControlDialog()
 {
     if (!$StandAlone)
     {

@@ -1,4 +1,4 @@
-﻿function skeletonClient_postJoinAction()
+function skeletonClient_postJoinAction()
 {
     if (isObject($player))
     {

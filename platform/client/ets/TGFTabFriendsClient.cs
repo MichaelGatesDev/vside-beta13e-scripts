@@ -1,4 +1,4 @@
-﻿function geTGF_tabs::fillTabFriends(%this)
+function geTGF_tabs::fillTabFriends(%this)
 {
     %tabName = "friends";
     %tab = %this.getTabWithName(%tabName);

@@ -1,4 +1,4 @@
-﻿$ImageFrame_WhiteList[0] = "vside" SPC "com";
+$ImageFrame_WhiteList[0] = "vside" SPC "com";
 $ImageFrame_WhiteList[1] = "doppelganger" SPC "com";
 $ImageFrame_WhiteList[2] = "flickr" SPC "com";
 $ImageFrame_WhiteList[3] = "photobucket" SPC "com";

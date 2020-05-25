@@ -1,4 +1,4 @@
-﻿$gPerformerMode = 0;
+$gPerformerMode = 0;
 function clientCmdSetPerformerMode(%pm, %nativePerformer)
 {
     $gPerformerMode = %pm;

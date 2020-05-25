@@ -1,4 +1,4 @@
-﻿$DestinationList::DestinationInfoInitialized = 0;
+$DestinationList::DestinationInfoInitialized = 0;
 function DestinationList::InitDestinationInfo()
 {
     if ($DestinationList::DestinationInfoInitialized)

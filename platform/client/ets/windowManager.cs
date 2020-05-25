@@ -1,4 +1,4 @@
-﻿$doPrintsDebug_WM = 0;
+$doPrintsDebug_WM = 0;
 function DEBUG_WM(%text)
 {
     if ($doPrintsDebug_WM)

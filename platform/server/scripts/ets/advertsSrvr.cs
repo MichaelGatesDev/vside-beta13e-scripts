@@ -1,4 +1,4 @@
-﻿$adLogFileName = "";
+$adLogFileName = "";
 $adLogCreationTimestamp = "";
 function getAdLogName(%timeStamp)
 {

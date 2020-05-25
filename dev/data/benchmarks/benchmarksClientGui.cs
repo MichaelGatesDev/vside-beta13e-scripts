@@ -1,4 +1,4 @@
-﻿function toggleBenchmarksDialog()
+function toggleBenchmarksDialog()
 {
     if (!$player.rolesPermissionCheckWarn("gameEditors"))
     {

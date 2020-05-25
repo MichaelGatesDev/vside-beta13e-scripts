@@ -1,4 +1,4 @@
-﻿function GameConnection::etsInit(%this)
+function GameConnection::etsInit(%this)
 {
     WorldMap.setLoggedIn(1);
     $gWorldMapJoiningServer = 0;

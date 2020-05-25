@@ -1,4 +1,4 @@
-﻿function DataTable::clear(%this)
+function DataTable::clear(%this)
 {
     %this.removeRowsByIndex(0, %this.getRowCount());
     return ;

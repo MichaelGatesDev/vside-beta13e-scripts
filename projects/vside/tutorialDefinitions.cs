@@ -1,4 +1,4 @@
-﻿%cityName = $ETS::cityName;
+%cityName = $ETS::cityName;
 if (%cityName $= "gw")
 {
     exec("./worlds/gateway/tutorials/tutorialDefinitions.cs");

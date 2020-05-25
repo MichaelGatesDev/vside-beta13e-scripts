@@ -1,4 +1,4 @@
-﻿datablock PlayerData(DemoPlayer : PlayerM);
+datablock PlayerData(DemoPlayer : PlayerM);
 function DemoPlayer::onReachDestination(%this, %obj)
 {
     if (!(%obj.Path $= ""))

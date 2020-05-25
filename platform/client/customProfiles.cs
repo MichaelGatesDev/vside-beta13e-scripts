@@ -1,4 +1,4 @@
-﻿new GuiControlProfile(GuiDefaultProfile)
+new GuiControlProfile(GuiDefaultProfile)
 {
     tab = 0;
     canKeyFocus = 0;

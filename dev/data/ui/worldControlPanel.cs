@@ -1,4 +1,4 @@
-﻿function worldControlPanel::open(%this)
+function worldControlPanel::open(%this)
 {
     if (!$player.rolesPermissionCheckNoWarn("staffPanelMain"))
     {

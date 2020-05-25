@@ -1,4 +1,4 @@
-﻿GuiButtonProfile.soundButtonOver = "AudioButtonOver";
+GuiButtonProfile.soundButtonOver = "AudioButtonOver";
 GuiTextProfile.fontColorLink = "255   0 153 255";
 GuiTextProfile.fontColorLinkHL = "255   0 153 255";
 $RegistrationTextColor = " 30  30  30 255";

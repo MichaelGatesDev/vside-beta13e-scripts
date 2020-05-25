@@ -1,4 +1,4 @@
-﻿function setRenderQualityValue(%val)
+function setRenderQualityValue(%val)
 {
     if ((%val < 0) && (%val > 3))
     {

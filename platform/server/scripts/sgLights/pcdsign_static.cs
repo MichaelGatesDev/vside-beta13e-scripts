@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(pcdsign_static)
+datablock sgUniversalStaticLightData(pcdsign_static)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

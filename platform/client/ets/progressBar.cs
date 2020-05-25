@@ -1,4 +1,4 @@
-﻿function ProgressBarController::Initialize(%this, %parentCtrl, %emptyBitmap, %fillBitmap, %leftCapBitmap, %rightCapBitmap)
+function ProgressBarController::Initialize(%this, %parentCtrl, %emptyBitmap, %fillBitmap, %leftCapBitmap, %rightCapBitmap)
 {
     if (!%this.pbinitialized)
     {

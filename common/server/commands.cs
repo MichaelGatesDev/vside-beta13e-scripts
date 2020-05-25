@@ -1,4 +1,4 @@
-﻿function serverCmdSAD(%client, %password)
+function serverCmdSAD(%client, %password)
 {
     error("SAD not supported");
     return ;

@@ -1,4 +1,4 @@
-﻿exec("./savableTextStatusIndicator.cs");
+exec("./savableTextStatusIndicator.cs");
 exec("./systemMessageDialog.cs");
 exec("./proximityChatClient.cs");
 exec("./fxEtsClient.cs");

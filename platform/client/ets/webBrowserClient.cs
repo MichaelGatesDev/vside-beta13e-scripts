@@ -1,4 +1,4 @@
-﻿function dlMgr::smInit()
+function dlMgr::smInit()
 {
     if (isObject(dlMgr))
     {

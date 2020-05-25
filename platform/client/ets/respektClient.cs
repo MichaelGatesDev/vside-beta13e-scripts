@@ -1,4 +1,4 @@
-﻿function respektHandle_FIRSTFEW(%user, %otherUser, %value, %dValue, %code, %isCurrent)
+function respektHandle_FIRSTFEW(%user, %otherUser, %value, %dValue, %code, %isCurrent)
 {
     return respektHandle_Generic(%user, %otherUser, %value, %dValue, %code, %isCurrent);
 }

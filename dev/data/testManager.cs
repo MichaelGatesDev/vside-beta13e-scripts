@@ -1,4 +1,4 @@
-﻿function TestLoginRequest::onError(%this, %unused, %unused)
+function TestLoginRequest::onError(%this, %unused, %unused)
 {
     return ;
 }

@@ -1,4 +1,4 @@
-﻿exec("./skeletonClient.cs");
+exec("./skeletonClient.cs");
 function initGenres()
 {
     %i = 0;

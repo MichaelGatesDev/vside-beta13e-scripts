@@ -1,4 +1,4 @@
-﻿function AmbientAnimateShapeData::onAdd(%unused, %obj)
+function AmbientAnimateShapeData::onAdd(%unused, %obj)
 {
     %obj.playThread(0, "ambient");
     return ;

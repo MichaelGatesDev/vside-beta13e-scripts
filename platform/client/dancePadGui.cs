@@ -1,4 +1,4 @@
-﻿function DancePadGui::open(%this)
+function DancePadGui::open(%this)
 {
     %this.fillDanceButtonOptions();
     %this.setVisible(1);

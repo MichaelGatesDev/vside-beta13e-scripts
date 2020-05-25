@@ -1,4 +1,4 @@
-﻿function doAIMSignIn()
+function doAIMSignIn()
 {
     $Player::AIMName = trim($Player::AIMName);
     AIMScreenNameField.setValue($Player::AIMName);

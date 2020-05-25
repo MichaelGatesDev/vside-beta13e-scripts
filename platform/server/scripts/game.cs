@@ -1,4 +1,4 @@
-﻿$Game::Duration = $Pref::Server::TimeLimit * 60;
+$Game::Duration = $Pref::Server::TimeLimit * 60;
 $Game::EndGameScore = 30;
 $Game::EndGamePause = 10;
 function onServerCreated()

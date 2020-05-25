@@ -1,4 +1,4 @@
-﻿function recordingsDlg::onWake()
+function recordingsDlg::onWake()
 {
     RecordingsDlgList.clear();
     %i = 0;

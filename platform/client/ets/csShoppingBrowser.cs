@@ -1,4 +1,4 @@
-﻿function CSShoppingBrowserWindow::open(%this)
+function CSShoppingBrowserWindow::open(%this)
 {
     %previouslyOpen = %this.isVisible();
     closeCSPanelsInOtherCategories(%this);

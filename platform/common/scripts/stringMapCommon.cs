@@ -1,4 +1,4 @@
-﻿function StringMap::hasKey(%this, %key)
+function StringMap::hasKey(%this, %key)
 {
     return %this.findKey(%key) >= 0;
 }

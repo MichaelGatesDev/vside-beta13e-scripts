@@ -1,4 +1,4 @@
-﻿$Net::TwitterBaseInsecure = "http" @ "://twitter.com";
+$Net::TwitterBaseInsecure = "http" @ "://twitter.com";
 $Net::TwitterBaseSecure = "https" @ "://twitter.com";
 function sendRequest_Twitter_verify_credentials(%user, %pass, %callbackHandler)
 {

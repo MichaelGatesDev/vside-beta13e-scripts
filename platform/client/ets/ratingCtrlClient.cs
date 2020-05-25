@@ -1,4 +1,4 @@
-﻿function ratingControl::Initialize(%this, %gradations, %buttonSize, %buttonBitmap)
+function ratingControl::Initialize(%this, %gradations, %buttonSize, %buttonBitmap)
 {
     if (!%this.initialized)
     {

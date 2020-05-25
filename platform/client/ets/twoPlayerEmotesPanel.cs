@@ -1,4 +1,4 @@
-﻿function TwoPlayerEmotesPanel::open(%this, %playerName)
+function TwoPlayerEmotesPanel::open(%this, %playerName)
 {
     PlayGui.ensureAdded(%this);
     %this.setVisible(1);

@@ -1,4 +1,4 @@
-﻿function compileCS()
+function compileCS()
 {
     %file = findFirstFile("*.cs");
     while (!(%file $= ""))

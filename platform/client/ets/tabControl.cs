@@ -1,4 +1,4 @@
-﻿function TabControl::Initialize(%this, %container, %buttonSize, %sepBitmap, %sepSize, %orientation)
+function TabControl::Initialize(%this, %container, %buttonSize, %sepBitmap, %sepSize, %orientation)
 {
     if (%this.initialized)
     {

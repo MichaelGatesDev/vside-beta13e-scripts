@@ -1,4 +1,4 @@
-﻿animatorPanel.initialized = 0;
+animatorPanel.initialized = 0;
 function toggleAnimatorPanel(%target)
 {
     if (!$player.rolesPermissionCheckNoWarn("debugActive"))

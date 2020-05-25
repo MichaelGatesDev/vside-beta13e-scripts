@@ -1,4 +1,4 @@
-﻿addMessageCallback('MsgConnectionError', handleConnectionErrorMessage);
+addMessageCallback('MsgConnectionError', handleConnectionErrorMessage);
 function handleConnectionErrorMessage(%unused, %msgString)
 {
     $ServerConnectionErrorMessage = %msgString;

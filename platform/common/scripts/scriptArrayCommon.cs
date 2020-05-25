@@ -1,4 +1,4 @@
-﻿function new_ScriptArray(%name)
+function new_ScriptArray(%name)
 {
     %obj = new ScriptObject();
     %obj.bindClassName("ScriptArray");

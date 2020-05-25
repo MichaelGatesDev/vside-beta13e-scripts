@@ -1,2 +1,2 @@
-﻿exec("./sounds/initNonReloadable.cs");
+exec("./sounds/initNonReloadable.cs");
 

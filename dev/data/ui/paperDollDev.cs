@@ -1,4 +1,4 @@
-﻿$gPaperDollPermutationLists["f"] = new_ScriptArray("") @ ;
+$gPaperDollPermutationLists["f"] = new_ScriptArray("") @ ;
 $gPaperDollPermutationLists["m"] = new_ScriptArray("") @ ;
 $gPaperDoll_SetupFile = "platform/client/ui/paperdolls/permutations.txt";
 function paperDoll_AddPermutation(%gender, %listName, %skus, %skusName)

@@ -1,4 +1,4 @@
-﻿$gClosetGuiFueStepCount = 0;
+$gClosetGuiFueStepCount = 0;
 $gClosetGuiFueCurrentStep = -1;
 function ClosetGuiFUE::open(%this)
 {

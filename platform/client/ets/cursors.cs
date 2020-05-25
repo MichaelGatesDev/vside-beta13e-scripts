@@ -1,4 +1,4 @@
-﻿new GuiCursor(ETSHandCursor)
+new GuiCursor(ETSHandCursor)
 {
     hotSpot = "7 0";
     bitmapName = "platform/client/ui/CUR_hand";

@@ -1,4 +1,4 @@
-﻿$ChatHud::ChatTarget = 0;
+$ChatHud::ChatTarget = 0;
 $ChatHud::ListenTarget = 0;
 function onServerMessage(%unused)
 {

@@ -1,4 +1,4 @@
-﻿function setDFEnabled(%val)
+function setDFEnabled(%val)
 {
     if (!isFunction("Using_DF") && !Using_DF())
     {

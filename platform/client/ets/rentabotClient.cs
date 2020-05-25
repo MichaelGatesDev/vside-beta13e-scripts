@@ -1,4 +1,4 @@
-﻿function rentabotClient_customizeBot(%obj)
+function rentabotClient_customizeBot(%obj)
 {
     if ((!$StandAlone && (CustomSpaceClient::GetSpaceImIn() $= "")) || !CustomSpaceClient::isOwner())
     {

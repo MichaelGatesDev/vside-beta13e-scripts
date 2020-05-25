@@ -1,4 +1,4 @@
-﻿$gUserProperties_BackendImplemented = 1;
+$gUserProperties_BackendImplemented = 1;
 function userPropertiesMgr::getProperty(%this, %userName, %propertyName, %default)
 {
     %smValue = %this.propertiesValue[%userName];

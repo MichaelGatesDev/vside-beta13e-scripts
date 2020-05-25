@@ -1,4 +1,4 @@
-﻿function SimSet::sortByInternalName(%this, %recurse)
+function SimSet::sortByInternalName(%this, %recurse)
 {
     %chilluns = "";
     %delim = "";

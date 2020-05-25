@@ -1,4 +1,4 @@
-﻿$gScriptProfiler_Active = 0;
+$gScriptProfiler_Active = 0;
 $gScriptProfiler_EntryTimes = 0;
 $gScriptProfiler_TotalTimes = 0;
 $gScriptProfiler_TotalCalls = 0;

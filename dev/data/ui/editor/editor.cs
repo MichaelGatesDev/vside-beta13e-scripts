@@ -1,4 +1,4 @@
-﻿function toggleEditor(%make)
+function toggleEditor(%make)
 {
     if (!$player.rolesPermissionCheckNoWarn("gameEditors"))
     {

@@ -1,4 +1,4 @@
-﻿function initProjectSpecificDoors()
+function initProjectSpecificDoors()
 {
     $gDoorsNum = 0;
     addLockableDoor("nv", "NV Doppel Store", 0, "", "", "doppledoor", "");

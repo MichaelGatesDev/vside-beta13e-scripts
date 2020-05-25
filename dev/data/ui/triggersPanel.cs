@@ -1,4 +1,4 @@
-﻿function TriggersPanel::toggle(%this)
+function TriggersPanel::toggle(%this)
 {
     playGui.showRaiseOrHide(%this);
     return ;

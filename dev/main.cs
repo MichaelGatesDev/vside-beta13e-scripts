@@ -1,4 +1,4 @@
-﻿$EvalString = "";
+$EvalString = "";
 $ExecScript = "";
 $dev_kit_check_Version = 1234;
 $dev_kit_auth = 0;

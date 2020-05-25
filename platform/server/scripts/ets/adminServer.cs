@@ -1,4 +1,4 @@
-﻿function serverCmdAdminAction(%senderConnection, %action, %target, %message)
+function serverCmdAdminAction(%senderConnection, %action, %target, %message)
 {
     if (!isObject(%senderConnection.Player))
     {

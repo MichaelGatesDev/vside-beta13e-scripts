@@ -1,4 +1,4 @@
-﻿function UserActivityMgr::defineActivities(%this)
+function UserActivityMgr::defineActivities(%this)
 {
     %this.defineActivity("idle", "idle", -1);
     %this.defineActivity("dressing", "dressing", -1);

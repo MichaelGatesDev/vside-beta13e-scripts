@@ -1,4 +1,4 @@
-﻿$gRespektLevelsNum = 0;
+$gRespektLevelsNum = 0;
 function respektAddLevel(%minPoints, %indefiniteArticle, %levelName)
 {
     $gRespektLevelsMinPoints[$gRespektLevelsNum] = %minPoints @ ;

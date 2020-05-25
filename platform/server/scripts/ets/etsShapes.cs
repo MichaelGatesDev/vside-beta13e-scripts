@@ -1,4 +1,4 @@
-﻿datablock StaticShapeData(BeckAdd : BasicAmbientAnimateShapeData);
+datablock StaticShapeData(BeckAdd : BasicAmbientAnimateShapeData);
 datablock StaticShapeData(SecurityCamera : BasicAmbientAnimateShapeData);
 datablock StaticShapeData(Hottubwater : BasicAmbientAnimateShapeData);
 datablock StaticShapeData(SubWayTrain : BasicAmbientAnimateShapeData);

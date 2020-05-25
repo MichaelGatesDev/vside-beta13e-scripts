@@ -1,4 +1,4 @@
-﻿function doCSTestCreateRandomThingIOwn()
+function doCSTestCreateRandomThingIOwn()
 {
     if (!CustomSpaceClient::isOwner() && (CustomSpaceClient::GetSpaceImIn() $= ""))
     {

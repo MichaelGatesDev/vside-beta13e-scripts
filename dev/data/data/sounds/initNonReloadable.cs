@@ -1,4 +1,4 @@
-﻿$gAudioProfile_CussesNum = 0;
+$gAudioProfile_CussesNum = 0;
 new AudioProfile(AudioSnoop_Cuss1)
 {
     fileName = "dev/data/data/sounds/swedishChef1.ogg";

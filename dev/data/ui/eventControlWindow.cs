@@ -1,4 +1,4 @@
-﻿function toggleEventControlWindow()
+function toggleEventControlWindow()
 {
     if (!$player.rolesPermissionCheckNoWarn("events"))
     {

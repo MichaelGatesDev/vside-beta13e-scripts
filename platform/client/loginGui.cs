@@ -1,4 +1,4 @@
-﻿function LoginGui::onWake(%this)
+function LoginGui::onWake(%this)
 {
     sendStatusRequest();
     %this.setControlsActive(1);

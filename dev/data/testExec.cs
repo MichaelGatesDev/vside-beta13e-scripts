@@ -1,3 +1,3 @@
-﻿error("Successful execution of a script on startup");
+error("Successful execution of a script on startup");
 quit();
 

@@ -1,4 +1,4 @@
-﻿function initActionMaps()
+function initActionMaps()
 {
     if (isObject(moveMap))
     {

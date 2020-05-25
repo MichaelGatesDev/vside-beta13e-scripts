@@ -1,4 +1,4 @@
-﻿$musicStreamNameMap = 0;
+$musicStreamNameMap = 0;
 $musicStreamIDMap = 0;
 function Music::init()
 {

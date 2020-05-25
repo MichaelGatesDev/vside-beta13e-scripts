@@ -1,4 +1,4 @@
-﻿function SavableTextStatusIndicatorCreator::make(%indicatorName, %position, %controlToGetValueFrom, %callbackForSecondaryVisualUpdates, %acceptEmptyString, %arrowDescription)
+function SavableTextStatusIndicatorCreator::make(%indicatorName, %position, %controlToGetValueFrom, %callbackForSecondaryVisualUpdates, %acceptEmptyString, %arrowDescription)
 {
     if (isObject(%indicatorName))
     {

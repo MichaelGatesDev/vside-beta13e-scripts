@@ -1,4 +1,4 @@
-﻿function CSInventoryBrowserWindow::open(%this)
+function CSInventoryBrowserWindow::open(%this)
 {
     %previouslyOpen = %this.isVisible();
     closeCSPanelsInOtherCategories(%this);

@@ -1,4 +1,4 @@
-﻿$DC::staffSnapshotRegion = "";
+$DC::staffSnapshotRegion = "";
 function staffSnapshot(%region)
 {
     $DC::staffSnapshotRegion = %region;

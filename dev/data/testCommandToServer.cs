@@ -1,4 +1,4 @@
-﻿function testCommandToServer_DumpVar(%val, %name)
+function testCommandToServer_DumpVar(%val, %name)
 {
     echo(%name SPC "    =" SPC %val);
     echo(%name SPC "len =" SPC strlen(%val));

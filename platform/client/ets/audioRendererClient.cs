@@ -1,4 +1,4 @@
-﻿function DSAudioRenderer::onLoad(%this)
+function DSAudioRenderer::onLoad(%this)
 {
     %multiplier = $UserPref::Audio::mute ? 0 : 1;
     %this.setVolume((%multiplier * $UserPref::Audio::masterVolume) * $UserPref::Audio::channelVolume1);

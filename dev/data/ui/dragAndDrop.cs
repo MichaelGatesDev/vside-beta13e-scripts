@@ -1,4 +1,4 @@
-﻿if (!isObject(DraggableProfile))
+if (!isObject(DraggableProfile))
 {
 }
 new GuiControlProfile(DraggableProfile : ToolTipProfile);

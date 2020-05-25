@@ -1,4 +1,4 @@
-﻿function CSBrowser::getHiliteProxy(%this)
+function CSBrowser::getHiliteProxy(%this)
 {
     %ancestor = %this;
     while (isObject(%ancestor))

@@ -1,4 +1,4 @@
-﻿function newTGFGoRound(%name)
+function newTGFGoRound(%name)
 {
     %obj = newThumbnailsGoRound(%name);
     %obj.bindClassName("TGFGoRound");

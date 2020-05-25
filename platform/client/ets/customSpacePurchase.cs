@@ -1,4 +1,4 @@
-﻿function CSSpacePurchase(%space)
+function CSSpacePurchase(%space)
 {
     getCustomSpacePurchaseInfo(%space, "GotSpacePurchaseInfo");
     return ;

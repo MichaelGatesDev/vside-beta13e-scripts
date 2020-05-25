@@ -1,4 +1,4 @@
-﻿function Math::isInRange(%pos1, %pos2, %range)
+function Math::isInRange(%pos1, %pos2, %range)
 {
     %rangeSq = %range * %range;
     %vec = VectorSub(%pos1, %pos2);

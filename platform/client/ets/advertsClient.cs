@@ -1,4 +1,4 @@
-﻿$gAdvertsClient_NoThanksText = "No Thanks";
+$gAdvertsClient_NoThanksText = "No Thanks";
 function ETSWhatsThisMenu::init(%this, %obj)
 {
     %this.clear();

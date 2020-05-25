@@ -1,4 +1,4 @@
-﻿if (!isObject(CSControlPanelTabs))
+if (!isObject(CSControlPanelTabs))
 {
     new ScriptObject(CSControlPanelTabs);
     if (isObject(MissionCleanup))

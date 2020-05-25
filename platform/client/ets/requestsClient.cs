@@ -1,4 +1,4 @@
-﻿function sendRequest_ClientHeartbeat(%userName, %callbackHandler)
+function sendRequest_ClientHeartbeat(%userName, %callbackHandler)
 {
     %request = safeEnsureScriptObject("ManagerRequest", "");
     %request.bindClassName("UniformManagerRequest");

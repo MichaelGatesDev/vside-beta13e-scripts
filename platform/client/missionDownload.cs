@@ -1,4 +1,4 @@
-﻿function onMissionDownloadPhase1(%unused, %unused)
+function onMissionDownloadPhase1(%unused, %unused)
 {
     if (isObject(LoadingPBController))
     {

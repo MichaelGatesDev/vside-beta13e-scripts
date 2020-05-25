@@ -1,4 +1,4 @@
-﻿$CSLayoutSelector::NumLayouts = 3;
+$CSLayoutSelector::NumLayouts = 3;
 function CSLayoutSelector::toggle(%this)
 {
     if (%this.isVisible())

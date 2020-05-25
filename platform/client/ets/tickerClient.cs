@@ -1,4 +1,4 @@
-﻿$gTickerRepetitionCount = 2;
+$gTickerRepetitionCount = 2;
 $gTickerRepetitionDelayMS = 1000 * 50;
 function handleTickerMessage(%unused, %msgString)
 {

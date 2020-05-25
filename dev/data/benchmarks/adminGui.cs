@@ -1,4 +1,4 @@
-﻿$gAdminActionDefaultMessages["Boot"] = "You have been booted by staff.";
+$gAdminActionDefaultMessages["Boot"] = "You have been booted by staff.";
 $gAdminActionDefaultMessages["BootQuiet"] = "You have been courteously booted by staff.";
 $gAdminActionDefaultMessages["Ban"] = "You have been suspended by staff.";
 $gAdminActionDefaultMessages["Message"] = "";

@@ -1,4 +1,4 @@
-﻿if (!isObject(ConversationList))
+if (!isObject(ConversationList))
 {
 }
 new SimGroup(ConversationList);

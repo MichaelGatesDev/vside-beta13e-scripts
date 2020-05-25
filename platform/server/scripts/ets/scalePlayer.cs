@@ -1,4 +1,4 @@
-﻿function Player::UseHeightRandom(%this)
+function Player::UseHeightRandom(%this)
 {
     %height = getRandom(98, 110) * 0.01;
     %this.setHeight(%height);

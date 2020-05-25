@@ -1,4 +1,4 @@
-﻿function initCoAnimList()
+function initCoAnimList()
 {
     addCoAnim("hug", "hug", 0, 0, 4, "-0.04 1.10 0 0 0 1 3.14159", 0, "hug you", "T");
     addCoAnim("slowdance", "slodance", 0, 0, 4, "-0.04 1.10 0 0 0 1 3.14159", 0, "slowdance with you", "T");

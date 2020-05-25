@@ -1,4 +1,4 @@
-﻿$gIsTyping = 0;
+$gIsTyping = 0;
 $gTypingPreviewAlternator = 1;
 $gLastPreviewText = "";
 function Player::sendPreviewText(%this, %text)

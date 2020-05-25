@@ -1,4 +1,4 @@
-﻿function serverCmdToggleCamera(%client)
+function serverCmdToggleCamera(%client)
 {
     %control = %client.getControlObject();
     if (%control == %client.Player)

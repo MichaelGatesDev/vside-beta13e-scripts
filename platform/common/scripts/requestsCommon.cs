@@ -1,4 +1,4 @@
-﻿function ManagerRequest::parse_Inventory(%this, %array, %qtyFieldInterpretation)
+function ManagerRequest::parse_Inventory(%this, %array, %qtyFieldInterpretation)
 {
     if (!%this.checkSuccess())
     {

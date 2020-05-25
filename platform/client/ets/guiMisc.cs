@@ -1,4 +1,4 @@
-﻿function GuiMLTextCtrl::onURL(%this, %url)
+function GuiMLTextCtrl::onURL(%this, %url)
 {
     if (getWord(%url, 0) $= "gamelink")
     {

@@ -1,4 +1,4 @@
-﻿$AssetManager::COMMONPACKAGE = "projects/vside/worlds/common.zip";
+$AssetManager::COMMONPACKAGE = "projects/vside/worlds/common.zip";
 $Asset::DownloadURL = $Net::downloadURL @ "/packages";
 $AssetManager::missingAssets = "";
 function AssetManager::setMissingAssets(%str)

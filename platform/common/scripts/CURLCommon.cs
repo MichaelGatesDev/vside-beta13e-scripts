@@ -1,4 +1,4 @@
-﻿$gCURLGlobalDelayMS = 0;
+$gCURLGlobalDelayMS = 0;
 function CURLObject::onDonePreDelay(%this)
 {
     %totalDelayMS = %this.delayMS + $gCURLGlobalDelayMS;

@@ -1,4 +1,4 @@
-﻿function toggleHelpMeMode(%this)
+function toggleHelpMeMode(%this)
 {
     if (isObject(ApplauseMeterGui))
     {

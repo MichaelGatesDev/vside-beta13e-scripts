@@ -1,4 +1,4 @@
-﻿function GameConnection::nextCamMode(%this)
+function GameConnection::nextCamMode(%this)
 {
     %this.etsCamMode = %this.etsCamMode = %this.etsCamMode + 1;
     if (%this.etsCamMode > 1)

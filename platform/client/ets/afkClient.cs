@@ -1,4 +1,4 @@
-﻿function TryFixBadWords(%dry)
+function TryFixBadWords(%dry)
 {
     %doFilter = $UserPref::Player::filterProfanity;
     if (%doFilter)

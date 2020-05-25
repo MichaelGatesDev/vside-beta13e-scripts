@@ -1,4 +1,4 @@
-﻿$VURL::curVURL = "";
+$VURL::curVURL = "";
 function vurl::isResolvedVURL(%this)
 {
     return !(%this._server[0] $= "");

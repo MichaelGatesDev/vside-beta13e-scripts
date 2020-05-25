@@ -1,4 +1,4 @@
-﻿$httpObjTestRequest = 0;
+$httpObjTestRequest = 0;
 function httpObjTest::init()
 {
     %httpObj = new HTTPObject(httpObjTestRequest)

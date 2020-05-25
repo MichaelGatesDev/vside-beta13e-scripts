@@ -1,4 +1,4 @@
-﻿$gGetFakeBuildingDirectory = 0;
+$gGetFakeBuildingDirectory = 0;
 function CustomSpacesSelector::getFakeBuildingDirectory(%unused)
 {
     %buildingInfo = new SimGroup()

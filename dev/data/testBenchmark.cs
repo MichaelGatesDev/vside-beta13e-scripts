@@ -1,4 +1,4 @@
-﻿error("Successful Benchmark Schedule");
+error("Successful Benchmark Schedule");
 schedule(20000, 0, doBenchmark);
 function doBenchmark()
 {

@@ -1,4 +1,4 @@
-﻿function StaticShapeData::create(%data)
+function StaticShapeData::create(%data)
 {
     %obj = new StaticShape();
     return %obj;

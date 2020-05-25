@@ -1,4 +1,4 @@
-﻿function ClosetTabs::fillClosetTab(%this)
+function ClosetTabs::fillClosetTab(%this)
 {
     %theTab = %this.getTabWithName("CLOSET");
     if (!isObject(%theTab))

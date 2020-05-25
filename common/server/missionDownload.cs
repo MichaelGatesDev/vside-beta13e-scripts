@@ -1,4 +1,4 @@
-﻿$Server::DatablockCRC = 0;
+$Server::DatablockCRC = 0;
 function GameConnection::loadMission(%this)
 {
     log("network", "debug", "GameConnection::load mission" SPC $Server::MissionFile SPC "seq: " SPC $MissionSequence);

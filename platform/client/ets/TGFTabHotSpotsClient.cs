@@ -1,4 +1,4 @@
-﻿function geTGF_tabs::fillTabHotSpots(%this)
+function geTGF_tabs::fillTabHotSpots(%this)
 {
     %tabName = "hotspots";
     %tab = %this.getTabWithName(%tabName);

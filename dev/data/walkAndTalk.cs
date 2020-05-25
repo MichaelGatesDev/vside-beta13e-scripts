@@ -1,4 +1,4 @@
-﻿function turn()
+function turn()
 {
     $mvYawLeftSpeed = $Pref::Input::KeyboardTurnSpeed;
     $mvBackwardAction = $movementSpeed;

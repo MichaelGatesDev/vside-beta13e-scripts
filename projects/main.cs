@@ -1,4 +1,4 @@
-﻿$ETS::ProjectName = "";
+$ETS::ProjectName = "";
 $ETS::cityName = "";
 function getProjectFolders()
 {

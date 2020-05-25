@@ -1,4 +1,4 @@
-﻿function clientCmdBeingBooted(%message)
+function clientCmdBeingBooted(%message)
 {
     echo("i got booted!" SPC %message);
     return ;

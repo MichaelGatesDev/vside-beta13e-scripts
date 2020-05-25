@@ -1,4 +1,4 @@
-﻿$CityDownloadGui::lastDLNow = 0;
+$CityDownloadGui::lastDLNow = 0;
 $CityDownloadGui::lastCityIndex = 0;
 $CityDownloadGui::totalDownloaded = 0;
 function CityDownloadGui::onDone(%this)

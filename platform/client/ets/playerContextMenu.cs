@@ -1,4 +1,4 @@
-﻿$flowerGiftingEnabled = 0;
+$flowerGiftingEnabled = 0;
 function PlayerContextMenu::init(%this, %playerName, %friendStatus, %isIgnore, %playerClicked)
 {
     if (!isObject(%playerClicked))

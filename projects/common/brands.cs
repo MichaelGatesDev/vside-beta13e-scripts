@@ -1,4 +1,4 @@
-﻿$gClosetBrands = "";
+$gClosetBrands = "";
 function ClosetAddBrand(%userFacing, %codeName)
 {
     if (!($gClosetBrands $= ""))

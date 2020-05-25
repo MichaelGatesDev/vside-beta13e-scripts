@@ -1,4 +1,4 @@
-﻿function centerPrintAll(%message, %time, %lines)
+function centerPrintAll(%message, %time, %lines)
 {
     if (((%lines $= "") || (%lines > 3)) || (%lines < 1))
     {

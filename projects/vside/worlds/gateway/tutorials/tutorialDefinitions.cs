@@ -1,4 +1,4 @@
-﻿function TutorialsCatalogServer::Initialize(%this)
+function TutorialsCatalogServer::Initialize(%this)
 {
     %this.AddTutorialInfo("Basics", 0, 0, 5, "");
     %this.AddTutorialInfo("vPoints", 0, 1, 0, "");

@@ -1,4 +1,4 @@
-﻿function SpawnSphere::onEditorRender(%this, %editor, %unused, %unused)
+function SpawnSphere::onEditorRender(%this, %editor, %unused, %unused)
 {
     if (%this.noShow)
     {

@@ -1,4 +1,4 @@
-﻿if (isObject(MessageFuncDict))
+if (isObject(MessageFuncDict))
 {
     MessageFuncDict.delete();
 }

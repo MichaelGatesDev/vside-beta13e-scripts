@@ -1,4 +1,4 @@
-﻿function TabbedTextControl::newControlWithScroll(%name, %fieldWidths, %padding)
+function TabbedTextControl::newControlWithScroll(%name, %fieldWidths, %padding)
 {
     %ctrl = MenuControl::newMenuWithScroll(%name);
     if (!(getWord(%ctrl.getNamespaceList(), 0) $= "TabbedTextControl"))

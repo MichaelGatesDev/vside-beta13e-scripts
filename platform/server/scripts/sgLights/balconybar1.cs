@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(balconybar1)
+datablock sgUniversalStaticLightData(balconybar1)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

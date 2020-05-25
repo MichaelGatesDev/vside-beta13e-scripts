@@ -1,4 +1,4 @@
-﻿$Client::DatablockCRC = 0;
+$Client::DatablockCRC = 0;
 $Cache::ExtraNameTag = "";
 function clientCmdCheckCacheCRC(%missionSequence, %missionName)
 {

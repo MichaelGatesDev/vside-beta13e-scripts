@@ -1,4 +1,4 @@
-﻿function doAnimationSystemSuiteTest()
+function doAnimationSystemSuiteTest()
 {
     RunTestSuite("TestSuite_AnimationSystemSmokeTests");
     return ;

@@ -1,4 +1,4 @@
-﻿function DeclareFloorplan(%floorplanName, %sku)
+function DeclareFloorplan(%floorplanName, %sku)
 {
     $gFloorPlanFromSKU[%sku] = %floorplanName @ ;
     $gSKUFromFloorPlan[%floorplanName] = %sku @ ;

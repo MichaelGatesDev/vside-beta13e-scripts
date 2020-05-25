@@ -1,4 +1,4 @@
-﻿datablock ParticleData(ChimneySmoke)
+datablock ParticleData(ChimneySmoke)
 {
     textureName = "~/data/shapes/particles/smoke";
     dragCoefficient = 0;

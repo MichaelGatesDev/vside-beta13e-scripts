@@ -1,4 +1,4 @@
-﻿function LoadingGui::onAdd(%this)
+function LoadingGui::onAdd(%this)
 {
     %this.qLineCount = 0;
     return ;

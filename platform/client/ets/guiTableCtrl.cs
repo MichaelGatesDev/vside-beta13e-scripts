@@ -1,4 +1,4 @@
-﻿function GuiTableCtrl::Initialize(%this)
+function GuiTableCtrl::Initialize(%this)
 {
     if (!isDefined("%this.initialized") && !(%this.initialized))
     {

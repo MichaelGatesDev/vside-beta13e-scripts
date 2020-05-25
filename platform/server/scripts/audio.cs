@@ -1,4 +1,4 @@
-﻿function ServerPlay2D(%profile)
+function ServerPlay2D(%profile)
 {
     %idx = 0;
     while (%idx < ClientGroup.getCount())

@@ -1,4 +1,4 @@
-﻿function sendC2CCmd(%commandName, %targetUserName, %param1, %param2)
+function sendC2CCmd(%commandName, %targetUserName, %param1, %param2)
 {
     if (!isDefined("%param1"))
     {

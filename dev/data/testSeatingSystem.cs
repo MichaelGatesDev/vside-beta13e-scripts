@@ -1,4 +1,4 @@
-﻿function doSeatingSystemSuiteTest()
+function doSeatingSystemSuiteTest()
 {
     RunTestSuite("TestSuite_SeatingSystemSmokeTests");
     return ;

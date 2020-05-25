@@ -1,4 +1,4 @@
-﻿$CSMediaDisplay::TypeEmpty = 0;
+$CSMediaDisplay::TypeEmpty = 0;
 $CSMediaDisplay::TypeRadio = 1;
 $CSMediaDisplay::TypeYoutube = 2;
 $CSMediaDisplay::TypeShoutCast = 3;

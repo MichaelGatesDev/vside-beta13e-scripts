@@ -1,4 +1,4 @@
-﻿function addPlainToCoded(%list, %plain, %coded)
+function addPlainToCoded(%list, %plain, %coded)
 {
     %num = getFieldCount(%list);
     %list = setField(%list, %num + 0, %plain);

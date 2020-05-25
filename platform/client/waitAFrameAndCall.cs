@@ -1,4 +1,4 @@
-﻿function waitAFrameAndCall(%call)
+function waitAFrameAndCall(%call)
 {
     waitAFrameAndEval(%call @ "();");
     return ;

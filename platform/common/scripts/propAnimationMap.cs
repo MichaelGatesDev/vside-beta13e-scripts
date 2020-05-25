@@ -1,4 +1,4 @@
-﻿safeEnsureScriptObject("StringMap", "PropAnimationMap", 1);
+safeEnsureScriptObject("StringMap", "PropAnimationMap", 1);
 safeEnsureScriptObject("StringMap", "PropGenreMap", 1);
 safeEnsureScriptObject("StringMap", "PropInternalDescriptionMap", 1);
 PropAnimationMap.ignoreCase = 1;

@@ -1,4 +1,4 @@
-﻿function geMiscHudsPanel::toggle(%this)
+function geMiscHudsPanel::toggle(%this)
 {
     PlayGui.showRaiseOrHide(%this);
     return ;

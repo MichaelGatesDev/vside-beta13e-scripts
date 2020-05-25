@@ -1,4 +1,4 @@
-﻿$gSampleUGC["ACCEPTED"] = "";
+$gSampleUGC["ACCEPTED"] = "";
 $gSampleUGC["ACCEPTED"] = trim($gSampleUGC["ACCEPTED"] SPC 21648) @ ;
 $gSampleUGC["ACCEPTED"] = trim($gSampleUGC["ACCEPTED"] SPC 31112) @ ;
 $gSampleUGC["ACCEPTED"] = trim($gSampleUGC["ACCEPTED"] SPC 22566) @ ;

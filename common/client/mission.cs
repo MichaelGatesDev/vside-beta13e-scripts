@@ -1,4 +1,4 @@
-﻿function clientCmdMissionStart(%seq)
+function clientCmdMissionStart(%seq)
 {
     log("network", "debug", "clientCmdMissionStart seq:" SPC %seq);
     if (!isObject(FMod))

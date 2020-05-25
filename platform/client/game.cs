@@ -1,4 +1,4 @@
-﻿function clientCmdGameStart(%unused)
+function clientCmdGameStart(%unused)
 {
     return ;
 }

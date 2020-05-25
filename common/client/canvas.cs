@@ -1,4 +1,4 @@
-﻿function initCanvas(%windowName)
+function initCanvas(%windowName)
 {
     videoSetGammaCorrection($pref::OpenGL::gammaCorrection);
     if (!createCanvas(%windowName))

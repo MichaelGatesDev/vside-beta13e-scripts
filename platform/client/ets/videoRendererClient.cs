@@ -1,4 +1,4 @@
-﻿$VideoRendererLoadable = 0;
+$VideoRendererLoadable = 0;
 $ETS::VideoRenderer::MetadataTimer = 0;
 $ETS::VideoRenderer::MusicStopped = 0;
 $ETS::VideoRenderer::Disable = 0;

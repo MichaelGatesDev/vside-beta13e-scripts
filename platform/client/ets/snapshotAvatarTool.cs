@@ -1,4 +1,4 @@
-﻿function toggleSnapshotAvatarTool()
+function toggleSnapshotAvatarTool()
 {
     PlayGui.showRaiseOrHide(snapshotAvatarTool);
     return ;

@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(sgRedLightDataBlock)
+datablock sgUniversalStaticLightData(sgRedLightDataBlock)
 {
     Colour = "0.6 0.0 0.0";
     Radius = 10;

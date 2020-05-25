@@ -1,4 +1,4 @@
-﻿function spaceDefs_Init()
+function spaceDefs_Init()
 {
     %space = spaces_GetSpaceDef("starStyle", 1);
     %space.shortName = "StarStyle";

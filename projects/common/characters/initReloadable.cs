@@ -1,2 +1,2 @@
-﻿exec("./m_player/initReloadable.cs");
+exec("./m_player/initReloadable.cs");
 

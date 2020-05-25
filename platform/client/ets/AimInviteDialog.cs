@@ -1,4 +1,4 @@
-﻿function AimInviteDialog::open(%this, %buddyName)
+function AimInviteDialog::open(%this, %buddyName)
 {
     if (%this.buddyNames $= "")
     {

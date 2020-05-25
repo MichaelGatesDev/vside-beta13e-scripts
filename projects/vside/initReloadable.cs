@@ -1,4 +1,4 @@
-﻿$AmClient = !hasArg("-dedicated");
+$AmClient = !hasArg("-dedicated");
 $AmServer = hasArg("-dedicated") || hasArg("-standalone");
 exec("./worlds/" @ "gateway" @ "/initReloadable.cs", 0);
 exec("./worlds/" @ "lga" @ "/initReloadable.cs", 0);

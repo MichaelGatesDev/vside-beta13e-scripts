@@ -1,4 +1,4 @@
-﻿function connectLocal(%userName)
+function connectLocal(%userName)
 {
     %c = new GameConnection(ServerConnection)
     {

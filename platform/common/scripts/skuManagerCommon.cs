@@ -1,4 +1,4 @@
-﻿function DoesPlayerHaveItemActive(%player, %skulist)
+function DoesPlayerHaveItemActive(%player, %skulist)
 {
     if (%skulist $= "")
     {

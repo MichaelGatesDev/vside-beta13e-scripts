@@ -1,4 +1,4 @@
-﻿$gOutfits = "";
+$gOutfits = "";
 $gOutfitsDefault = "";
 function outfits_init()
 {

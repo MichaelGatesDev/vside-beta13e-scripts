@@ -1,4 +1,4 @@
-﻿exec("./dif2dae.cs");
+exec("./dif2dae.cs");
 function portInit(%port)
 {
     %failCount = 0;

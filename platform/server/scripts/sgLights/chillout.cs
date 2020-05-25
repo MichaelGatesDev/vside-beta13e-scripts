@@ -1,2 +1,2 @@
-﻿datablock sgUniversalStaticLightData(chillout);
+datablock sgUniversalStaticLightData(chillout);
 

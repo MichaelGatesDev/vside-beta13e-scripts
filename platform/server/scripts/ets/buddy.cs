@@ -1,4 +1,4 @@
-﻿function serverCmdChangeRelation(%client, %other, %relType, %oper)
+function serverCmdChangeRelation(%client, %other, %relType, %oper)
 {
     doLocalChangeRelation(%client, %other, %relType, %oper);
     %relRequest = new CURLObject(RelRequest)

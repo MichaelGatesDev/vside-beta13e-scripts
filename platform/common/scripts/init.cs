@@ -1,4 +1,4 @@
-﻿exec("./commonCommands.cs");
+exec("./commonCommands.cs");
 exec("./scriptProfiler.cs");
 exec("./rolesCommon.cs");
 exec("./compile.cs");

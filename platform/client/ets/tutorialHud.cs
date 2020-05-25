@@ -1,4 +1,4 @@
-﻿function tutorialHud::show(%this)
+function tutorialHud::show(%this)
 {
     %this.onOpen();
     return ;

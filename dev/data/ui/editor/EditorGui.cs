@@ -1,4 +1,4 @@
-﻿$AIEdit = 0;
+$AIEdit = 0;
 function EStatusHudActivator::onMouseEnter(%this)
 {
     if (!EStatusHud.isShowing())

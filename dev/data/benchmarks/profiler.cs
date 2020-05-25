@@ -1,4 +1,4 @@
-﻿$clientProfilerEnabled = 0;
+$clientProfilerEnabled = 0;
 function toggleClientProfiler(%val)
 {
     if (%val)

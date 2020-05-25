@@ -1,4 +1,4 @@
-﻿$TESTMissionGroupIntegrityAlreadyRun = 0;
+$TESTMissionGroupIntegrityAlreadyRun = 0;
 $gPrevNumMissing = 0;
 function PlayGui::onWake(%this)
 {

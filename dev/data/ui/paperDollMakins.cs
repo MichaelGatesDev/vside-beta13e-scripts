@@ -1,4 +1,4 @@
-﻿$gPaperDoll_DryRun = 0;
+$gPaperDoll_DryRun = 0;
 $gPaperDoll_NumRemaining = 0;
 $gPaperDoll_ImgExtension = "png";
 $gPaperDoll_Nudge = "0 0";

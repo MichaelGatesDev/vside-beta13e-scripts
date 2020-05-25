@@ -1,4 +1,4 @@
-﻿function WorldMap::TabulateWorldAreaSummary(%unused)
+function WorldMap::TabulateWorldAreaSummary(%unused)
 {
     safeEnsureScriptObject("StringMap", WorldAreaSummaries, 0);
     WorldAreaSummaries.deleteValuesAsObjects();

@@ -1,4 +1,4 @@
-﻿function isPlayerObject(%obj)
+function isPlayerObject(%obj)
 {
     return isObject(%obj) && !(!((%obj.getType() & $TypeMasks::PlayerObjectType)));
 }

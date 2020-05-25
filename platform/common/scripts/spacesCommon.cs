@@ -1,4 +1,4 @@
-﻿function SpaceDef::defaultValues(%this)
+function SpaceDef::defaultValues(%this)
 {
     %this.audioStreamID = "";
     %this.audioStreamVolume = $Pref::AudioVolume;

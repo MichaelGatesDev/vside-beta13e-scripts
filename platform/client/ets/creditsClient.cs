@@ -1,4 +1,4 @@
-﻿$gCreditsTickPeriod = 30;
+$gCreditsTickPeriod = 30;
 $gCreditsTickPixels = 2;
 $gCreditsTickDirection = 1;
 function doCredits()

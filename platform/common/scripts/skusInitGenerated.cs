@@ -1,4 +1,4 @@
-﻿function skusInit()
+function skusInit()
 {
     skusAddItem2(5150, "mesh", "", "f", "", "hair", "f.hair.speedway", "blonde.f.hair.speedway", "Speedway Blonde", "Get your diva on with this sexy swoop!", "", 1, 0, 1, -1, 0, 0, "", "");
     skusAddItem2(5149, "mesh", "", "f", "", "hair", "f.hair.speedway", "base.f.hair.speedway", "Speedway Red", "Get your diva on with this sexy swoop!", "", 1, 0, 1, -1, 0, 0, "", "");

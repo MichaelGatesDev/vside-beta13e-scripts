@@ -1,4 +1,4 @@
-﻿function debugPanel::toggle(%this)
+function debugPanel::toggle(%this)
 {
     playGui.showRaiseOrHide(%this);
     return ;

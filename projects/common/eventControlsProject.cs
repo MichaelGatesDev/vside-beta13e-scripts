@@ -1,4 +1,4 @@
-﻿$gDoorsNum = 0;
+$gDoorsNum = 0;
 function addLockableDoor(%contiguousSpaceName, %doorName, %initiallyLocked, %groupName, %zoneName, %doorToLock, %vurl)
 {
     $gDoorNames[$gDoorsNum] = %doorName @ ;

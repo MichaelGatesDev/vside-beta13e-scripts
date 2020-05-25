@@ -1,4 +1,4 @@
-﻿if (!isObject(GameMgrHudTabs))
+if (!isObject(GameMgrHudTabs))
 {
     echo(getScopeName());
     new ScriptObject(GameMgrHudTabs);

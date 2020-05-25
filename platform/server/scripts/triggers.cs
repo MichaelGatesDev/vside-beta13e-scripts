@@ -1,4 +1,4 @@
-﻿datablock TriggerData(DefaultTrigger);
+datablock TriggerData(DefaultTrigger);
 function DefaultTrigger::onEnterTrigger(%this, %trigger, %obj)
 {
     Parent::onEnterTrigger(%this, %trigger, %obj);

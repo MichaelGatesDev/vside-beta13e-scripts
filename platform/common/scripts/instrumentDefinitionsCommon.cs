@@ -1,4 +1,4 @@
-﻿function InstrumentRegistry::initializeRegistryCommon(%this)
+function InstrumentRegistry::initializeRegistryCommon(%this)
 {
     %this.defaultStopAnimation = "idl1a";
     %this.stopAnimationsList = new StringMap();

@@ -1,4 +1,4 @@
-﻿$testOutfits::timeout = 1000;
+$testOutfits::timeout = 1000;
 $testOutfits::dataOutfit["f","stock"] = "5400 5527 5600 5702 5850 5875 5900 5950 5980";
 $testOutfits::dataOutfit["m","stock"] = "400 554 600 701 850 875 900 950";
 $testOutfits::dataBody["f","stock"] = "5100 5200 5303 5801";

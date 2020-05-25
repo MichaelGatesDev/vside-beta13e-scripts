@@ -1,4 +1,4 @@
-﻿function fakeBuddyInfo(%friends, %faves, %fans)
+function fakeBuddyInfo(%friends, %faves, %fans)
 {
     if ($ServerName $= "")
     {

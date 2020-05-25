@@ -1,4 +1,4 @@
-﻿$LookAtSchedule = 0;
+$LookAtSchedule = 0;
 $LookAtResetTimeout = 7000;
 $KissResetTimeout = 10000;
 $DanceWithResetTimeout = 60000;

@@ -1,4 +1,4 @@
-﻿function testStringsMaster()
+function testStringsMaster()
 {
     %testCount = 0;
     %passCount = 0;

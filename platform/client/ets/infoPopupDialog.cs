@@ -1,4 +1,4 @@
-﻿function InfoPopupDlg::open(%this)
+function InfoPopupDlg::open(%this)
 {
     %this.init();
     if ($UserPref::HudTabs::AutoOpen["affinity"])

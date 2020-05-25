@@ -1,2 +1,2 @@
-﻿echo("// dummy sgDecal.cs");
+echo("// dummy sgDecal.cs");
 

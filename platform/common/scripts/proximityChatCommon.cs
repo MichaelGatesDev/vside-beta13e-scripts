@@ -1,4 +1,4 @@
-﻿$sPChat::doEcho = 0;
+$sPChat::doEcho = 0;
 $sPChat::doWarn = 1;
 $sPChat::doError = 1;
 function sPChat::echo(%text)

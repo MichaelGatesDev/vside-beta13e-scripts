@@ -1,4 +1,4 @@
-﻿$gCSFurnitureMoverClipboard = "";
+$gCSFurnitureMoverClipboard = "";
 function CSFurnitureMover::toggle(%this)
 {
     if (%this.isVisible())

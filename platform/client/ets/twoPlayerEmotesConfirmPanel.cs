@@ -1,4 +1,4 @@
-﻿function geTwoPlayerEmotesConfirmPanel::open(%this, %otherPlayerName, %coAnimName, %requestId)
+function geTwoPlayerEmotesConfirmPanel::open(%this, %otherPlayerName, %coAnimName, %requestId)
 {
     %otherPlayer = Player::findPlayerInstance(%otherPlayerName);
     if (!isObject(%otherPlayer))

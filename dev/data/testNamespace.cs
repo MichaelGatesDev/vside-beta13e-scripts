@@ -1,4 +1,4 @@
-﻿function testNamespace()
+function testNamespace()
 {
     new SimObject(mySimObject);
     new SimObject(mySimObject2);

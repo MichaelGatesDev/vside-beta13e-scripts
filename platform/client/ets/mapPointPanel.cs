@@ -1,4 +1,4 @@
-﻿function MapPointPanel::toggle(%this)
+function MapPointPanel::toggle(%this)
 {
     PlayGui.showRaiseOrHide(%this);
     return ;

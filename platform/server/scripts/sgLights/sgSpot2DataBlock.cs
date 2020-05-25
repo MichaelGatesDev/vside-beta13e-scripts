@@ -1,4 +1,4 @@
-﻿datablock sgUniversalStaticLightData(sgSpot2DataBlock)
+datablock sgUniversalStaticLightData(sgSpot2DataBlock)
 {
     className = "sgUniversalStaticLightData";
     LightOn = 1;

@@ -1,4 +1,4 @@
-﻿function Array::hasKey(%this, %key)
+function Array::hasKey(%this, %key)
 {
     return %this.getIndexFromKey(%key) >= 0;
 }

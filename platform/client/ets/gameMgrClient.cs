@@ -1,4 +1,4 @@
-﻿if (!isObject(gameMgrClient))
+if (!isObject(gameMgrClient))
 {
     $gameMgrClient = new ScriptObject(gameMgrClient)
     {

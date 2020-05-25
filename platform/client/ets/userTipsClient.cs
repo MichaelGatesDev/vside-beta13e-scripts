@@ -1,4 +1,4 @@
-﻿function userTips::initUserTips()
+function userTips::initUserTips()
 {
     $userTips::numTips = 0;
     %tipName = "AutoChangeToSwimWear";

@@ -1,4 +1,4 @@
-﻿$gRandomUserNamesNum = -1;
+$gRandomUserNamesNum = -1;
 $gRandomUserNameIdx = 0;
 function sampleData_initUserNames()
 {

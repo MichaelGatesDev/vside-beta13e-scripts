@@ -1,4 +1,4 @@
-﻿function MusicHud::setMusicService(%this, %musicService)
+function MusicHud::setMusicService(%this, %musicService)
 {
     %this.musicService = %musicService;
     return ;

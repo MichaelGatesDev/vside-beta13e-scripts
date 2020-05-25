@@ -1,4 +1,4 @@
-﻿$gBroadSnapshotUploadTimeOutSched = 0;
+$gBroadSnapshotUploadTimeOutSched = 0;
 function BroadCastControlPanel::toggle(%this)
 {
     PlayGui.showRaiseOrHide(%this);

@@ -1,4 +1,4 @@
-﻿function ClientCmdEnterLeaveSpace(%internalName, %isEnter)
+function ClientCmdEnterLeaveSpace(%internalName, %isEnter)
 {
     %spaceDef = spaces_GetSpaceDef(%internalName, 0);
     if (%spaceDef)

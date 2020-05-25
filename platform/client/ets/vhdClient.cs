@@ -1,4 +1,4 @@
-﻿function playerTexturesReload()
+function playerTexturesReload()
 {
     %n = PlayerInstanceDict.size() - 1;
     while (%n >= 0)

@@ -1,4 +1,4 @@
-﻿$DevPref::Audio::NotifySnoop = 1;
+$DevPref::Audio::NotifySnoop = 1;
 $DevPref::autoOpenTriggers = 0;
 $DevPref::closet::skuDeets = 0;
 $DevPref::Debug::PrintClickedOn = 0;

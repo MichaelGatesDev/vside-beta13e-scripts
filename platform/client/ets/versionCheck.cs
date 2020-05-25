@@ -1,4 +1,4 @@
-﻿$Net::upgradeAvailable = 0;
+$Net::upgradeAvailable = 0;
 $Net::UpgradeToolAvailable = 1;
 function clientVersion::startUpgrade()
 {

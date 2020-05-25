@@ -1,4 +1,4 @@
-﻿function URLInfo::parse(%this)
+function URLInfo::parse(%this)
 {
     %this.parsed = 0;
     %work = trim(%this.url);

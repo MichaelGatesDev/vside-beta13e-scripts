@@ -1,4 +1,4 @@
-﻿function botControlPanel::toggle(%this)
+function botControlPanel::toggle(%this)
 {
     playGui.showRaiseOrHide(%this);
     return ;

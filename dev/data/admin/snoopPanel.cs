@@ -1,4 +1,4 @@
-﻿function toggleSnoopPanel()
+function toggleSnoopPanel()
 {
     SnoopPanel.toggle();
     return ;

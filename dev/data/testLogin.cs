@@ -1,4 +1,4 @@
-﻿exec("./skeletonClient.cs");
+exec("./skeletonClient.cs");
 function testLogin()
 {
     %testLogin = new ScriptObject(testLogin)

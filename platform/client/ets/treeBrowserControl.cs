@@ -1,4 +1,4 @@
-﻿function TreeBrowserControl::newControl(%parent, %name)
+function TreeBrowserControl::newControl(%parent, %name)
 {
     if (!isObject(%parent))
     {

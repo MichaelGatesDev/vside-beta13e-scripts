@@ -1,4 +1,4 @@
-﻿function formatImageNumber(%number)
+function formatImageNumber(%number)
 {
     if (%number < 10)
     {

@@ -1,4 +1,4 @@
-﻿function initServer()
+function initServer()
 {
     echo("--------- Initializing MOD: Intersection: Server ---------");
     $AmServer = 1;

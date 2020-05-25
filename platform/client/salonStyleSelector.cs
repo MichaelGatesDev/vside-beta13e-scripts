@@ -1,4 +1,4 @@
-﻿function SalonStyleSelector::open(%this)
+function SalonStyleSelector::open(%this)
 {
     PlayGui.ensureAdded(%this);
     %this.Initialize();

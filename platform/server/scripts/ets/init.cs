@@ -1,4 +1,4 @@
-﻿exec("./mixnmatch.cs");
+exec("./mixnmatch.cs");
 exec("./scalePlayer.cs");
 exec("./bots.cs");
 exec("./commandsETS.cs");

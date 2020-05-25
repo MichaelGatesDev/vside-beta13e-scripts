@@ -1,4 +1,4 @@
-﻿function clearLoadInfo()
+function clearLoadInfo()
 {
     if (isObject(MissionInfo))
     {

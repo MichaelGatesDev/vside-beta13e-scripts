@@ -1,4 +1,4 @@
-﻿function roles::maskhaspermission(%rolesMask, %permName)
+function roles::maskhaspermission(%rolesMask, %permName)
 {
     return rolesPermissionCheck(%permName, %rolesMask);
 }

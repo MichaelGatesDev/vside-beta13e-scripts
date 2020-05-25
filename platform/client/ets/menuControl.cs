@@ -1,4 +1,4 @@
-﻿function MenuLayer::Initialize()
+function MenuLayer::Initialize()
 {
     if (!isObject(MenuLayer))
     {

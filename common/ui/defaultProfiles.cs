@@ -1,4 +1,4 @@
-﻿$Gui::fontCacheDirectory = ExpandFilename("./cache");
+$Gui::fontCacheDirectory = ExpandFilename("./cache");
 $Gui::clipboardFile = ExpandFilename("./cache/clipboard.gui");
 if (!isObject(GuiDefaultProfile))
 {

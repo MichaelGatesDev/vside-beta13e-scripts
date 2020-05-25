@@ -1,4 +1,4 @@
-﻿function clientCmdTeleportSuccessful()
+function clientCmdTeleportSuccessful()
 {
     if (isObject($VURL::curVURL))
     {

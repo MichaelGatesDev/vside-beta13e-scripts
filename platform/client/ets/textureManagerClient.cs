@@ -1,4 +1,4 @@
-﻿function TextureManager_OnDelayedLoad(%num)
+function TextureManager_OnDelayedLoad(%num)
 {
     textureLoadingIndicator_initialize();
     if (%num > 0)

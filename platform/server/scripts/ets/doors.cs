@@ -1,4 +1,4 @@
-﻿datablock StaticShapeData(BaseDoorData)
+datablock StaticShapeData(BaseDoorData)
 {
     className = "DoorShapeData";
     category = "Doors";

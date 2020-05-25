@@ -1,3 +1,3 @@
-﻿datablock StaticShapeData(unitCubeGreyDataBlock);
+datablock StaticShapeData(unitCubeGreyDataBlock);
 datablock StaticShapeData(unitCubeBlueDataBlock);
 

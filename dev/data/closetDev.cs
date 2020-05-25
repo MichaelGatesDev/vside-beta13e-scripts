@@ -1,4 +1,4 @@
-﻿$gSnapping_SkuList = "";
+$gSnapping_SkuList = "";
 $gSnapping_CurIndex = 0;
 $gSnapping_MaxIndex = 0;
 $gSnapping_ObjViewCtrl = 0;

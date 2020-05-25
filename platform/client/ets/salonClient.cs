@@ -1,4 +1,4 @@
-﻿function SalonStyleSelector::refreshAvailableStyles(%this)
+function SalonStyleSelector::refreshAvailableStyles(%this)
 {
     ShowSalonMenu(%this.lastTypeOfSalon, %this.lastClientGender);
     return ;

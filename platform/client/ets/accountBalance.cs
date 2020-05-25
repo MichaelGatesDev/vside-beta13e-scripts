@@ -1,4 +1,4 @@
-﻿function AccountBalanceHud::Initialize(%this)
+function AccountBalanceHud::Initialize(%this)
 {
     if (!%this.initialized)
     {

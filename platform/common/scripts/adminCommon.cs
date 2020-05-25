@@ -1,4 +1,4 @@
-﻿function admin::getFormattedClassName(%classname)
+function admin::getFormattedClassName(%classname)
 {
     if (%classname $= "AIPlayer")
     {
