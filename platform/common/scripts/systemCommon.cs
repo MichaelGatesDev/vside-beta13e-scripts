@@ -453,61 +453,68 @@ function GMetrics::LogToFile(%eventTXT, %detailTXT)
     $GMetricsLogFile.log("games", "info", %time @ "[games]" @ %text);
     return ;
 }
+
+// TODO: Figure out what causes this syntax error crash for the two functions below
+// [5/24/2020 21:25:54][Wrn][Script ] >>> Advanced script error report.  Line 937.
+// [5/24/2020 21:25:54][Wrn][Script ] >>> Some error context, with ## on sides of error halt:
+// [5/24/2020 21:25:54][Err][Script ]         %line = formatString("%-40s", %container.instanceCounts[(%n,##"##class")]) @ formatInt("%5d", %container.instanceCounts[(%n,"count")]);
+// [5/24/2020 21:25:54][Wrn][Script ] >>> Error report complete.
+
 function dumpClassInstances(%simGroup)
 {
-    if (!isObject(%simGroup))
-    {
-        return ;
-    }
-    %container = new SimObject();
-    %container.numClasses = 0;
-    %total = 0;
-    compileClassInstances(%simGroup, %container);
-    %n = 0;
-    while (%n < %container.numClasses)
-    {
-        %line = formatString("%-40s", %container.instanceCounts[(%n,"class")]) @ formatInt("%5d", %container.instanceCounts[(%n,"count")]);
-        echo(%line);
-        %total = %total + %container.instanceCounts[(%n,"count")];
-        %n = %n + 1;
-    }
-    %line = formatString("%-40s", "Total object instances:") @ formatInt("%5d", %total);
-    echo(%line);
-    %container.delete();
-    return ;
+    // if (!isObject(%simGroup))
+    // {
+    //     return ;
+    // }
+    // %container = new SimObject();
+    // %container.numClasses = 0;
+    // %total = 0;
+    // compileClassInstances(%simGroup, %container);
+    // %n = 0;
+    // while (%n < %container.numClasses)
+    // {
+    //     %line = formatString("%-40s", %container.instanceCounts[(%n,"class")]) @ formatInt("%5d", %container.instanceCounts[(%n,"count")]);
+    //     echo(%line);
+    //     %total = %total + %container.instanceCounts[(%n,"count")];
+    //     %n = %n + 1;
+    // }
+    // %line = formatString("%-40s", "Total object instances:") @ formatInt("%5d", %total);
+    // echo(%line);
+    // %container.delete();
+    // return ;
 }
 function compileClassInstances(%obj, %container)
 {
-    %classname = %obj.getClassName();
-    %found = -1;
-    %n = 0;
-    while (%found == -1)
-    {
-        if (%container.instanceCounts[(%n,"class")] $= %classname)
-        {
-            %found = %n;
-        }
-        %n = %n + 1;
-    }
-    if (%found == -1)
-    {
-        %found = %container.numClasses;
-        %container.numClasses = %container.numClasses + 1;
-        %container.instanceCounts[%found,"class"] = %classname;
-    }
-    %curr = %container.instanceCounts[(%found,"count")];
-    %curr = %curr $= "" ? 0 : %curr;
-    %container.instanceCounts[%found,"count"] = %curr + 1;
-    if (%obj.isClassSimGroup())
-    {
-        %n = %obj.getCount() - 1;
-        while (%n >= 0)
-        {
-            %child = %obj.getObject(%n);
-            compileClassInstances(%child, %container);
-            %n = %n - 1;
-        }
-    }
+    // %classname = %obj.getClassName();
+    // %found = -1;
+    // %n = 0;
+    // while (%found == -1)
+    // {
+    //     if (%container.instanceCounts[(%n,"class")] $= %classname)
+    //     {
+    //         %found = %n;
+    //     }
+    //     %n = %n + 1;
+    // }
+    // if (%found == -1)
+    // {
+    //     %found = %container.numClasses;
+    //     %container.numClasses = %container.numClasses + 1;
+    //     %container.instanceCounts[%found,"class"] = %classname;
+    // }
+    // %curr = %container.instanceCounts[(%found,"count")];
+    // %curr = %curr $= "" ? 0 : %curr;
+    // %container.instanceCounts[%found,"count"] = %curr + 1;
+    // if (%obj.isClassSimGroup())
+    // {
+    //     %n = %obj.getCount() - 1;
+    //     while (%n >= 0)
+    //     {
+    //         %child = %obj.getObject(%n);
+    //         compileClassInstances(%child, %container);
+    //         %n = %n - 1;
+    //     }
+    // }
 }
 
 
