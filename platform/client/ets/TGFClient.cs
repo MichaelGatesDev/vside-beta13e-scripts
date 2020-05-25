@@ -243,7 +243,7 @@ function geTGF_tabs::setup(%this, %container)
         }
         else
         {
-        }/* 2 | 1926 */
+        }//  2 | 1926 
         %toolTip = ;
         %tab = %this.newTab(%tabName, "platform/client/buttons/tgf/tgf_tab_" @ %tabName, %toolTip);
         %tab.setName("geTGF_Tab_" @ %tabName);

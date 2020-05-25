@@ -26,6 +26,6 @@ function findLockableDoorIndexByZoneName(%zoneName)
             %found = %n;
         }
         %n = %n + 1;
-    }/* 11 | 265 */
+    }//  11 | 265 
     return %found;
-}/* 1 | 270 */
+}//  1 | 270 

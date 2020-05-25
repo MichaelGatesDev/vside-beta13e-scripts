@@ -14,7 +14,7 @@ function paperDoll_AddPermutation(%gender, %listName, %skus, %skusName)
             %found = %candidate;
         }
         %n = %n - 1;
-    }/* 12 | 172 */
+    }//  12 | 172 
     if (%found == -1)
     {
         %found = new_ScriptArray("");
@@ -52,7 +52,7 @@ function paperDoll_AddPermutation(%gender, %listName, %skus, %skusName)
     %skus = trim(%skus);
     %found.append(%skus TAB %skusName);
     return %found;
-}/* 2 | 610 */
+}//  2 | 610 
 $gPaperDoll_Initialized = 0;
 function paperDoll_InitPermutationsForce()
 {

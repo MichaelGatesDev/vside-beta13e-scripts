@@ -652,7 +652,7 @@ function TreeBrowserControl::getNodePath(%this, %node)
         {
             %node = %node.getGroup();
         }
-    }/* 10 | 6441 */
+    }//  10 | 6441 
     return %path;
 }
 function TreeBrowserControl::deleteNodeAtPath(%this, %path)

@@ -2659,11 +2659,11 @@ function ClosetGui::selectGenre(%this, %val)
     {
         %anim = $gClosetStanceEmotes[getRandom(0, $gClosetStanceEmotesNum - 1)];
         %triesLeft = %triesLeft - 1;
-    }/* 11 | 25140 */
+    }//  11 | 25140 
     $gClosetStanceEmotesLast = %anim;
     $player.playAnim($player.getGender() @ %val @ %anim);
     return %triesLeft;
-}/* 1 | 25178 */
+}//  1 | 25178 
 function ClosetGui::updateVisibleAvatar(%this)
 {
     %merged = $ClosetSkusBody SPC $ClosetSkusOutfit[$ClosetOutfitName];

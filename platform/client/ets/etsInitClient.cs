@@ -365,9 +365,9 @@ function Player::getRoleBadgeBitmapName(%this)
             }
         }
         %n = %n + 1;
-    }/* 11 | 2726 */
+    }//  11 | 2726 
     return %ret;
-}/* 1 | 2731 */
+}//  1 | 2731 
 function afterEtsInit()
 {
     if (!($gEvalAfterEtsInit $= ""))

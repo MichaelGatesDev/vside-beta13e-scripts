@@ -841,6 +841,6 @@ function SkuManager::findTemplateSku(%this, %sku)
             %found = %candidateSku;
         }
         %n = %n - 1;
-    }/* 11 | 8241 */
+    }//  11 | 8241 
     return %found;
-}/* 1 | 8246 */
+}//  1 | 8246 

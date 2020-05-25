@@ -1766,7 +1766,7 @@ function ETerrainEditor::setPaintMaterial(%this, %matIndex)
 function ETerrainEditor::changeMaterial(%this, %matIndex)
 {
     EPainter.matIndex = %matIndex;
-    getLoadFilename("*/terrains/*.png\t*/terrains/*.jpg", EPainterChangeMat);
+    getLoadFilename("*/terrains// .png\tterrains/*.jpg", EPainterChangeMat);
     return ;
 }
 function EPainterChangeMat(%file)
@@ -3087,7 +3087,7 @@ function Texture_material_menu::onSelect(%this, %id, %text)
 function texture::addMaterialTexture()
 {
     %root = filePath(Terrain.terrainFile);
-    getLoadFilename("*/terrains/*.png\t*/terrains/*.jpg", addLoadedMaterial);
+    getLoadFilename("*/terrains// .png\tterrains/*.jpg", addLoadedMaterial);
     return ;
 }
 function addLoadedMaterial(%file)

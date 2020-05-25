@@ -674,14 +674,14 @@ function ClosetGui_MyShop_GetSkuUGCStatus(%sku)
             %status = %s;
         }
         %n = %n - 1;
-    }/* 12 | 8281 */
+    }//  12 | 8281 
     %si.ugcStatus = %status;
     if (%status $= "")
     {
         error(getScopeName() SPC "- no UGC status for sku" SPC %sku SPC getTrace());
     }
     return %status;
-}/* 2 | 8339 */
+}//  2 | 8339 
 function ClosetGui_MyShop_GetSkuUGCStatusIcon(%sku)
 {
     %status = ClosetGui_MyShop_GetSkuUGCStatus(%sku);

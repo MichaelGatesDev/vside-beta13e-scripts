@@ -134,17 +134,17 @@ function chopTextToFitLineWidths(%text, %profile, %generalWidth, %lineWidths)
                                         %wordDone = 1;
                                     }
                                     %i = %i + 1;
-                                }/* 9 | 893 */
+                                }//  9 | 893 
                                 %thisLine = %partialWord;
                                 if (%beginningOfNextWord > 0)
                                 {
                                     %text = setWord(%text, %currentWordIndex, getSubStr(%currentWord, %beginningOfNextWord, %wordLength));
                                 }
                                 %atEndOfLine = 1;
-                            }/* 2 | 949 */
-                        }/* 2 | 949 */
-                    }/* 2 | 949 */
-                }/* 2 | 949 */
+                            }//  2 | 949 
+                        }//  2 | 949 
+                    }//  2 | 949 
+                }//  2 | 949 
             }
             else
             {

@@ -166,7 +166,7 @@ function dlMgr::getAndRemoveFirstActionableItemInToDownloadQueue(%this)
             %found = %n;
         }
         %n = %n + 1;
-    }/* 11 | 1559 */
+    }//  11 | 1559 
     if (%found == -1)
     {
         return "";
@@ -174,7 +174,7 @@ function dlMgr::getAndRemoveFirstActionableItemInToDownloadQueue(%this)
     %dlItem = %this.toDownload.getKey(%found);
     %this.toDownload.erase(%found);
     return %dlItem;
-}/* 1 | 1615 */
+}//  1 | 1615 
 function dlMgr::isUrlOutstanding(%this, %url)
 {
     return %this.outstanding.hasKey(%url);

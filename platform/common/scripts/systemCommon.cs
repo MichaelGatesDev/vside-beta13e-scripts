@@ -488,7 +488,7 @@ function compileClassInstances(%obj, %container)
             %found = %n;
         }
         %n = %n + 1;
-    }/* 15 | 3624 */
+    }//  15 | 3624 
     if (%found == -1)
     {
         %found = %container.numClasses;
@@ -508,6 +508,6 @@ function compileClassInstances(%obj, %container)
             %n = %n - 1;
         }
     }
-}/* 4 | 3841 */
+}//  4 | 3841 
 
 

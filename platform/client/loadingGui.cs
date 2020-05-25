@@ -182,7 +182,7 @@ function LoadingTipsHud::loadATip(%this)
     {
         %tipNum = getRandom(0, %this.tipFileCount - 1);
         %n = %n + 1;
-    }/* 15 | 1383 */
+    }//  15 | 1383 
     %fileName = %this.tipFile[%tipNum];
     if (%fileName $= "")
     {

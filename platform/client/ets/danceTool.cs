@@ -153,7 +153,7 @@ function danceTool::playNextStep(%this)
                 %tooFar = 1;
             }
             %n = %n + 1;
-        }/* 13 | 1246 */
+        }//  13 | 1246 
     }
     else
     {
@@ -179,7 +179,7 @@ function danceTool::playNextStep(%this)
         }
     }
     return %n;
-}/* 3 | 1341 */
+}//  3 | 1341 
 function danceTool::playStep(%this, %stepNum)
 {
     if ((%stepNum < 0) && (%stepNum >= %this.numSteps))

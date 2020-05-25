@@ -70,9 +70,9 @@ function spaces_FindSpaceDefWithStoreID(%storeID)
             %found = 0;
         }
         %n = %n - 1;
-    }/* 10 | 599 */
+    }//  10 | 599 
     return %found;
-}/* 1 | 604 */
+}//  1 | 604 
 function SpaceDef::getInternalName(%this)
 {
     return getSubStr(%this.getName(), 9);
