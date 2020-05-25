@@ -1348,11 +1348,11 @@ function GetUrlRatingListRequest::onDone(%this)
             }
         }
         %idx = %idx + 1;
-    }//  10 | 11410 
+    }
     CSMediaDisplay.setMediaHotlist(%mediaList);
     %this.schedule(0, "delete");
     return %idx;
-}//  1 | 11440 
+}
 function GetUrlRatingListRequest::onError(%this, %unused, %errMsg)
 {
     log("network", "warn", "GetUrlRatingRequest::onError: " @ %errMsg);

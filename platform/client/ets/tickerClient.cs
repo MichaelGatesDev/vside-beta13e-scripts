@@ -109,7 +109,7 @@ function ticker_newMessage()
             %queue.pop_front();
         }
         %n = %n - 1;
-    }//  11 | 832 
+    }
     if (!(%msg $= ""))
     {
         %senderName = getField(%msg, 0);
@@ -132,7 +132,7 @@ function ticker_newMessage()
         geTicker.delete();
     }
     return %n;
-}//  1 | 1110 
+}
 function ticker_createUI()
 {
     if (!isObject(ButtonBar))

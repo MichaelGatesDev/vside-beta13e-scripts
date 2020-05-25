@@ -40,7 +40,7 @@ function Player::onGotSKUs(%this)
                 %usingInstrument = 1;
             }
             %i = %i - 1;
-        }//  9 | 436 
+        }
         if (!%usingInstrument && (ApplauseMeterGui.applauseMeterUse $= "instrument"))
         {
             ApplauseMeterGui.closingFromServer = 1;
@@ -123,7 +123,7 @@ function Player::onGotSKUs(%this)
     }
     %this.prevActiveSkus = %this.getActiveSKUs();
     return %i;
-}//  1 | 1012 
+}
 function Player::applySkuBadge(%this, %skunum)
 {
     %prevSkuBadge = gGetField(%this, prevSkuBadge);

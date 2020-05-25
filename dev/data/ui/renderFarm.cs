@@ -98,7 +98,7 @@ function rf_beginRender(%request)
         %si = SkuManager.findBySku(%sku);
         %gender = %si.gender;
         %n = %n - 1;
-    }//  11 | 989 
+    }
     if (%gender $= "n")
     {
         %gender = "f";
@@ -122,7 +122,7 @@ function rf_beginRender(%request)
     geRenderFarmObjectView.snapshot(%fileName);
     rf_finishRender($gRF_CurrentRequest);
     return %n;
-}//  1 | 1353 
+}
 function rf_finishRender(%request)
 {
     %request.delete();

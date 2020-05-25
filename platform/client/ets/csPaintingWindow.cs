@@ -400,9 +400,9 @@ function geSwatchesPanel::selectSwatch(%this, %skunum)
                 %cell = -1;
             }
             %n = %n - 1;
-        }//  14 | 3694 
+        }
         %i = %i + 1;
-    }//  13 | 3720 
+    }
     if (isObject(%cell))
     {
         %this.selectCell(%cell);
@@ -413,7 +413,7 @@ function geSwatchesPanel::selectSwatch(%this, %skunum)
         geSwatchesPanelSelected.setVisible(0);
     }
     return %i;
-}//  1 | 3784 
+}
 function geSwatchesPanel::selectCell(%this, %cell)
 {
     if (!isObject(%cell))

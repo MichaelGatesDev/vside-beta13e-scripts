@@ -953,7 +953,7 @@ function WorldMap::validateSpot(%this, %locOrig)
             %loc = %locX SPC %locY;
         }
         %try = %try + 1;
-    }//  8 | 7949 
+    }
     return %loc;
 }
 function WorldMap::addCity(%this, %server)

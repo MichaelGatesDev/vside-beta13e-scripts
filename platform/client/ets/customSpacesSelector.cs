@@ -140,27 +140,27 @@ function CSSelectorCtrl::refreshFromSet(%this, %doSort)
         %ownerName = "<clip:" @ %nameFieldWidth @ ">" @ %ownerName @ "</clip>";
         if (%isFriend)
         {
-        }//  12 | 1440 
+        }
         else
         {
-        }//  3 | 1442 
+        }
         %ownerNameText = ;
         %spaceDescTextForModel = "<clip:" @ %descriptionFieldWidth @ ">" @ TryFixBadWords(%entry.description) @ "</clip>";
         if (%isFriend)
         {
-        }//  12 | 1509 
+        }
         else
         {
-        }//  3 | 1511 
+        }
         %spaceDescText = ;
         %dummyText = "";
         %occupancyTextForModel = "<just:right>" @ (stricmp(%entry.access, "PasswordProtected") == 0) && (stricmp(%entry.access, "Locked") == 0) ? "---" : %entry;
         if (%isFriend)
         {
-        }//  12 | 1613 
+        }
         else
         {
-        }//  3 | 1615 
+        }
         %occupancyText = ;
         if (%amCurrentlyHere)
         {
@@ -1269,7 +1269,7 @@ function customSpaceSelGotData(%buildingInfo, %buildingDir)
             {
                 %floorPlanFound = %space.floorPlanName $= %buildingInfo.floorplan[%j].name;
                 %j = %j + 1;
-            }//  13 | 11723 
+            }
             if (!%floorPlanFound)
             {
                 warn("customSpaceSelGotData() got listing for apartment \'" @ %space.name @ "\' with owner \'" @ %space.owner @ "\' that refers to non-existent floorPlan \'" @ %space.floorPlanName @ "\'");
@@ -1352,9 +1352,9 @@ function customSpaceSelGotData(%buildingInfo, %buildingDir)
                 CustomSpacesSelector.vars["descriptions",%space.name] = "";
             }
             %i = %i + 1;
-        }//  4 | 12358 
+        }
         CustomSpacesSelector.rearrangeListBoxes();
-    }//  2 | 12366 
+    }
     if (0)
     {
         %amAtHome = (!(($Player::myPlaceVURL $= "")) && ($CSSpaceInfo != 0)) && (stricmp($CSSpaceInfo.owner, $player.getShapeName()) == 0);

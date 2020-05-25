@@ -352,7 +352,7 @@ function geGiftingPanel::refreshScreen_ItemsAcceptDecline(%this)
     }
     else
     {
-    }//  2 | 3520 
+    }
     %text = ;
     %text = strreplace(%text, "[OTHERPLAYER]", %this.otherPlayerName);
     %text = strreplace(%text, "[GIFTDESC]", %this.getGiftDescription());
@@ -391,7 +391,7 @@ function geGiftingPanel::countdownTick(%this)
         }
         else
         {
-        }//  2 | 3907 
+        }
         %text = ;
         %text = strreplace(%text, "[OTHERPLAYER]", %this.otherPlayerName);
         %text = strreplace(%text, "[PERSONALMESSAGE]", %this.personalMessage);

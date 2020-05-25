@@ -386,9 +386,9 @@ function TEST_MISSIONGROUPINTEGRITY::IsAbleToNotCache(%this, %obj)
             %ableToNotCache = 1;
         }
         %i = %i + 1;
-    }//  14 | 3583 
+    }
     return %ableToNotCache;
-}//  3 | 3588 
+}
 function TEST_MISSIONGROUPINTEGRITY::getInitialNetCacheable(%this, %obj)
 {
     if (!%obj.isClassNetObject())
@@ -405,9 +405,9 @@ function TEST_MISSIONGROUPINTEGRITY::getInitialNetCacheable(%this, %obj)
             %ret = 0;
         }
         %i = %i + 1;
-    }//  14 | 3714 
+    }
     return %ret;
-}//  3 | 3719 
+}
 function TEST_MISSIONGROUPINTEGRITY::RecursivelyCheckForThingsThatDontBelong(%this, %obj, %parentGroupName)
 {
     %this.assert(isObject(%obj), %parentGroupName SPC ", the object " @ %obj @ "is not an object");
