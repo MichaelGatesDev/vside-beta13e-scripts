@@ -24,7 +24,7 @@ function handleTickerMessage(%unused, %msgString)
         %n = %n + 1;
     }
 }
-;
+
 function ticker_enqueue(%queue, %msgString)
 {
     %queue.push_back(%msgString, "");

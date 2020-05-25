@@ -202,7 +202,7 @@ function storeTransformsSet(%simSet)
         %n = %n + 1;
     }
 }
-;
+
 function restoreTransformsSet(%simSet)
 {
     %num = %simSet.getCount();
@@ -214,7 +214,7 @@ function restoreTransformsSet(%simSet)
         %n = %n + 1;
     }
 }
-;
+
 function copyObjectNamesToShapeNamesSet(%simSet)
 {
     %num = %simSet.getCount();
@@ -226,7 +226,7 @@ function copyObjectNamesToShapeNamesSet(%simSet)
         %n = %n + 1;
     }
 }
-;
+
 function registerInPlayerDictSet(%simSet)
 {
     %num = %simSet.getCount();
@@ -238,7 +238,7 @@ function registerInPlayerDictSet(%simSet)
         %n = %n + 1;
     }
 }
-;
+
 function NPCManager::resetnextAnimTimes(%this)
 {
     if (!isObject(%this.NPCGroup))
@@ -253,7 +253,7 @@ function NPCManager::resetnextAnimTimes(%this)
         %n = %n + 1;
     }
 }
-;
+
 function NPCManager::assertOutfits(%this)
 {
     if (!isObject(%this.NPCGroup))
@@ -289,7 +289,7 @@ function NPCManager::assertOutfits(%this)
         %n = %n + 1;
     }
 }
-;
+
 function NPCManager::setAnimTimeMin(%this, %setName, %val)
 {
     %this.animSets.put(%setName @ "_TimeMin", %val);
@@ -401,7 +401,7 @@ function NPCManager::dumpEts(%this)
         %setN = %setN + 1;
     }
 }
-;
+
 function NPCManager::handleTalkedToNPC(%this, %unused, %npc, %unused)
 {
     %setName = %npc.getDataBlock().aiProfile;

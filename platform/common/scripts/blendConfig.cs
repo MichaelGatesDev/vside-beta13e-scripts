@@ -351,7 +351,7 @@ function Player::configBoneBlends(%this)
         %i = %i + 1;
     }
 }
-;
+
 function Player::getBoneBlendIndexFromTitle(%this, %title)
 {
     if (!isObject($gBlendAnimsTitlesMap))

@@ -308,7 +308,7 @@ function AIManager::BotsBlahBlahOneShot(%this, %player)
         %i = %i + 1;
     }
 }
-;
+
 function AIPlayer::doEavesdropChange(%this)
 {
     %newEavesdropTarget = AIManager.bots[getRandom(0, AIManager.numBots - 1)];
@@ -496,7 +496,7 @@ function AIManager::SpawnArmyETS(%this, %transform)
         %j = %j + 1;
     }
 }
-;
+
 function AIManager::RandomizeBots(%this)
 {
     %i = 0;
@@ -509,7 +509,7 @@ function AIManager::RandomizeBots(%this)
         %i = %i + 1;
     }
 }
-;
+
 function ServerCmdNextToonModeBots(%client)
 {
     %i = 0;
@@ -520,7 +520,7 @@ function ServerCmdNextToonModeBots(%client)
         %i = %i + 1;
     }
 }
-;
+
 function AIManager::BotsStress(%this, %val)
 {
     %this.BotsMove = %val;

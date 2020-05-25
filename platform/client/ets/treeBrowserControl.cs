@@ -205,7 +205,7 @@ function TreeBrowserControl::goToParentPath(%this)
         %i = %i + 1;
     }
 }
-;
+
 function TreeBrowserControl::getMenuText(%this, %text)
 {
     return %text;
@@ -737,7 +737,7 @@ function TreeBrowserControl::addDataTree(%this, %tree, %prefix)
         %i = %i + 1;
     }
 }
-;
+
 function TreeBrowserControl::getNode(%this, %path)
 {
     %node = %this.nodeDictionary.get(%path);
@@ -916,7 +916,7 @@ function dumpSubtree(%subtree, %prefix)
         %i = %i + 1;
     }
 }
-;
+
 function deleteTree(%tree)
 {
     %count = %tree.getCount();

@@ -73,7 +73,7 @@ function CSSpacePurchasePriceConfirmation(%space)
         %index = %index + 1;
     }
 }
-;
+
 function CSSpacePurchaseDoConfirm(%space, %useBux)
 {
     %title = "Get a Room (Step 2 of 2)";

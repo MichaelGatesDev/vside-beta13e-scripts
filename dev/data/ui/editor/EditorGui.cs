@@ -1869,7 +1869,7 @@ function RecurseInvertSelectObjectsInGroup(%theSimGroup)
         %i = %i + 1;
     }
 }
-;
+
 function RecurseSelectObjectsInGroup(%theSimGroup, %classname)
 {
     %count = %theSimGroup.getCount();
@@ -1891,7 +1891,7 @@ function RecurseSelectObjectsInGroup(%theSimGroup, %classname)
         %i = %i + 1;
     }
 }
-;
+
 function WorldEditor::selectAllObjects(%this)
 {
     if (isObject(MissionGroup))
@@ -2552,7 +2552,7 @@ function WorldEditor::CloneTo(%this, %snapType)
         %i = %i + 1;
     }
 }
-;
+
 function WorldEditor::multiSnapTo(%this, %snapType)
 {
     echo("in multiSnapTo w/ type" SPC %snapType);
@@ -2566,7 +2566,7 @@ function WorldEditor::multiSnapTo(%this, %snapType)
         %i = %i + 1;
     }
 }
-;
+
 function WorldEditor::dropCameraToSelection(%this)
 {
     if (%this.getSelectionSize() == 0)
@@ -2631,7 +2631,7 @@ function WorldEditor::addSelectionToAddGroup(%this)
         %i = %i + 1;
     }
 }
-;
+
 function WorldEditor::resetTransforms(%this)
 {
     %this.addUndoState();
@@ -2649,7 +2649,7 @@ function WorldEditor::resetTransforms(%this)
         %i = %i + 1;
     }
 }
-;
+
 function WorldEditorToolbarDlg::init(%this)
 {
     WorldEditorInspectorCheckBox.setValue(WorldEditorToolFrameSet.isMember("EditorToolInspectorGui"));
@@ -3402,7 +3402,7 @@ function texture::restoreMaterial(%id)
         %record = %record + 1;
     }
 }
-;
+
 function texture::saveMaterial()
 {
     %id = $selectedMaterial;
@@ -3653,7 +3653,7 @@ function tab_terrainFile::reset(%this)
         %file = findNextFile(%filespec);
     }
 }
-;
+
 function tab_Canyon::reset()
 {
     return ;

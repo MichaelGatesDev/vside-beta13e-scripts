@@ -85,7 +85,7 @@ function outfits_dumpCurrent()
         %n = %n + 1;
     }
 }
-;
+
 function outfits_getCurrentSkus()
 {
     %outfitName = $gOutfits.get("currentOutfit");

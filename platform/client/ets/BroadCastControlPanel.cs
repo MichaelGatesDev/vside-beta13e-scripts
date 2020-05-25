@@ -331,7 +331,7 @@ function BroadSnapshotButton_HideSnoop()
         %n = %n - 1;
     }
 }
-;
+
 function BroadSnapshotButton_ShowSnoop()
 {
     %n = TheBadgesHud.getCount() - 1;
@@ -346,7 +346,7 @@ function BroadSnapshotButton_ShowSnoop()
         %n = %n - 1;
     }
 }
-;
+
 $gNumPhotosTaken = 0;
 function BroadcastCaptionSetBCastCtrl::onMouseUp(%this)
 {

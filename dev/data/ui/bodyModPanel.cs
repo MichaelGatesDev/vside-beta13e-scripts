@@ -356,7 +356,7 @@ function bodyModPanel::setGCVisible(%this, %val)
         %i = %i + 1;
     }
 }
-;
+
 function bodyModPanel::getArrayGCName(%prefix, %row, %col)
 {
     if (!$player.rolesPermissionCheckNoWarn("debugActive"))
@@ -538,7 +538,7 @@ function bodyModPanel::setAllBoneScale(%axis, %val)
         %boneIndex = %boneIndex + 1;
     }
 }
-;
+
 function bodyModPanel::setAllBoneOffsets(%axis, %val)
 {
     if (!$player.rolesPermissionCheckNoWarn("debugActive"))
@@ -557,7 +557,7 @@ function bodyModPanel::setAllBoneOffsets(%axis, %val)
         %boneIndex = %boneIndex + 1;
     }
 }
-;
+
 function bodyModPanel::applyChangeFromGC(%gc)
 {
     %gcName = strlwr(%gc.getName());
@@ -778,7 +778,7 @@ function bodyModPanel::setBoneWithAntiMod(%isScale, %slider)
         %i = %i + 1;
     }
 }
-;
+
 function bodyModPanel::setAntiModToChildren(%isScale, %parentBoneIndex, %axis, %val)
 {
     if (!$player.rolesPermissionCheckNoWarn("debugActive"))
@@ -811,5 +811,5 @@ function bodyModPanel::setAntiModToChildren(%isScale, %parentBoneIndex, %axis, %
         %i = %i + 1;
     }
 }
-;
+
 

@@ -56,7 +56,7 @@ function URLPostObject::copyListValuesIntoMap(%this, %map, %listPrefix, %tabDeli
         %n = %n - 1;
     }
 }
-;
+
 function URLPostObject::addUserAndToken(%this, %userName)
 {
     if ($StandAlone)

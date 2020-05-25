@@ -53,7 +53,7 @@ function dumpLoadInfo()
         %i = %i + 1;
     }
 }
-;
+
 function sendLoadInfoToClient(%client)
 {
     messageClient(%client, 'MsgLoadInfo', MissionInfo.name);

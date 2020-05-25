@@ -1432,7 +1432,7 @@ function ClosetCurrentCamParams::adjustForHeight(%this)
         %i = %i + 1;
     }
 }
-;
+
 function ClosetMainObjectView::zoomToSKU(%this, %sku)
 {
     if (%sku $= "")
@@ -1500,7 +1500,7 @@ function ClosetThumbnails::setSelectedThumbs(%this)
         %n = %n + 1;
     }
 }
-;
+
 $gClosetThumbnailStoreHighlightTimer = "";
 $gClosetThumbnailStoreHighlightDelayMS = 0;
 function ClosetThumbnailCtrl::onHilite(%this)
@@ -2761,7 +2761,7 @@ function ClosetGui::toggleSku(%this, %sku)
         }
     }
 }
-;
+
 function ClosetGui::doArrow(%this, %dx, %dy)
 {
     if (ClosetTabs.getCurrentTab().name $= "SNAPSHOT")

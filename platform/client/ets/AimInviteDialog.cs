@@ -168,7 +168,7 @@ function AimInviteAddBuddyDialog::refresh(%this)
         %i = %i + 1;
     }
 }
-;
+
 function AimInviteAddBuddyDialog::addSelected(%this)
 {
     %id = AimInviteAddBuddyList.getSelectedId();

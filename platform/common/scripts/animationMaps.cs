@@ -410,7 +410,7 @@ function addAnimationToMap(%map, %mapThis, %toThis, %tags)
         %n = %n - 1;
     }
 }
-;
+
 function addGenreSpecificAnimations(%map, %gender, %genre)
 {
     addAnimationToMap(%map, "root", %gender @ %genre @ "idl1a", "");
@@ -883,7 +883,7 @@ function addGenreNeutralAnimations(%map, %gender)
         %i = %i + 1;
     }
 }
-;
+
 function initNoAutoEmoteList()
 {
     addNoAutoEmoteWord("angry");

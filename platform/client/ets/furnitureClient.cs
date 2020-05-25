@@ -203,7 +203,7 @@ function putAwayAllFurniture()
         %index = %index + 1;
     }
 }
-;
+
 function dumpFurniture()
 {
     %count = $Player::furnitureInventory.count();
@@ -217,7 +217,7 @@ function dumpFurniture()
         %index = %index + 1;
     }
 }
-;
+
 function dumpFurnitureInUse()
 {
     %count = $Player::furnitureInventory.count();
@@ -235,7 +235,7 @@ function dumpFurnitureInUse()
         %index = %index + 1;
     }
 }
-;
+
 function clearOwnedFurniture()
 {
     $Player::furnitureInventory.empty();

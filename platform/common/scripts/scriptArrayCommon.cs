@@ -75,5 +75,5 @@ function ScriptArray::dumpValues(%this)
         %n = %n + 1;
     }
 }
-;
+
 

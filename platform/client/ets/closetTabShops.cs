@@ -600,7 +600,7 @@ function StoreShoppingList::addSkus(%this, %skulist)
         %i = %i + 1;
     }
 }
-;
+
 function StoreShoppingList::removeSku(%this, %sku)
 {
     %count = %this.getCount();
@@ -645,7 +645,7 @@ function StoreShoppingList::removeSkus(%this, %skulist)
         %i = %i + 1;
     }
 }
-;
+
 function StoreShoppingList::clear(%this)
 {
     %this.removeSkus(%this.getSkus());
@@ -709,7 +709,7 @@ function StoreShoppingList::update(%this)
         %i = %i + 1;
     }
 }
-;
+
 function StoreShoppingList::sumPrices(%this)
 {
     %pointsSum = 0;

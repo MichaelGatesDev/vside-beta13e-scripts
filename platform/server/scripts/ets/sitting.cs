@@ -90,7 +90,7 @@ function showClientAvailableSeats(%seats, %client)
         %i = %i + 1;
     }
 }
-;
+
 function showPossibleSeats(%seats, %client)
 {
     showClientAvailableSeats(%seats, %client);
@@ -287,7 +287,7 @@ function SeatingArea::onTickTrigger(%this, %trigger)
         %n = %n + 1;
     }
 }
-;
+
 function SeatingArea::onLeaveTrigger(%this, %trigger, %player)
 {
     Parent::onLeaveTrigger(%this, %trigger, %player);

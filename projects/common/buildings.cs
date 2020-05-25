@@ -38,7 +38,7 @@ function DeclareBuilding(%buildingName, %buildingDescription, %longDescription, 
         %i = %i - 1;
     }
 }
-;
+
 function Buildings::GetDescription(%name)
 {
     return $gBuildingDesc[%name];

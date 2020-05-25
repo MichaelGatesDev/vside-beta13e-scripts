@@ -898,7 +898,7 @@ function WorldMap::adjustButtons(%this)
         %i = %i + 1;
     }
 }
-;
+
 function WorldMap::clearCities(%this)
 {
     %sc = %this.getCount();
@@ -1137,7 +1137,7 @@ function WorldMap::setCitiesActive(%this, %flag)
         %i = %i + 1;
     }
 }
-;
+
 function WorldMap::UpdateCityStatuses(%this)
 {
     if (!WorldMap.isVisible())
@@ -1232,7 +1232,7 @@ function WorldMap::UpdateCityStatuses(%this)
         %i = %i + 1;
     }
 }
-;
+
 function WorldMap::cityNameForServerName(%this, %name)
 {
     if (!isObject(WorldMapServers))
@@ -1521,7 +1521,7 @@ function WorldMapCityBkgd::setButtonsEnabled(%this, %flag)
         %i = %i + 1;
     }
 }
-;
+
 function devModServerListML::onURL(%this, %url)
 {
     if (!(firstWord(%url) $= "gamelink"))

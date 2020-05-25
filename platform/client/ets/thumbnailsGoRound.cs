@@ -136,7 +136,7 @@ function thumbnailsGoRound::onRebuilt(%this)
         %n = %n + 1;
     }
 }
-;
+
 function thumbnailsGoRound::tick(%this)
 {
     cancel(%this.tickTimerID);

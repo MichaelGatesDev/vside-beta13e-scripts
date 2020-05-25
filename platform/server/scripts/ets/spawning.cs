@@ -83,7 +83,7 @@ function SpawnSphere::spawnBots(%this, %num, %sep)
         %n = %n + 1;
     }
 }
-;
+
 function SpawnSphere::spawnBotsDensity(%this, %density, %sep)
 {
     %spnArea = (%this.radius * %this.radius) * 3.14159;

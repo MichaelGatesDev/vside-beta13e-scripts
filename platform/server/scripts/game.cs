@@ -347,7 +347,7 @@ function GameConnection::initPlayerRelations()
         }
     }
 }
-;
+
 function pickSpawnPoint()
 {
     %groupName = "MissionGroup/PlayerDropPoints";

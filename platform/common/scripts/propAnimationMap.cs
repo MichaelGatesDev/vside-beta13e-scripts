@@ -217,7 +217,7 @@ function dumpProps()
         %n = %n + 1;
     }
 }
-;
+
 initializePropAnimationMap();
 function canHavePropsInGenre(%genre)
 {

@@ -30,7 +30,7 @@ function DestinationList::AddDestinationInfo(%codeName, %filters, %contiguousSpa
         %i = %i - 1;
     }
 }
-;
+
 function DestinationList::getDestinationContiguousSpace(%codeName)
 {
     return $gDestinationSpaces[%codeName];

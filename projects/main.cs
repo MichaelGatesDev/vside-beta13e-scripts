@@ -21,7 +21,7 @@ function initProjectsNonReloadable()
         %n = %n + 1;
     }
 }
-;
+
 function initProjectsReloadable()
 {
     %folders = getProjectFolders();
@@ -35,7 +35,7 @@ function initProjectsReloadable()
         %n = %n + 1;
     }
 }
-;
+
 function initProjectsReloadableLate()
 {
     %folders = getProjectFolders();
@@ -49,7 +49,7 @@ function initProjectsReloadableLate()
         %n = %n + 1;
     }
 }
-;
+
 function parseProjectArg()
 {
     %haveArg = findArg("-project", "$ETS::ProjectName", "Missing -project <project name>");

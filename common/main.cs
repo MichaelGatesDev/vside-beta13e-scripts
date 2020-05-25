@@ -118,7 +118,7 @@ function checkUnusedArgs()
         %i = %i + 1;
     }
 }
-;
+
 function doStart()
 {
     log("initialization", "info", "--------- Args ---------");

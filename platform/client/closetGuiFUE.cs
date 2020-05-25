@@ -420,7 +420,7 @@ function closetGuiFUEHideTipsCtrl::hideTips(%this)
         %i = %i + 1;
     }
 }
-;
+
 function closetGuiFUEHideTipsCtrl::showTips(%this)
 {
     if (ClosetGuiFUE.refreshingOrInitializing)
@@ -442,5 +442,5 @@ function closetGuiFUEHideTipsCtrl::showTips(%this)
         %i = %i + 1;
     }
 }
-;
+
 

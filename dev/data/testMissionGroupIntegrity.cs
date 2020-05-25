@@ -318,7 +318,7 @@ function TEST_MISSIONGROUPINTEGRITY::CheckDatablockSetup(%this)
         %n = %n - 1;
     }
 }
-;
+
 function TEST_MISSIONGROUPINTEGRITY::CheckUniqueObjectNames(%this)
 {
     %group = MissionGroup;
@@ -359,7 +359,7 @@ function TEST_MISSIONGROUPINTEGRITY::_checkUniqueObjectNames_Recursive(%this, %o
         }
     }
 }
-;
+
 function TEST_MISSIONGROUPINTEGRITY::CheckPaperDollSKUs(%this)
 {
     paperDoll_InitPermutations();
@@ -849,7 +849,7 @@ function UtilityDBInUseVisitor::visitObject(%this, %obj)
         %i = %i + 1;
     }
 }
-;
+
 function SimGroup::PrintAllDebugNames(%this)
 {
     %v = SimGroupVisitor::construct("DebugStringVisitor");

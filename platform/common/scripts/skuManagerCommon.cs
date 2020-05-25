@@ -387,7 +387,7 @@ function SkuManager::buildSkusSearchText(%this)
         %n = %n - 1;
     }
 }
-;
+
 function SkuManager::filterSkusInList(%this, %skusDry, %list)
 {
     %skusWet = "";
@@ -544,7 +544,7 @@ function SkuManager::dumpSkuList(%this, %skus)
         %n = %n + 1;
     }
 }
-;
+
 function Player::dumpActiveSkus(%this)
 {
     %skus = %this.getActiveSKUs();
@@ -605,7 +605,7 @@ function SkuManager::addSkuTags(%this, %sku, %tags)
         %n = %n - 1;
     }
 }
-;
+
 function SkuManager::getSkuTags(%this, %sku)
 {
     return %this.findBySku(%sku).tags;

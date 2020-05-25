@@ -194,5 +194,5 @@ function TEST_CS_CreateAllOwnedFurnitureItems::runTest(%this)
         %i = %i + 1;
     }
 }
-;
+
 

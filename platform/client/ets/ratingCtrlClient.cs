@@ -81,7 +81,7 @@ function ratingControl::update(%this)
         %i = %i + 1;
     }
 }
-;
+
 function ratingControl::setRating(%this, %rating, %saveToManager)
 {
     %this.rating = %rating;

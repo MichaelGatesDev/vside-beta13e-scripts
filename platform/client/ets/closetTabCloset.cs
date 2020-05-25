@@ -531,7 +531,7 @@ function ClosetBrandPopup::update(%this, %skus)
         %i = %i + 1;
     }
 }
-;
+
 function ClosetItemPopup::update(%this, %skus)
 {
     NoItemInBrandNameLabel.setText("");

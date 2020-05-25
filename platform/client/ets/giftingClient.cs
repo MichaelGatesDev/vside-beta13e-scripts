@@ -862,7 +862,7 @@ function parseGiftingSettings(%request)
         %n = %n + 1;
     }
 }
-;
+
 function addFakeGiftingSettings(%request)
 {
     %request.putValue("giftingCapLevelCount", 11);

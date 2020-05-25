@@ -14,7 +14,7 @@ function messageAll(%msgType, %msgString)
         %cl = %cl + 1;
     }
 }
-;
+
 function GameConnection::spamReset(%this)
 {
     %this.isSpamming = 0;

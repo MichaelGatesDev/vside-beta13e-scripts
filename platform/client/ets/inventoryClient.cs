@@ -1001,7 +1001,7 @@ function Inventory::dumpStore(%storename)
         %n = %n + 1;
     }
 }
-;
+
 function Inventory::onGotStoreInventory(%storename)
 {
     if (%storename $= "furnishings")
@@ -1292,7 +1292,7 @@ function Player::addInventorySKUs(%this, %skusToAdd)
         %idx = %idx - 1;
     }
 }
-;
+
 function Player::removeInventorySKUs(%this, %skusToRemove)
 {
     %idx = getWordCount(%skusToRemove) - 1;

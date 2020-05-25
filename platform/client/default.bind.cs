@@ -117,7 +117,7 @@ function mapMessageKeys()
         %messageKeys = NextToken(%messageKeys, key, " ");
     }
 }
-;
+
 initActionMaps();
 mapMessageKeys();
 function escapeFromGame()
@@ -774,7 +774,7 @@ function closeCSPanelsInOtherCategories(%panel)
         %i = %i + 1;
     }
 }
-;
+
 function numCSPanelsOpen()
 {
     %num = 0;

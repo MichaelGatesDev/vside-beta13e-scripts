@@ -63,7 +63,7 @@ function AIMConvManager::selectConv(%this, %convId)
         %idx = %idx + 1;
     }
 }
-;
+
 function AIMConvManager::nextConv(%this)
 {
     if (%this.numConvs > 0)
@@ -141,7 +141,7 @@ function AIMConvManager::removeConv(%this, %convId)
         %idx = %idx + 1;
     }
 }
-;
+
 function AIMConvManager::removeCurrentConv(%this)
 {
     %this.removeConvAtIndex(%this.currentConvIndex);
@@ -190,7 +190,7 @@ function AIMConvManager::update(%this)
         %idx = %idx + 1;
     }
 }
-;
+
 function AIMConvManager::finishUpdate(%this)
 {
     %curConv = %this.convs[%this.currentConvIndex];
@@ -690,7 +690,7 @@ function AIMConvManager::closeAllConvs(%this)
         %n = %n - 1;
     }
 }
-;
+
 AIMConvManager.stateMapping = "offline avail away away";
 function AIMConvManager::buddyStateChanged(%this, %name, %state)
 {

@@ -70,7 +70,7 @@ function MenuLayer::deleteClones(%this)
         %i = %i - 1;
     }
 }
-;
+
 function MenuLayer::setActiveButton(%this, %ctrl)
 {
     if (!isObject(%ctrl))

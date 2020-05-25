@@ -33,7 +33,7 @@ function SimSet::sortByInternalName(%this, %recurse)
         }
     }
 }
-;
+
 function echoDebug(%line)
 {
     log("general", "debug", %line);

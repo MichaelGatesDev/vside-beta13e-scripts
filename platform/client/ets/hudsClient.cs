@@ -113,7 +113,7 @@ function HudTabs::pausePulseOnAllTabs(%this)
         %i = %i + 1;
     }
 }
-;
+
 function HudTabs::stopPulseOnTab(%this, %tabObject)
 {
     cancel(%tabObject.pulseTimer);
@@ -1288,7 +1288,7 @@ function GuiPopUp2MenuCtrl::fillFromList(%this, %list)
         %i = %i + 1;
     }
 }
-;
+
 function NonOPSpaceHudOwnerField::onURL(%this, %url)
 {
     if (getWord(%url, 0) $= "noowner")

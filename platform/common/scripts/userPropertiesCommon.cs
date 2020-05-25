@@ -274,7 +274,7 @@ function userPropertiesMgr::parseRequest(%this, %request)
         %n = %n + 1;
     }
 }
-;
+
 function userPropertiesMgr::requestPropertiesForce(%this, %userName, %callback)
 {
     if (isObject(%this.propertiesValue[%userName]))

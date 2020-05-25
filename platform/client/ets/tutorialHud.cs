@@ -123,7 +123,7 @@ function TutorialsCatalogClient::addContentPattern(%this, %pattern)
         %file = findNextFile(%filespec);
     }
 }
-;
+
 function TutorialsCatalogClient::addContentItem(%this, %file)
 {
     %file = getSubStr(%file, strlen(TutorialsCatalogClient::GetTutorialsRoot()), 1000000);
@@ -549,7 +549,7 @@ function TutorialsObject::doRestartNags(%this)
         }
     }
 }
-;
+
 function TutorialsCatalogClient::forceNextNag()
 {
     if (!$ETS::devMode)
@@ -695,7 +695,7 @@ function TutorialsCatalogClient::doCancelAllNagSchedules(%this)
         %i = %i - 1;
     }
 }
-;
+
 function leaveAllTutorialSpaces()
 {
     if (isObject(TutorialsCatalogClient))

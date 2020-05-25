@@ -152,7 +152,7 @@ function dlMgr::serviceToDownloadQueue(%this)
         %this.beginDownloadingItem(%dlItem);
     }
 }
-;
+
 function dlMgr::getAndRemoveFirstActionableItemInToDownloadQueue(%this)
 {
     %num = %this.toDownload.count();
@@ -404,7 +404,7 @@ function dlMgr::dumpCache(%this)
         %n = %n + 1;
     }
 }
-;
+
 function GuiControl::downloadAndApplyBitmap(%this, %url, %policyName)
 {
     if (!%this.hasMethod("setBitmap"))

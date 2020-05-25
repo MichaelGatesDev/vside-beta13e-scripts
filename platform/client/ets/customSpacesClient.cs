@@ -716,7 +716,7 @@ function linkSpaces(%buildingInfo, %spaceGroup)
         %idx = %idx + 1;
     }
 }
-;
+
 function getOwnerSpacesInfo(%ownerName, %onCompleteFN)
 {
     %tracker = getOwnerSpaceInfoTracker(%ownerName);

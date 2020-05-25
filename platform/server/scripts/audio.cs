@@ -7,7 +7,7 @@ function ServerPlay2D(%profile)
         %idx = %idx + 1;
     }
 }
-;
+
 function ServerPlay3D(%profile, %transform)
 {
     %idx = 0;
@@ -17,5 +17,5 @@ function ServerPlay3D(%profile, %transform)
         %idx = %idx + 1;
     }
 }
-;
+
 

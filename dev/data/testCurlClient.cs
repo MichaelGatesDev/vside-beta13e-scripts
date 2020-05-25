@@ -263,7 +263,7 @@ function curlTestAll()
         %i = %i + 1;
     }
 }
-;
+
 function testPcpUpdate()
 {
     %curl = new URLPostObject();
@@ -326,5 +326,5 @@ function stressTestFileDownload()
         %i = %i + 1;
     }
 }
-;
+
 

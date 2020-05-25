@@ -171,7 +171,7 @@ function insertPlainToCodedListIntoMap(%srcList, %trgMap)
         %n = %n + 1;
     }
 }
-;
+
 function removePlainToCodedListFromMap(%srcList, %trgMap)
 {
     %num = getFieldCount(%srcList) / 2;
@@ -184,7 +184,7 @@ function removePlainToCodedListFromMap(%srcList, %trgMap)
         %n = %n + 1;
     }
 }
-;
+
 function initializeEmoteDictPublic(%dict)
 {
     initGenderedDances();

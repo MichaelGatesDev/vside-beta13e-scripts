@@ -142,5 +142,5 @@ function NPCManager::doThrowVoice(%this, %msg, %adminPlayer)
         %n = %n + 1;
     }
 }
-;
+
 

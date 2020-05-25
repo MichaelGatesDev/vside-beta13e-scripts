@@ -118,7 +118,7 @@ function userTips::resetSeenThisSession()
         %n = %n + 1;
     }
 }
-;
+
 function userTips::resetSeenEver()
 {
     %n = 0;
@@ -128,7 +128,7 @@ function userTips::resetSeenEver()
         %n = %n + 1;
     }
 }
-;
+
 function userTips::resetSeenAll()
 {
     userTips::resetSeenThisSession();
