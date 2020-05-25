@@ -288,9 +288,7 @@ function LoginGui::envManagerLogin(%this)
     {
         LoginRequest.delete();
     }
-    %loginRequest = new ManagerRequest(LoginRequest)
-    {
-    };
+    %loginRequest = new ManagerRequest(LoginRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%loginRequest);

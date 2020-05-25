@@ -694,9 +694,7 @@ function legacyPersistOptionsPanelSettingsToManager()
     {
         return ;
     }
-    %request = new ManagerRequest(LegacySaveSettingsRequest)
-    {
-    };
+    %request = new ManagerRequest(LegacySaveSettingsRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%request);

@@ -1,8 +1,6 @@
 function connectLocal(%userName)
 {
-    %c = new GameConnection(ServerConnection)
-    {
-    };
+    %c = new GameConnection(ServerConnection);
     $Player::Name = %userName;
     %c.setCommonPreconnectClientSettings("");
     %c.connect("localhost:" @ $Pref::Net::Port);

@@ -2,9 +2,7 @@ $musicStreamNameMap = 0;
 $musicStreamIDMap = 0;
 function Music::init()
 {
-    %fmod = new ScriptObject(FMod)
-    {
-    };
+    %fmod = new ScriptObject(FMod);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(FMod);

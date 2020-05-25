@@ -936,9 +936,7 @@ function textToTree(%text)
     %text = strreplace(%text, "\'", "\"");
     %text = strreplace(%text, "[\"", "new SimGroup() { text = |");
     %text = strreplace(%text, "\"", "|; ");
-    %text = strreplace(%text, "|", "\"");
-    %text = strreplace(%text, "[", "new SimGroup() { ");
-    %text = strreplace(%text, "]", "};");
+    %text = strreplace(%text, "|", "\"");");
     %text = "%tree = " @ %text;
     eval(%text);
     return %tree;

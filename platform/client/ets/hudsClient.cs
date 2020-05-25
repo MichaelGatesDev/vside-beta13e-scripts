@@ -594,9 +594,7 @@ function HudTabs::fillScoresTab(%this)
     HudScoresContent.add(HudScoresContent.collectionsScroll);
     if (!isObject(HudScoresContent.collectionsSet))
     {
-        HudScoresContent.collectionsSet = new SimSet(ScoresHudCollectionsSet)
-        {
-        };
+        HudScoresContent.collectionsSet = new SimSet(ScoresHudCollectionsSet);
     }
     HudScoresContent.previousRespektPoints = 0;
     HudScoresContent.setRespektPoints(0, 0);

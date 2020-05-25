@@ -1,8 +1,6 @@
 if (!isObject(gameMgrClient))
 {
-    $gameMgrClient = new ScriptObject(gameMgrClient)
-    {
-    };
+    $gameMgrClient = new ScriptObject(gameMgrClient);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add($gameMgrClient);

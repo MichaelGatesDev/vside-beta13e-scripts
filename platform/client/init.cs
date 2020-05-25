@@ -143,9 +143,7 @@ function startStandAlone_Part2()
 {
     outfits_init();
     createServer("SinglePlayer", $MissionArg);
-    $GameConnection = new GameConnection(ServerConnection)
-    {
-    };
+    $GameConnection = new GameConnection(ServerConnection);
     $GameConnection.setCommonPreconnectClientSettings("");
     RootGroup.add(ServerConnection);
     $GameConnection.connectLocal();

@@ -93,9 +93,7 @@ function endMission()
     MissionGroup.delete();
     MissionCleanup.delete();
     $ServerGroup.delete();
-    $ServerGroup = new SimGroup(ServerGroup)
-    {
-    };
+    $ServerGroup = new SimGroup(ServerGroup);
     return ;
 }
 function resetMission()

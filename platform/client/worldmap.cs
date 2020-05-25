@@ -506,9 +506,7 @@ function WorldMap::doServerJoin(%this, %targetVurl)
     if (isObject(%this.server))
     {
         echo("in doServerJoin " @ %this);
-        %conn = new GameConnection(ServerConnection)
-        {
-        };
+        %conn = new GameConnection(ServerConnection);
         %conn.setCommonPreconnectClientSettings(%targetVurl);
         $GameConnection = %conn;
         $ServerName = %this.server.get("name");

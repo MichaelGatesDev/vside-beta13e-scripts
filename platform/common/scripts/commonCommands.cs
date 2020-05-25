@@ -65,9 +65,7 @@ function tmpFields(%obj)
     %tmps = gGetField(%obj, tmpFields);
     if (!isObject(%tmps))
     {
-        %tmps = new ScriptObject(temporaryfields)
-        {
-        };
+        %tmps = new ScriptObject(temporaryfields);
         if (isObject(MissionCleanup))
         {
             MissionCleanup.add(%tmps);

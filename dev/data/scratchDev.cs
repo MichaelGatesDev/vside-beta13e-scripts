@@ -270,9 +270,7 @@ function tryDataTable()
     {
         erezD.delete();
     }
-    %table = new DataTable(erezD)
-    {
-    };
+    %table = new DataTable(erezD);
     return ;
 }
 function tryTable()

@@ -2,9 +2,7 @@ if (isObject(MessageFuncDict))
 {
     MessageFuncDict.delete();
 }
-$MessageFuncDict = new StringMap(MessageFuncDict)
-{
-};
+$MessageFuncDict = new StringMap(MessageFuncDict);
 if (isObject(MissionCleanup))
 {
     MissionCleanup.add(MessageFuncDict);

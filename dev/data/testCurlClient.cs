@@ -1,9 +1,7 @@
 function simpleGoogleTest()
 {
     %name = "simpleGoogleTest" @ getRandom(0, 100000);
-    %curl = new CURLObject(%name)
-    {
-    };
+    %curl = new CURLObject(%name);
     %curl.setURL("http://www.google.com");
     %curl.setRecvData(1);
     if (%curl.start())

@@ -65,9 +65,7 @@ function EtsInviteDialog::sendInviteRequestToEnvManager(%this, %to, %message)
     {
         EtsInviteRequest.delete();
     }
-    %inviteRequest = new ManagerRequest(EtsInviteRequest)
-    {
-    };
+    %inviteRequest = new ManagerRequest(EtsInviteRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%inviteRequest);

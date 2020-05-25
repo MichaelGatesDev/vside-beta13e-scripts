@@ -199,9 +199,7 @@ function packageDownload::downloadFile(%this)
         return ;
     }
     %name = "packageDownloadClass" @ getRandom(0, 1000);
-    %curl = new URLPostObject(%name)
-    {
-    };
+    %curl = new URLPostObject(%name);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%curl);

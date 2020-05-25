@@ -27,9 +27,7 @@ function createServer(%serverType, %mission)
         portInit($Pref::Server::Port);
         allowConnections(1);
     }
-    $ServerGroup = new SimGroup(ServerGroup)
-    {
-    };
+    $ServerGroup = new SimGroup(ServerGroup);
     $ClientDict = new StringMap(ClientDict);
     $PlayerDict = new StringMap(PlayerDict);
     $TokenDict = new StringMap(TokenDict);

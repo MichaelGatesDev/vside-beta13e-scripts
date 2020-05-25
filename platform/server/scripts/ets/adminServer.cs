@@ -77,9 +77,7 @@ function admin::doBan(%target, %message, %adminPlayer)
         %target.delete();
         return ;
     }
-    %banRequest = new CURLObject(BanRequest)
-    {
-    };
+    %banRequest = new CURLObject(BanRequest);
     %banRequest.user = %target.getShapeName();
     %host = $Pref::Server::ManagerAddress @ ":" @ $Pref::Server::ManagerHTTPPort;
     %uri = "/envmanager/status";
