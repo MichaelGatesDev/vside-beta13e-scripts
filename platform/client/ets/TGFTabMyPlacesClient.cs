@@ -12,9 +12,7 @@ function geTGF_tabs::fillTabMyPlace(%this)
     }
     %tab.filled = 1;
     %this.fillTabGeneric(%tab);
-    %dataTable = new DataTable(geTGF_MyPlaceDataTable)
-    {
-    };
+    %dataTable = new DataTable(geTGF_MyPlaceDataTable);
     %dataTable.addColumn("event", "", "icon", 20, 1, 1, 0);
     %dataTable.addColumn("description", mlStyle("Description", "tgfTables_ColumnHeader"), "string", 342, 1, 1, 1);
     %dataTable.addColumn("username", mlStyle("Host", "tgfTables_ColumnHeader"), "string", 150, 1, 1, 1);
@@ -79,9 +77,7 @@ function geTGF_tabs::fillTabMyPlace(%this)
         noEntriesText = ".. Strange, something went wrong. Try pressing refresh in a few seconds.";
     };
     %container.add(%guiTable.alternativeTextCtrl);
-    %dataTable = new DataTable(geTGF_OtherPlacesDataTable)
-    {
-    };
+    %dataTable = new DataTable(geTGF_OtherPlacesDataTable);
     %dataTable.addColumn("event", "", "icon", 20, 1, 1, 0);
     %dataTable.addColumn("description", mlStyle("Description", "tgfTables_ColumnHeader"), "string", (342 + 150) + %guiTable.spacing, 1, 1, 1);
     %dataTable.addColumn("location", mlStyle("Where", "tgfTables_ColumnHeader"), "string", 202, 1, 1, 1);

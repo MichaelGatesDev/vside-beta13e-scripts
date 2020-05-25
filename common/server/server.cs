@@ -30,18 +30,10 @@ function createServer(%serverType, %mission)
     $ServerGroup = new SimGroup(ServerGroup)
     {
     };
-    $ClientDict = new StringMap(ClientDict)
-    {
-    };
-    $PlayerDict = new StringMap(PlayerDict)
-    {
-    };
-    $TokenDict = new StringMap(TokenDict)
-    {
-    };
-    $PendingValidate = new StringMap(PendingValidate)
-    {
-    };
+    $ClientDict = new StringMap(ClientDict);
+    $PlayerDict = new StringMap(PlayerDict);
+    $TokenDict = new StringMap(TokenDict);
+    $PendingValidate = new StringMap(PendingValidate);
     ClientDict.allowInstanceMethods();
     PlayerDict.allowInstanceMethods();
     TokenDict.allowInstanceMethods();

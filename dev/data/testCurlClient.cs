@@ -19,9 +19,7 @@ function simpleGoogleTest()
 function headerTest()
 {
     %name = "headerTest" @ getRandom(0, 100000);
-    %curl = new CURLObject(%name)
-    {
-    };
+    %curl = new CURLObject(%name);
     %curl.setURL("http://www.doppelganger.com");
     %curl.setHeader(1);
     if (%curl.start())
@@ -37,9 +35,7 @@ function headerTest()
 function verboseTest()
 {
     %name = "verboseTest" @ getRandom(0, 100000);
-    %curl = new CURLObject(%name)
-    {
-    };
+    %curl = new CURLObject(%name);
     %curl.setURL("http://www.garagegames.com");
     %curl.setVerbose(1);
     if (%curl.start())
@@ -55,9 +51,7 @@ function verboseTest()
 function progressTest()
 {
     %name = "progressTest" @ getRandom(0, 100000);
-    %curl = new CURLObject(%name)
-    {
-    };
+    %curl = new CURLObject(%name);
     %curl.setURL("http://gdperftest.com/perftest/alltest.htm");
     %curl.setProgress(1);
     if (%curl.start())
@@ -73,9 +67,7 @@ function progressTest()
 function userheaderTest()
 {
     %name = "userheaderTest" @ getRandom(0, 100000);
-    %curl = new CURLObject(%name)
-    {
-    };
+    %curl = new CURLObject(%name);
     %curl.setURL("http://www.google.com");
     %curl.setUserAgent("doppelganger-agent/1.0");
     %curl.includeHeader(1);
@@ -109,9 +101,7 @@ function classNameCurlTest()
 function simpleDownloadTest()
 {
     %name = "simpleDownloadTest" @ getRandom(0, 100000);
-    %curl = new URLPostObject(%name)
-    {
-    };
+    %curl = new URLPostObject(%name);
     %curl.setURL("http://gdperftest.com/perftest/gfx/test.jpg");
     %curl.setDownloadFile(%name @ ".jpg");
     %curl.setRecvData(1);
@@ -186,9 +176,7 @@ function onDoneOrErrorCallback_AbuseReport_Test(%request)
 function simplePostFileUploaderTest()
 {
     %name = "simplePostFileUploaderTest" @ getRandom(0, 100000);
-    %curl = new URLPostObject(%name)
-    {
-    };
+    %curl = new URLPostObject(%name);
     %curl.setURL("http://adam.codedv.com/examples/post_dump.php");
     %curl.setPostFile("file1", "EULA.txt");
     %curl.setURLParam("variable1", "this is variable 1");
@@ -210,9 +198,7 @@ function anotherFileUploadTest()
     %upurl = "http://www.lateralpunks.com/dc/post_dump.php";
     %local = "dc5.jpg";
     %name = "anotherFileUploadTest" @ getRandom(0, 100000);
-    %curl = new CURLPostFileUploader(%name)
-    {
-    };
+    %curl = new CURLPostFileUploader(%name);
     %curl.setURL(%upurl);
     %curl.setUploadFile("file1", "dc5.jpg");
     %curl.setProgress(1);

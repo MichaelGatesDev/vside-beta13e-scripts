@@ -12,9 +12,7 @@ function geTGF_tabs::fillTabHotSpots(%this)
     }
     %tab.filled = 1;
     %this.fillTabGeneric(%tab);
-    %dataTable = new DataTable(geTGF_HotSpotsDataTable)
-    {
-    };
+    %dataTable = new DataTable(geTGF_HotSpotsDataTable);
     %dataTable.addColumn("event", "", "icon", 20, 1, 1, 0);
     %dataTable.addColumn("description", mlStyle("Description", "tgfTables_ColumnHeader"), "string", 290, 1, 1, 1);
     %dataTable.addColumn("poster", "", "image", 50, 0, 1, 0);

@@ -12,9 +12,7 @@ function geTGF_tabs::fillTabFriends(%this)
     }
     %tab.filled = 1;
     %this.fillTabGeneric(%tab);
-    %dataTable = new DataTable(geTGF_FriendsDataTable)
-    {
-    };
+    %dataTable = new DataTable(geTGF_FriendsDataTable);
     %dataTable.addColumn("statusmsg", mlStyle("Status", "tgfTables_ColumnHeader"), "string", 290, 1, 1, 1);
     %dataTable.addColumn("avatar", "", "image", 50, 0, 1, 0);
     %dataTable.addColumn("username", mlStyle("Name", "tgfTables_ColumnHeader"), "string", 150, 1, 1, 1);

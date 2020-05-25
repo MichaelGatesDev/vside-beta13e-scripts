@@ -31,9 +31,7 @@ function bootThenLogin()
     {
         TestBootRequest.delete();
     }
-    %bootRequest = new ManagerRequest(TestBootRequest)
-    {
-    };
+    %bootRequest = new ManagerRequest(TestBootRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%bootRequest);
@@ -58,9 +56,7 @@ function Login()
     {
         TestLoginRequest.delete();
     }
-    %loginRequest = new ManagerRequest(TestLoginRequest)
-    {
-    };
+    %loginRequest = new ManagerRequest(TestLoginRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%loginRequest);

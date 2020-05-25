@@ -16,9 +16,7 @@ if (isDefined("$GMetricsLogFile") && isObject($GMetricsLogFile))
 }
 if ($StandAlone && $Server::Dedicated)
 {
-    $GMetricsLogFile = new FileLogger(GMetricsLogger, "gameMetrics.log")
-    {
-    };
+    $GMetricsLogFile = new FileLogger(GMetricsLogger, "gameMetrics.log");
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add($GMetricsLogFile);

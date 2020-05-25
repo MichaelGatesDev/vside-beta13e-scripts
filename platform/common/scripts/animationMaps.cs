@@ -95,9 +95,7 @@ function makeAnimationMapInstrument(%gender, %genre, %rootAnim, %runAnim, %sideA
     }
     else
     {
-        %map = new StringMap(%animationMapName)
-        {
-        };
+        %map = new StringMap(%animationMapName);
     }
     copyAnimationMap(%map, %src);
     %map.put("root", %gender @ %rootAnim);

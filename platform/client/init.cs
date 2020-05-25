@@ -157,9 +157,7 @@ function join(%joinGameAddress)
     loadMainMenu();
     echo("join:: connecting to: " @ %joinGameAddress);
     $lastJoinedServer = %joinGameAddress;
-    $GameConnection = new GameConnection(ServerConnection)
-    {
-    };
+    $GameConnection = new GameConnection(ServerConnection);
     $GameConnection.setCommonPreconnectClientSettings("");
     $GameConnection.connect(%joinGameAddress);
     return ;
@@ -282,9 +280,7 @@ function logout(%doQuit)
 }
 function logoutPart2(%doQuit)
 {
-    %logout = new ManagerRequest(LogoutRequest)
-    {
-    };
+    %logout = new ManagerRequest(LogoutRequest);
     if (isObject(MissionCleanup))
     {
         MissionCleanup.add(%logout);

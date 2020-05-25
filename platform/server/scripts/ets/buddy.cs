@@ -1,9 +1,7 @@
 function serverCmdChangeRelation(%client, %other, %relType, %oper)
 {
     doLocalChangeRelation(%client, %other, %relType, %oper);
-    %relRequest = new CURLObject(RelRequest)
-    {
-    };
+    %relRequest = new CURLObject(RelRequest);
     %host = $Pref::Server::ManagerAddress @ ":" @ $Pref::Server::ManagerHTTPPort;
     %uri = "/envmanager/status";
     %query = "cmd=relate";
