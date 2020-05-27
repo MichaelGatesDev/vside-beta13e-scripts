@@ -31,8 +31,6 @@ function OptionsPanelTabs::fillTabs(%this)
         %tab = %this.tabs[%i];
         %tab.setProfile(ETSNonModalProfile);
         %tab.clear();
-        .add();
-        .add();
         %i = %i + 1;
     }
     %this.fillSocialTab();
@@ -65,58 +63,35 @@ function OptionsPanelTabs::fillSocialTab(%this)
     %dPosYSmall = 5;
     %indent1 = 10;
     %indent2 = 160;
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent1;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posY = %posY + %dPosYSmall;
     %posX = %posX - %indent1;
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent1;
     %text = "Show My Typing";
-    .add();
     %text = "Refuse Teleports";
-    .add();
     %posY = %posY + %dPosY;
     %text = "Filter Profanity";
-    .add();
     %text = "Refuse Whispers";
-    .add();
     %posY = %posY + %dPosY;
     %text = "Show Me on Radar";
-    .add();
     %text = "Refuse Yells";
-    .add();
     %posY = %posY + %dPosY;
     %posY = %posY + %dPosYSmall;
     %posX = %posX - %indent1;
-    .add();
     %posX = %posX + 120;
-    .add();
-    .add();
     %posX = %posX + 120;
-    .add();
-    .add();
     %posX = %posX - 240;
     %posY = %posY + %dPosY;
     %posY = %posY + 5;
-    .add();
     %posX = %posX + 120;
-    .add();
-    .add();
     %posX = %posX + 120;
-    .add();
-    .add();
     %posX = %posX - 240;
     %posY = %posY + %dPosY;
     %posX = %posX - %indent1;
-    .add();
     %tab.initialFirstResponder = DefaultAwayMsgEdit;
     return ;
 }
@@ -130,29 +105,18 @@ function OptionsPanelTabs::fillAudioTab(%this)
     %dPosX = 180;
     %dPosY = 20;
     %indent = 38;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent;
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX - %indent;
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX - %indent;
-    .add();
     return ;
 }
 function OptionsPanelTabs::fillVisualTab(%this)
@@ -165,55 +129,30 @@ function OptionsPanelTabs::fillVisualTab(%this)
     %dPosX = 180;
     %dPosY = 20;
     %indent = 14;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent;
-    .add();
-    .add();
     %posY = %posY + (2 * %dPosY);
     %posX = %posX - %indent;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent;
-    .add();
-    .add();
     %posY = %posY + (2 * %dPosY);
     %posX = %posX - %indent;
     %posX = %posX + %dPosX;
     %posY = %originY - 12;
-    .add();
     AutoHideButtonBarCheckBox.setValue($UserPref::ETS::ButtonBar::AutoHide);
     %posY = %posY + %dPosY;
-    .add();
     AutoOpenLocalMapCheckBox.setValue($UserPref::UI::Radar::AutoOpen);
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     %tab.initialFirstResponder = RenderQualityPopup;
     return ;
 }
@@ -229,8 +168,6 @@ function OptionsPanelTabs::fillTabsTab(%this)
     %indent1 = 37;
     %indent2 = 90;
     %indent3 = 140;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     new GuiControl()
     {
@@ -243,9 +180,6 @@ function OptionsPanelTabs::fillTabsTab(%this)
         extent = "36 29";
         visible = 1;
     });
-    .add();
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     new GuiControl()
     {
@@ -258,9 +192,6 @@ function OptionsPanelTabs::fillTabsTab(%this)
         extent = "36 29";
         visible = 1;
     });
-    .add();
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     new GuiControl()
     {
@@ -273,9 +204,6 @@ function OptionsPanelTabs::fillTabsTab(%this)
         extent = "36 29";
         visible = 1;
     });
-    .add();
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     new GuiControl()
     {
@@ -288,16 +216,11 @@ function OptionsPanelTabs::fillTabsTab(%this)
         extent = "36 29";
         visible = 1;
     });
-    .add();
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %dPosX;
     %posY = %originY;
     %posY = %posY + %dPosY;
-    .add();
     %posY = %posY + %dPosY;
-    .add();
     return ;
 }
 function OptionsPanelTabs::fillVIPTab(%this)
@@ -310,7 +233,6 @@ function OptionsPanelTabs::fillVIPTab(%this)
     %dPosX = 180;
     %dPosY = 20;
     %indent = 10;
-    .add();
     %posY = %posY + %dPosY;
     new GuiControl(ForceFieldCtrls)
     {
@@ -325,10 +247,7 @@ function OptionsPanelTabs::fillVIPTab(%this)
     });
     %posY = %posY + (6 * %dPosY);
     performerPanelRadioButtonForceField0.setValue(1);
-    .add();
     %posY = %posY + %dPosY;
-    .add();
-    .add();
     %posY = %posY + %dPosY;
     %posX = %posX + %indent;
     new GuiControl(geDFDebugCtrls)
@@ -382,7 +301,6 @@ function OptionsPanelTabs::fillVIPTab(%this)
         extent = 190 SPC %dPosY * 3;
         visible = $gPerformerMode;
     });
-    .add();
     %tab.initialFirstResponder = FarNameOpacityTextEditCtrl;
     return ;
 }

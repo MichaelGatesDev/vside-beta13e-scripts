@@ -73,8 +73,6 @@ function geTGF_tabs::fillTabFriends(%this)
         allowAutoFirstResponderUpdates = 0;
     };
     %tab.add(%filterBox);
-    .add();
-    .add();
     %invite = new GuiMLTextCtrl()
     {
         position = "250 473";

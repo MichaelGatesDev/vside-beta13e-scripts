@@ -5,8 +5,6 @@ function ClosetTabs::fillClosetTab(%this)
     {
         return ;
     }
-    .add();
-    .add();
     %itemLabel = new GuiTextCtrl()
     {
         profile = "ClosetTitleProfile";
@@ -158,8 +156,6 @@ function ClosetTabs::fillClosetTab(%this)
     %itemsFrame.thumbnails = %thumbnails;
     %theTab.add(%itemsFrame);
     %theTab.thumbnails = %thumbnails;
-    .add();
-    .add();
     %myOutfitsFrame = new GuiControl(ClosetMyOutfitsFrame)
     {
         profile = "GuiDefaultProfile";

@@ -43,10 +43,8 @@ function ClosetTabs::fillStoreTab(%this)
     {
         return ;
     }
-    .add();
     %tabWidth = getWord(%theTab.getExtent(), 0);
     %tabHeight = getWord(%theTab.getExtent(), 1);
-    .add();
     %storename = new GuiTextCtrl()
     {
         profile = "ClosetTitleProfile";
@@ -205,9 +203,6 @@ function ClosetTabs::fillStoreTab(%this)
     %itemsFrame.thumbnails = %thumbnails;
     %theTab.add(%itemsFrame);
     %theTab.thumbnails = %thumbnails;
-    .add();
-    .add();
-    .add();
     new GuiControl(StoreBannerFrame)
     {
         profile = "GuiDefaultProfile";
@@ -271,8 +266,6 @@ function ClosetTabs::fillStoreTab(%this)
         closeCommand = "";
     };
     %theTab.add(%itemDescFrame);
-    .add();
-    .add();
     %shoppingBag = new GuiWindowCtrl(StoreShoppingBag)
     {
         profile = "DottedWindowProfile";
@@ -291,7 +284,6 @@ function ClosetTabs::fillStoreTab(%this)
         canMaximize = 0;
         closeCommand = "";
     };
-    .add();
     StoreAddItemsButton.setActive(0);
     %wi = AnimCtrl::newAnimCtrl("129 213", "18 18");
     %wi.setDelay(60);

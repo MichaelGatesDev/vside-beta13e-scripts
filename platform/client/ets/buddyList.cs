@@ -114,7 +114,6 @@ function BuddyHudTabs::fillFriendsTab(%this)
     %friendsList.clear();
     %scroll.add(%friendsList);
     %theTab.add(%scroll);
-    .add();
     new GuiMLTextCtrl(BuddyHudFriendsListLegendContainer)
     {
         profile = "GuiDefaultProfile";

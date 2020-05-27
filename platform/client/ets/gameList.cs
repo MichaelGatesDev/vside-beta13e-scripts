@@ -368,7 +368,6 @@ function GameMgrHudTabs::fillCREATEtab(%this)
     %theTab.add(%theTab.UpperContent);
     %theTab.UpperContent.forceReflow();
     %ypos = getWord(%theTab.UpperContent.getExtent(), 1) + %ypos;
-    .add();
     %theTab.gameNameField = new GuiTextEditCtrl()
     {
         profile = "ETSDarkTextEditProfile";
@@ -387,7 +386,6 @@ function GameMgrHudTabs::fillCREATEtab(%this)
         sinkAllKeyEvents = 0;
     };
     %theTab.add(%theTab.gameNameField);
-    .add();
     %theTab.gameTypesDropdown = new GuiPopUp2MenuCtrl()
     {
         profile = "InfoWindowPopupProfile";
@@ -407,7 +405,6 @@ function GameMgrHudTabs::fillCREATEtab(%this)
     };
     GameList.CreateTabSetupGametypesDropdown();
     %theTab.add(%theTab.gameTypesDropdown);
-    .add();
     %theTab.SettingWaitingRoom = new GuiCheckBoxCtrl()
     {
         profile = "InfoWindowRadioButtonProfile";

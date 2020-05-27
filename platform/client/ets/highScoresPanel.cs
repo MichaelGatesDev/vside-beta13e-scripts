@@ -244,7 +244,6 @@ function geHighScoresPanelTabs::fillTabWithName(%this, %tabName)
     };
     %tab.userScoresPanel = %userScoresPanel;
     %tab.add(%userScoresPanel);
-    .add();
     %usernameField = new GuiMLTextCtrl()
     {
         profile = "ClipboardTextProfile";
@@ -259,7 +258,6 @@ function geHighScoresPanelTabs::fillTabWithName(%this, %tabName)
     };
     %tab.usernameField = %usernameField;
     %userScoresPanel.add(%usernameField);
-    .add();
     %bestScoreField = new GuiTextCtrl()
     {
         profile = "ClipboardTextProfile";
@@ -275,7 +273,6 @@ function geHighScoresPanelTabs::fillTabWithName(%this, %tabName)
     };
     %tab.bestScoreField = %bestScoreField;
     %userScoresPanel.add(%bestScoreField);
-    .add();
     %rankField = new GuiTextCtrl()
     {
         profile = "ClipboardTextProfile";
@@ -291,7 +288,6 @@ function geHighScoresPanelTabs::fillTabWithName(%this, %tabName)
     };
     %tab.rankField = %rankField;
     %userScoresPanel.add(%rankField);
-    .add();
     %dateField = new GuiTextCtrl()
     {
         profile = "ClipboardTextProfile";

@@ -334,6 +334,7 @@ function initializeAnimationMapAnimal(%map, %gender, %genre)
 {
     if (!isObject(%map))
     {
+        return;
     }
     new StringMap(%map);
     if (isObject(MissionCleanup))
@@ -353,6 +354,7 @@ function initializeAnimationMap(%map, %gender, %genre)
 {
     if (!isObject(%map))
     {
+        return;
     }
     new StringMap(%map);
     if (isObject(MissionCleanup))
@@ -367,6 +369,7 @@ function copyAnimationMap(%map, %src)
 {
     if (!isObject(%map))
     {
+        return;
     }
     new StringMap(%map);
     if (isObject(MissionCleanup))

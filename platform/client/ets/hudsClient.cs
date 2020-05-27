@@ -264,7 +264,6 @@ function HudTabs::fillTabs(%this)
         %tab.setProfile(GuiDefaultProfile);
         %tab.clear();
         %tab.button.tooltip = %tab.name;
-        .add();
         %title = %tab.title $= "" ? %tab : %tab;
         %titleText = new GuiMLTextCtrl()
         {
@@ -335,7 +334,6 @@ function HudTabs::fillMusicTab(%this)
     };
     %theTab.toggleSoundTxt.updateText();
     %theTab.add(%theTab.toggleSoundTxt);
-    .add();
     MusicHud.station = "";
     new GuiControl(MusicHudBasicView)
     {
@@ -441,10 +439,6 @@ function HudTabs::fillAffinityTab(%this)
     }
     %theTab.content.setName("InfoPopupDlg");
     %theTab.content.bindClassName("InfoPopupDlg");
-    .add();
-    .add();
-    .add();
-    .add();
     new GuiMLTextCtrl(InfoPopupTagsText)
     {
         profile = "InfoWindowTextProfile";
@@ -471,7 +465,6 @@ function HudTabs::fillScoresTab(%this)
     %theTab.content.bindClassName("HudScoresContent");
     %ypos = 2;
     %fieldx = 110;
-    .add();
     HudScoresContent.respektLevelLabel = new GuiMLTextCtrl()
     {
         profile = "InfoWindowTextProfile";
@@ -486,7 +479,6 @@ function HudTabs::fillScoresTab(%this)
         maxLength = 64;
     };
     HudScoresContent.add(HudScoresContent.respektLevelLabel);
-    .add();
     if (!isObject(HudScoresPBController))
     {
         new ScriptObject(HudScoresPBController);
@@ -520,7 +512,6 @@ function HudTabs::fillScoresTab(%this)
     HudScoresContent.respektBarContainer.add(HudScoresContent.respektBarHolder);
     HudScoresContent.add(HudScoresContent.respektBarContainer);
     HudScoresPBController.Initialize(HudScoresContent.respektBarHolder, "", "platform/client/ui/respektprogress_fill", "", "");
-    .add();
     HudScoresContent.respektScoreLabel = new GuiMLTextCtrl()
     {
         profile = "InfoWindowTextProfile";
@@ -537,7 +528,6 @@ function HudTabs::fillScoresTab(%this)
     HudScoresContent.add(HudScoresContent.respektScoreLabel);
     if (0)
     {
-        .add();
         HudScoresContent.respektRankLabel = new GuiMLTextCtrl()
         {
             profile = "InfoWindowTextProfile";
@@ -553,7 +543,6 @@ function HudTabs::fillScoresTab(%this)
         };
         HudScoresContent.add(HudScoresContent.respektRankLabel);
     }
-    .add();
     HudScoresContent.collectionsScroll = new GuiScrollCtrl()
     {
         profile = "ETSInviteMessageScrollProfile";
@@ -851,8 +840,6 @@ function HudTabs::fillPrivateSpaceTab(%this)
         maxLength = 64;
     };
     %theTab.add(PrivSpaceHud.toggleOP);
-    .add();
-    .add();
     OPSpaceHud.setup();
     NonOPSpaceHud.setup();
     PrivSpaceHud.hideOP();
@@ -983,7 +970,6 @@ function clientCmdPrivSpaceHudUpdateVideo(%unused)
 function OPSpaceHud::setup(%this)
 {
     %ypos = 0;
-    .add();
     %this.spaceNameField = new GuiTextCtrl()
     {
         profile = "InfoWindowNonModalTextProfile";
@@ -998,7 +984,6 @@ function OPSpaceHud::setup(%this)
         maxLength = 64;
     };
     %this.add(%this.spaceNameField);
-    .add();
     %this.spaceDescField = new GuiTextEditCtrl()
     {
         profile = "InfoWindowTextEditProfile";
@@ -1018,7 +1003,6 @@ function OPSpaceHud::setup(%this)
         sinkAllKeyEvents = 0;
     };
     %this.add(%this.spaceDescField);
-    .add();
     %this.AccessOptAnyone = new GuiRadioCtrl()
     {
         profile = "InfoWindowRadioButtonProfile";
@@ -1053,7 +1037,6 @@ function OPSpaceHud::setup(%this)
         maxLength = 64;
     };
     %this.add(%this.AccessOptFriends);
-    .add();
     %this.MusicStreamDropdown = new GuiPopUp2MenuCtrl()
     {
         profile = "InfoWindowPopupProfile";
@@ -1180,7 +1163,6 @@ function OPSpaceHud::updateSettings(%this, %name, %description, %accessMode)
 function NonOPSpaceHud::setup(%this)
 {
     %ypos = 0;
-    .add();
     %this.spaceNameField = new GuiMLTextCtrl()
     {
         profile = "InfoWindowTextProfile";
@@ -1195,7 +1177,6 @@ function NonOPSpaceHud::setup(%this)
         maxLength = 64;
     };
     %this.add(%this.spaceNameField);
-    .add();
     %this.spaceOwnerField = new GuiMLTextCtrl(NonOPSpaceHudOwnerField)
     {
         profile = "InfoWindowTextProfile";
@@ -1210,7 +1191,6 @@ function NonOPSpaceHud::setup(%this)
         maxLength = 64;
     };
     %this.add(%this.spaceOwnerField);
-    .add();
     %this.spaceDescField = new GuiTextCtrl()
     {
         profile = "InfoWindowNonModalTextProfile";
@@ -1225,7 +1205,6 @@ function NonOPSpaceHud::setup(%this)
         maxLength = 64;
     };
     %this.add(%this.spaceDescField);
-    .add();
     %this.musicStreamField = new GuiTextCtrl()
     {
         profile = "InfoWindowNonModalTextProfile";

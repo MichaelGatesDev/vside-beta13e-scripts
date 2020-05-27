@@ -404,8 +404,6 @@ function geTGF::constructDeetsWindow(%this, %window, %item)
             horizSizing = "right";
             vertSizing = "bottom";
         });
-        .add();
-        .add();
         new GuiControl(geTGF_deets_happening)
         {
             profile = "ETSNonModalProfile";
@@ -451,7 +449,6 @@ function geTGF::constructDeetsWindow(%this, %window, %item)
             horizSizing = "width";
             vertSizing = "height";
         });
-        .add();
     }
     if (%window.itemType $= %item.type)
     {

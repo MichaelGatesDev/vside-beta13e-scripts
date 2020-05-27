@@ -2161,13 +2161,11 @@ function ShowPurchaseSkusConfirmationDialog(%skus, %cbPoints, %cbBux, %cbCancel)
     if (!(%mbCBPoints $= ""))
     {
         %dialog.callback[%buttonIndex] = %mbCBPoints;
-        .add();
         %buttonIndex = %buttonIndex + 1;
     }
     if (!(%mbCBBux $= ""))
     {
         %dialog.callback[%buttonIndex] = %mbCBBux;
-        .add();
         %buttonIndex = %buttonIndex + 1;
     }
     %dialog.callback[%buttonIndex] = %cbCancel;

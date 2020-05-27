@@ -38,7 +38,6 @@ function CSControlPanelTabs::fillModelAptTab(%this, %theTab)
         return ;
     }
     %theTab.initialized = 1;
-    .add();
     CSSpaceModelAptText.update();
     return ;
 }
@@ -52,7 +51,6 @@ function CSControlPanelTabs::fillSkipTutorialTab(%this, %theTab)
     %userFacingName = "vSide";
     %vrl = "vside://foo/bar/bim/bam";
     %text = "<a:VRL " @ %vrl @ ">Click here to go straight to<br>" @ %userFacingName @ "</a>";
-    .add();
     CSSpaceSkipTutorialText.setText(%text);
     return ;
 }

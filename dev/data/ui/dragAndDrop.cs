@@ -15,7 +15,6 @@ function DragAndDropExampleList::onCreatedChild(%this, %child, %unused, %yPos)
 {
     %child.setProfile(DraggableProfile);
     %child.contentText = %yPos;
-    .add();
     if (!(getWord(%child.getNamespaceList(), 0) $= "DragAndDropExampleDraggable"))
     {
         %child.bindClassName("DragAndDropExampleDraggable");

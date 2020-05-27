@@ -34,6 +34,5 @@ function textureLoadingIndicator_initialize()
     %wi.addFrame("platform/client/ui/wait7.png");
     %wi.setName("geTexturesLoadingIcon");
     geTextureLoadingContainer.add(%wi);
-    .add();
     return ;
 }

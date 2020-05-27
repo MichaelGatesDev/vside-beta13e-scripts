@@ -456,7 +456,6 @@ function WorldMap::fillServerList(%this)
                 %name = %serverProps.get("name");
                 %load = %serverProps.get("load");
                 %capacity = %serverProps.get("capacity");
-                .add();
                 WorldMapServerPopup.add(%name @ " -- " @ %this.getFullnessDesc(%load, %capacity));
             }
         }

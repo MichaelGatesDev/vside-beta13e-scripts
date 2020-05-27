@@ -237,7 +237,7 @@ function ApplauseMeterGui::closeForBlockGame(%this)
 $gBlockGameKeys = "" NL "I" NL "J" NL "K" NL "L" NL " " NL "left" NL "right" NL "up" NL "down" NL "lcontrol" NL "rcontrol";
 function ApplauseMeterGui::onBlockGameKeys(%this, %keyCodeStr, %isKeyDown)
 {
-    %wantIt =  && %isKeyDown && (findRecord($gBlockGameKeys, %keyCodeStr) < 0) ? 0 : 1;
+    %wantIt = %isKeyDown && (findRecord($gBlockGameKeys, %keyCodeStr) < 0) ? 0 : 1;
     if (%wantIt)
     {
         if (%keyCodeStr $= "I")

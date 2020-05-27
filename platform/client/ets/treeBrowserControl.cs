@@ -489,14 +489,12 @@ function TreeBrowserControl::fillExpandedFrame(%this, %expandedFrame)
 {
     %frame = %expandedFrame.getParent();
     %rightEdgeOfMenu = getWord(%frame.menu.getExtent(), 0) + getWord(%frame.menu.getPosition(), 0);
-    .add();
     return ;
 }
 function TreeBrowserControl::fillExpandedContentPane(%this, %expandedPane)
 {
     %frame = %expandedPane.getParent();
     %rightEdgeOfContentPane = getWord(%frame.contentPane.getExtent(), 0) + getWord(%frame.contentPane.getPosition(), 0);
-    .add();
     return ;
 }
 function TreeBrowserControl::isInSubdirOfPath(%this, %path)
@@ -507,7 +505,6 @@ function TreeBrowserControl::isInSubdirOfPath(%this, %path)
 function TreeBrowserControl::fillLeafPane(%this, %pane)
 {
     %level = %this.level;
-    .add();
     return ;
 }
 function TreeBrowserControl::select(%this, %value)
@@ -699,7 +696,6 @@ function TreeBrowserControl::addMenuData(%this, %prefix, %list)
         %itemName = getField(%list, %i);
         if (!(%itemName $= ""))
         {
-            .add();
         }
         %i = %i + 1;
     }

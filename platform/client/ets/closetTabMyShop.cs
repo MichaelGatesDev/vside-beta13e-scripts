@@ -6,37 +6,30 @@ function ClosetTabs::fillMyShopTab(%this)
     {
         return ;
     }
-    .add();
     if (0)
     {
-        .add();
     }
     %xPos = 34;
     %xGap = 6;
     %ypos = 84;
     %xSiz = 66;
     %viewType = "Accepted";
-    .add();
     %xPos = %xPos + (%xSiz + %xGap);
     if (0)
     {
         %xSiz = 64;
         %viewType = "Pending";
-        .add();
         %xPos = %xPos + (%xSiz + %xGap);
         %xSiz = 76;
         %viewType = "Rejected";
-        .add();
         %xPos = %xPos + (%xSiz + %xGap);
     }
     %xSiz = 74;
     %viewType = "Templates";
-    .add();
     if (0)
     {
         error("TODO - need to check for FashionPolice permission");
         %viewType = "Incoming";
-        .add();
         %xPos = %xPos + (%xSiz + %xGap);
     }
     %itemsFrame = new GuiControl(MyShopItemsFrame)
@@ -137,8 +130,6 @@ function ClosetTabs::fillMyShopTab(%this)
     };
     %theTab.add(%itemDescFrame);
     MyShopCopyToOutfitText.setTextWithStyle("<just:right><a:gamelink:COPY_TO_OUTFIT>copy to outfit</a>");
-    .add();
-    .add();
     %ctrl = new GuiMLTextCtrl()
     {
         horizSizing = "right";
@@ -153,7 +144,6 @@ function ClosetTabs::fillMyShopTab(%this)
     %ctrl.setTextWithStyle("<a:gamelink:MYDESIGNS_ABOUT DESCSHORT>-?</a>");
     $gMyShopAboutLinks = $gMyShopAboutLinks SPC %ctrl;
     MyShopItemDeetsPanel.add(%ctrl);
-    .add();
     %ctrl = new GuiMLTextCtrl()
     {
         horizSizing = "right";

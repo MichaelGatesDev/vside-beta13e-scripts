@@ -5,7 +5,6 @@ function ClosetTabs::fillBodyTab(%this)
     {
         return ;
     }
-    .add();
     %featuresLabel = new GuiTextCtrl()
     {
         profile = "ClosetTitleProfile";
@@ -114,8 +113,6 @@ function ClosetTabs::fillBodyTab(%this)
     %itemsFrame.thumbnails = %thumbnails;
     %theTab.add(%itemsFrame);
     %theTab.thumbnails = %thumbnails;
-    .add();
-    .add();
     %doneButton = new GuiVariableWidthButtonCtrl()
     {
         profile = "BracketButton19Profile";

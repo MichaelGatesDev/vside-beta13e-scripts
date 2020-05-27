@@ -5,11 +5,6 @@ function ClosetTabs::fillProfileTab(%this)
     {
         return ;
     }
-    .add();
-    .add();
-    .add();
-    .add();
-    .add();
     new GuiBitmapCtrl()
     {
         profile = "GuiDefaultProfile";
@@ -103,9 +98,6 @@ function ClosetTabs::fillProfileTab(%this)
     %snapFrame.add(%objView);
     %maskFrame.add(%snapFrame);
     %theTab.add(%maskFrame);
-    .add();
-    .add();
-    .add();
     ProfilePreviousBackgroundButton.setActive(0);
     %chooserScroll = new GuiScrollCtrl()
     {
@@ -133,7 +125,6 @@ function ClosetTabs::fillProfileTab(%this)
     };
     %chooserScroll.add(%backgroundChooser);
     %theTab.add(%chooserScroll);
-    .add();
     new GuiWindowCtrl()
     {
         profile = "DottedWindowProfile";
@@ -239,8 +230,6 @@ function ClosetTabs::fillProfileTab(%this)
     ProfilePosePopup.add("whew");
     ProfilePosePopup.add("vside");
     ProfilePosePopup.setText("Pose");
-    .add();
-    .add();
     %wi = AnimCtrl::newAnimCtrl("31 13", "18 18");
     %wi.setDelay(60);
     %wi.addFrame("platform/client/ui/wait0.png");

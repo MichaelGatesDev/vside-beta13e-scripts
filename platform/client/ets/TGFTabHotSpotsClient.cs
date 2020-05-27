@@ -83,8 +83,6 @@ function geTGF_tabs::fillTabHotSpots(%this)
         allowAutoFirstResponderUpdates = 0;
     };
     %tab.add(%filterBox);
-    .add();
-    .add();
     %invite = new GuiMLTextCtrl()
     {
         position = "250 473";
